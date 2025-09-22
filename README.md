@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📄 IndoCharcoalSupply – Landing Page
+🚀 Gambaran Umum
 
-## Getting Started
+Ini adalah landing page resmi untuk Indo Charcoal Supply, perusahaan yang bergerak di produksi dan ekspor briket arang berkualitas tinggi.
+Landing page ini dibangun menggunakan Next.js dengan styling Tailwind CSS dan siap di-deploy di Vercel.
 
-First, run the development server:
+Fitur utama:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Desain responsif untuk desktop dan mobile
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Bagian hero dengan call-to-action
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Bagian fitur produk
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Testimoni pelanggan
 
-## Learn More
+Formulir kontak
 
-To learn more about Next.js, take a look at the following resources:
+Optimasi SEO dan performa
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🛠 Teknologi
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Framework: Next.js (App Router)
 
-## Deploy on Vercel
+Styling: Tailwind CSS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Font: Google Fonts (Geist, Geist Mono)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Komponen & Animasi: Swiper.js
+
+Analytics: Google Analytics (GA4)
+
+Deployment: Vercel
+
+⚙️ Fitur
+
+Landing page multi-section: Hero, Fitur, Testimoni, Kontak
+
+Desain sepenuhnya responsif
+
+Tracking pageview menggunakan Google Analytics
+
+Dukungan multi-bahasa dengan next-intl (opsional)
+
+Smooth scroll dan slider Swiper
+
+Mudah dikembangkan dan disesuaikan
+
+📂 Struktur Folder

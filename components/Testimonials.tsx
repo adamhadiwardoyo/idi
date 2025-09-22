@@ -1,5 +1,5 @@
 'use client';
-
+//fix the testimonial
 import React from 'react';
 import { useTranslations } from 'next-intl';
 import { Swiper, SwiperSlide } from 'swiper/react';

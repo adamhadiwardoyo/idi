@@ -1,0 +1,171 @@
+{
+  "navbar": {
+    "home": "Startseite",
+    "ourValues": "Unsere Werte",
+    "product": "Produkt",
+    "packaging": "Verpackung",
+    "shipping": "Versand",
+    "ourTeam": "Unser Team",
+    "contact": "Kontakt"
+  },
+  "hero": {
+     "catalog": "Katalog herunterladen",
+    "contact": "Kontaktieren Sie uns",
+    "paragraph": "Das Unternehmen Indo Charcoal Supply wurde 2021 mit dem festen Vorsatz gegründet, Kunden die besten, schnellsten und zuverlässigsten Dienstleistungen zu bieten. Seit seiner Gründung konzentriert sich das Unternehmen auf die Produktion und den Export von hochwertigen Briketts.",
+    "company-profile": "Firmenprofil herunterladen",
+    "download-options": "Download-Optionen"
+  },
+  "stat": {
+    "country": "Land",
+    "client": "Kunde",
+    "testimonie": "Kundenstimme"
+  },
+  "values": {
+    "ourValue": "Unsere Werte",
+    "integrityDescription": "Wir verpflichten uns, unser Geschäft in allen Aspekten ehrlich, ethisch und transparent zu führen.",
+    "integrityTitle": "Integrität",
+    "qualityTitle": "Qualität",
+    "qualityDescription": "Wir legen stets höchsten Wert auf die Qualität unserer Produkte und Dienstleistungen, um die Erwartungen unserer Kunden zu erfüllen und zu übertreffen.",
+    "innovationTitle": "Innovation",
+    "innovationDescription": "Wir suchen ständig nach neuen und besseren Wegen, um unsere Produkte, Prozesse und Dienstleistungen zu verbessern.",
+    "satisfactionTitle": "Kundenzufriedenheit",
+    "satisfactionDescription": "Wir setzen alles daran, sicherzustellen, dass jeder Kunde mit unseren Produkten und Dienstleistungen vollkommen zufrieden ist.",
+    "serviceTitle": "Kundenservice",
+    "serviceDescription": "Wir priorisieren die Kundenzufriedenheit durch einen reaktionsschnellen, aufmerksamen und professionellen Service.",
+    "cooperationTitle": "Zusammenarbeit",
+    "cooperationDescription": "Wir glauben, dass die Zusammenarbeit mit Kunden, Geschäftspartnern und Gemeinschaften der Schlüssel zum gemeinsamen Erfolg ist."
+  },
+  "vision": {
+    "title": "Unsere Vision und Mission",
+    "visionTitle": "Vision",
+    "vision": "Ein führendes Exportunternehmen zu sein, das hochwertige und nachhaltige Produkte anbietet und einen positiven Beitrag zur Weltwirtschaft leistet.",
+    "missionTitle": "Mission",
+    "mission1": "Langfristige Beziehungen zu Kunden und Geschäftspartnern aufzubauen, die auf Vertrauen und gegenseitiger Zufriedenheit basieren.",
+    "mission2": "Ein effizientes und zuverlässiges internationales Vertriebsnetz zu entwickeln, um den Anforderungen des globalen Marktes gerecht zu werden.",
+    "mission3": "Die Fähigkeiten und das Wohlergehen der Mitarbeiter durch kontinuierliche Schulungen und berufliche Weiterentwicklung zu fördern."
+  },
+  "product": {
+    "productTitle": "Unsere Produkte",
+    "specAsh": "Aschegehalt",
+    "specBurning": "Brenndauer",
+    "specCaloric": "Heizwert",
+    "specMoisture": "Feuchtigkeit",
+    "specFixedCarbon": "Fester Kohlenstoff",
+    "shishaType": "Briketts für Shisha",
+    "shishaCube": "Würfel",
+    "shishaHighTemperature": "Hohe Temperatur",
+    "shishaCloud": "Cloud",
+    "shishaFlat": "Flach",
+    "shishaHighFlow": "High Flow",
+    "bbqType": "Briketts für BBQ",
+    "bbqOcta": "Achteckig",
+    "bbqDome": "Kuppelförmig",
+    "bbqHexa": "Sechseckig",
+    "bbqFinger": "Stäbchen",
+    "customTitle": "Benötigen Sie eine spezielle Form?",
+    "customDescription": "Arbeiten Sie mit uns zusammen, um individuelle Brikettformen und -größen zu entwerfen, die Ihre Markenidentität widerspiegeln.",
+    "customButton": "Kontaktieren Sie uns"
+  },
+  "prodProcess": {
+    "title": "PRODUKTIONSPROZESS",
+    "description": "Unsere Kokosnuss-Holzkohlebriketts werden in einem sorgfältigen Prozess hergestellt, der höchste Qualität und Nachhaltigkeit gewährleistet. Hier ist eine Aufschlüsselung unserer Produktionsschritte:",
+    "sourcingTitle": "Beschaffung und Auswahl",
+    "sourcingDescription": "Wir beginnen mit der Beschaffung feinster Kokosnussschalen aus nachhaltigen Plantagen. Sorgfältig ausgewählt nach Qualität und Reinheit.",
+    "dryingTitle": "Trocknung",
+    "dryingDescription": "Die Kokosnussschalen werden getrocknet, um den Feuchtigkeitsgehalt zu reduzieren und eine effiziente Karbonisierung sowie hochwertige Briketts zu gewährleisten.",
+    "carbonizationTitle": "Karbonisierung",
+    "carbonizationDescription": "Die Schalen werden in Öfen unter kontrollierter Temperatur und Sauerstoffbedingungen karbonisiert, um Holzkohle mit hohem Kohlenstoffgehalt zu erzeugen.",
+    "crushingTitle": "Zerkleinern und Sieben",
+    "crushingDescription": "Die Holzkohle wird zerkleinert und gesiebt, um eine einheitliche Partikelgröße zu erreichen und die Brenneigenschaften zu optimieren.",
+    "mixingTitle": "Mischen und Binden",
+    "mixingDescription": "Die Holzkohle wird mit natürlichen Bindemitteln wie Stärke oder Ton gemischt, um die Briketts zusammenzuhalten.",
+    "moldingTitle": "Formen und Pressen",
+    "moldingDescription": "Die Mischung wird in Formen gepresst. Der Druck bestimmt die Dichte und Haltbarkeit des Briketts.",
+    "finalDryingTitle": "Endtrocknung",
+    "finalDryingDescription": "Die geformten Briketts werden erneut getrocknet, um Restfeuchtigkeit zu entfernen, und sind dann bereit für die Verpackung.",
+    "qualityControlTitle": "Qualitätskontrolle",
+    "qualityControlDescription": "Jede Charge durchläuft strenge Qualitätsprüfungen: Dichte, Aschegehalt, Feuchtigkeit und Brenndauer.",
+    "packagingTitle": "Verpackung",
+    "packagingDescription": "Die fertigen Briketts werden sorgfältig verpackt, um sie während des Transports und der Lagerung zu schützen.",
+    "storageTitle": "Lagerung",
+    "storageDescription": "Briketts sollten an einem trockenen, belüfteten Ort, fern von direkter Sonneneinstrahlung und Hitze, gelagert werden."
+  },
+  "shipping": {
+    "containerAlt": "Versandcontainer von Indo Charcoal Supply",
+    "aboutTitle": "ÜBER DEN VERSAND",
+    "aboutParagraph1": "Unser Team kann Sie bei Ihren Versandanforderungen unterstützen. Bitte kontaktieren Sie uns für weitere Informationen.",
+    "aboutParagraph2": "Unsere Mindestbestellmenge (MOQ) beträgt 1 Container mit 18 Tonnen (20 Fuß). Kontaktieren Sie uns, um Ihre Bedürfnisse mit unserem Team zu besprechen und die optimale MOQ für Ihr Unternehmen zu ermitteln.",
+    "guideTitle": "KAUFLEITFADEN: RICHTLINIEN & VERFAHREN",
+    "guideParagraph": "Wir gewährleisten sichere Transaktionen mit den Zahlungsmethoden T/T und L/C. Eine Anzahlung von 50 % bestätigt Ihre Bestellung und startet die Produktion. Die restlichen 50 % werden nach Abschluss der Produktion fällig."
+  },
+  "packaging": {
+    "title": "Verpackungsoptionen",
+    "yourBrandourPackaging": "Ihre Marke, unsere Verpackung",
+    "masterAlt": "Umkarton",
+    "masterTitle": "UMKARTON",
+    "masterDescription": "Dieser große Umkarton dient dazu, Ihre Holzkohlebriketts während des Transports und der Lagerung zu fassen und zu schützen.",
+    "masterAvailable": "Erhältlich in den Größen:",
+    "masterSize10": "10 kg",
+    "masterSize12": "12 kg",
+    "masterSize15": "15 kg",
+    "masterSize20": "20 kg",
+    "innerAlt": "Innenkarton",
+    "innerTitle": "INNENKARTON",
+    "innerDescription": "Dieser Karton schützt Ihre Briketts vor Feuchtigkeit und Beschädigung und erleichtert das Tragen und Lagern.",
+    "innerAvailable": "Erhältliche Größen:",
+    "innerSize1to2": "1 - 2 kg",
+    "innerSize250to500": "250 - 500 g",
+    "customPackagingTitle": "Benötigen Sie individuelle Verpackungen?",
+    "customizationText": "Unsere Umkartons können individuell mit Ihrem Logo und Branding gestaltet werden.",
+    "customizationContact": "Kontaktieren Sie uns",
+    "customizationSuffix": ", um Ihre individuellen Designwünsche zu besprechen."
+  },
+  "testimonialsSection": {
+    "sectionId": "testimonialsSection",
+    "title": "Was unsere Kunden sagen",
+    "testimonialList": [
+      {
+        "quote": "The quality of the charcoal is outstanding. Consistent heat and long burning time. Our customers are very satisfied.",
+        "author": "Ahmed R.",
+        "location": "Dubai, UAE"
+      },
+      {
+        "quote": "Excellent communication and reliable shipping. Indo Charcoal Supply is a trustworthy partner for our business.",
+        "author": "Michael B.",
+        "location": "Berlin, Germany"
+      },
+      {
+        "quote": "We were impressed with the custom packaging options. It really helped our brand stand out in a competitive market.",
+        "author": "Fatima K.",
+        "location": "Jeddah, Saudi Arabia"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Unternehmensgalerie"
+  },
+  "footer": {
+    "about": "Gegründet 2021 mit dem festen Vorsatz, die besten, schnellsten und zuverlässigsten Dienstleistungen in der Holzkohlebrikett-Branche zu bieten.",
+    "quickLinks": "Schnelllinks",
+    "contactUs": "Kontaktieren Sie uns",
+    "followUs": "Folgen Sie uns",
+    "address": "Magelang Street 71, Sleman, Yogyakarta, Indonesien",
+    "rights": "Alle Rechte vorbehalten.",
+    "links": {
+      "home": "Startseite",
+      "product": "Produkt",
+      "ourValues": "Unsere Werte",
+      "productProfile": "Produktprofil",
+      "packaging": "Verpackung",
+      "shipping": "Versand"
+    }
+  },
+  "location": {
+    "title": "Unser Standort",
+    "ariaLabel": "Unseren Standort auf Google Maps anzeigen",
+    "iframeTitle": "Vorschau der Standortkarte"
+  },
+  "team": {
+    "title": "Unser Team"
+  }
+}

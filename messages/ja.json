@@ -1,0 +1,171 @@
+{
+  "navbar": {
+    "home": "ホーム",
+    "ourValues": "企業理念",
+    "product": "製品",
+    "packaging": "パッケージング",
+    "shipping": "配送",
+    "ourTeam": "チーム紹介",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+   "catalog": "カタログをダウンロード",
+    "contact": "お問い合わせ",
+    "paragraph": "Indo Charcoal Supplyは2021年に設立され、お客様に最高、最速、そして最も信頼性の高いサービスを提供することに強くコミットしています。創業以来、高品質のブリケットの製造と輸出に注力してきました。",
+    "company-profile": "会社概要をダウンロード",
+    "download-options": "ダウンロードオプション"
+  },
+  "stat": {
+    "countryt": "国",
+    "client": "クライアント",
+    "testimonie": "お客様の声"
+  },
+  "values": {
+    "ourValue": "私たちの価値観",
+    "integrityDescription": "私たちは、事業のあらゆる側面において、誠実さ、倫理観、透明性をもってビジネスを行うことをお約束します。",
+    "integrityTitle": "誠実さ",
+    "qualityTitle": "品質",
+    "qualityDescription": "お客様の期待に応え、それを超えるために、私たちが提供するすべての製品とサービスにおいて常に品質を最優先します。",
+    "innovationTitle": "革新",
+    "innovationDescription": "私たちは製品、プロセス、サービスを改善するために、常に新しい方法と技術を模索し、革新を続けます。",
+    "satisfactionTitle": "顧客満足度",
+    "satisfactionDescription": "すべてのお客様が私たちの製品とサービスに完全に満足していただけるよう、全力を尽くします。",
+    "serviceTitle": "顧客サービス",
+    "serviceDescription": "私たちは、迅速で、丁寧かつプロフェッショナルなサービスを通じて、顧客満足を最優先します。",
+    "cooperationTitle": "協力",
+    "cooperationDescription": "お客様、ビジネスパートナー、そして地域社会との協力と連携が、相互の成功を達成するための鍵であると信じています。"
+  },
+  "vision": {
+    "title": "私たちのビジョンとミッション",
+    "visionTitle": "ビジョン",
+    "vision": "高品質で持続可能な製品を提供し、世界経済に積極的に貢献する、業界をリードする輸出企業になること。",
+    "missionTitle": "ミッション",
+    "mission1": "信頼と相互満足に基づき、お客様やビジネスパートナーと長期的な関係を築くこと。",
+    "mission2": "世界市場のニーズに応えるため、効率的で信頼性の高い国際的な流通ネットワークを構築すること。",
+    "mission3": "継続的な研修と専門能力開発を通じて、従業員のスキルと福利厚生を向上させること。"
+  },
+  "product": {
+    "productTitle": "私たちの製品",
+    "specAsh": "灰分",
+    "specBurning": "燃焼時間",
+    "specCaloric": "発熱量",
+    "specMoisture": "水分",
+    "specFixedCarbon": "固定炭素",
+    "shishaType": "シーシャ用ブリケット",
+    "shishaCube": "キューブ",
+    "shishaHighTemperature": "高温タイプ",
+    "shishaCloud": "クラウド",
+    "shishaFlat": "フラット",
+    "shishaHighFlow": "ハイフロー",
+    "bbqType": "BBQ用ブリケット",
+    "bbqOcta": "八角形",
+    "bbqDome": "ドーム型",
+    "bbqHexa": "六角形",
+    "bbqFinger": "フィンガー",
+    "customTitle": "カスタム形状が必要ですか？",
+    "customDescription": "お客様のブランドアイデンティティを内外に反映する、カスタム形状・サイズのブリケットを共同でデザインいたします。",
+    "customButton": "お問い合わせ"
+  },
+  "prodProcess": {
+    "title": "生産プロセス",
+    "description": "当社のココナッツチャコールブリケットは、最高の品質と持続可能性を保証する綿密なプロセスを経て作られています。以下に生産工程の内訳を示します。",
+    "sourcingTitle": "調達と選定",
+    "sourcingDescription": "持続可能なプランテーションから最高級のココナッツの殻を調達することから始めます。品質と純度を考慮して慎重に選ばれています。",
+    "dryingTitle": "乾燥",
+    "dryingDescription": "ココナッツの殻を乾燥させて水分含有量を減らし、効率的な炭化と高品質のブリケットを確保します。",
+    "carbonizationTitle": "炭化",
+    "carbonizationDescription": "殻は管理された温度と酸素条件下で窯で炭化され、高炭素の木炭が生成されます。",
+    "crushingTitle": "粉砕と選別",
+    "crushingDescription": "木炭を粉砕・選別して均一な粒子サイズにし、燃焼特性を最適化します。",
+    "mixingTitle": "混合と結合",
+    "mixingDescription": "木炭はデンプンや粘土などの天然結合剤と混合され、ブリケットを固めます。",
+    "moldingTitle": "成形とプレス",
+    "moldingDescription": "混合物は金型にプレスされます。圧力によってブリケットの密度と耐久性が決まります。",
+    "finalDryingTitle": "最終乾燥",
+    "finalDryingDescription": "成形されたブリケットは再度乾燥され、残りの水分を取り除き、包装の準備が整います。",
+    "qualityControlTitle": "品質管理",
+    "qualityControlDescription": "各バッチは、密度、灰分、水分、燃焼時間など、厳格な品質チェックを受けます。",
+    "packagingTitle": "包装",
+    "packagingDescription": "完成したブリケットは、輸送中および保管中の保護のために慎重に包装されます。",
+    "storageTitle": "保管",
+    "storageDescription": "ブリケットは、直射日光や熱を避け、乾燥した換気の良い場所に保管する必要があります。"
+  },
+  "shipping": {
+    "containerAlt": "Indo Charcoal Supplyの輸送コンテナ",
+    "aboutTitle": "配送について",
+    "aboutParagraph1": "私たちのチームがお客様の配送ニーズをサポートします。詳細については、お問い合わせください。",
+    "aboutParagraph2": "最小発注数量（MOQ）は、1コンテナ18トン（20フィート）です。お客様のビジネスに最適なMOQを決定するため、私たちのチームにご要望をご相談ください。",
+    "guideTitle": "ご購入ガイド：方針と手続き",
+    "guideParagraph": "T/T（電信送金）およびL/C（信用状）による安全な取引をお約束します。50%の前払金でご注文が確定し、生産を開始します。残りの50%は、生産完了時にお支払いいただきます。"
+  },
+  "packaging": {
+    "title": "パッケージングオプション",
+    "yourBrandourPackaging": "あなたのブランド、私たちのパッケージ",
+    "masterAlt": "マスターボックス",
+    "masterTitle": "マスターボックス",
+    "masterDescription": "この大きなマスターボックスは、輸送および保管中にお客様のチャコールブリケットを保持・保護するために設計されています。",
+    "masterAvailable": "対応サイズ：",
+    "masterSize10": "10 kg",
+    "masterSize12": "12 kg",
+    "masterSize15": "15 kg",
+    "masterSize20": "20 kg",
+    "innerAlt": "インナーボックス",
+    "innerTitle": "インナーボックス",
+    "innerDescription": "この箱はブリケットを湿気や損傷から保護し、持ち運びや保管を容易にするように設計されています。",
+    "innerAvailable": "対応サイズ：",
+    "innerSize1to2": "1 - 2 kg",
+    "innerSize250to500": "250 - 500 g",
+    "customPackagingTitle": "カスタム包装が必要ですか？",
+    "customizationText": "マスターボックスは、お客様のロゴやブランディングに合わせてカスタマイズ可能です。",
+    "customizationContact": "こちらからお問い合わせの上",
+    "customizationSuffix": "カスタムデザインのご要望についてご相談ください。"
+  },
+  "testimonialsSection": {
+    "sectionId": "testimonialsSection",
+    "title": "お客様の声",
+    "testimonialList": [
+      {
+        "quote": "The quality of the charcoal is outstanding. Consistent heat and long burning time. Our customers are very satisfied.",
+        "author": "Ahmed R.",
+        "location": "Dubai, UAE"
+      },
+      {
+        "quote": "Excellent communication and reliable shipping. Indo Charcoal Supply is a trustworthy partner for our business.",
+        "author": "Michael B.",
+        "location": "Berlin, Germany"
+      },
+      {
+        "quote": "We were impressed with the custom packaging options. It really helped our brand stand out in a competitive market.",
+        "author": "Fatima K.",
+        "location": "Jeddah, Saudi Arabia"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "カンパニーギャラリー"
+  },
+  "footer": {
+    "about": "2021年に設立され、チャコールブリケット業界で最高、最速、そして最も信頼性の高いサービスを提供することに強くコミットしています。",
+    "quickLinks": "クイックリンク",
+    "contactUs": "お問い合わせ",
+    "followUs": "フォローする",
+    "address": "インドネシア、ジョグジャカルタ、スレマン、マゲラン通り71番地",
+    "rights": "全著作権所有。",
+    "links": {
+      "home": "ホーム",
+      "product": "製品",
+      "ourValues": "企業理念",
+      "productProfile": "製品プロフィール",
+      "packaging": "パッケージング",
+      "shipping": "配送"
+    }
+  },
+  "location": {
+    "title": "私たちの所在地",
+    "ariaLabel": "Googleマップで所在地を表示",
+    "iframeTitle": "ロケーションマッププレビュー"
+  },
+  "team": {
+    "title": "チーム紹介"
+  }
+}

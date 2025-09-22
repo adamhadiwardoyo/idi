@@ -1,0 +1,171 @@
+{
+  "navbar": {
+    "home": "Home",
+    "ourValues": "Our Values",
+    "product": "Product",
+    "packaging": "Packaging",
+    "shipping": "Shipping",
+    "ourTeam": "Our Team",
+    "contact": "Contact"
+  },
+  "hero": {
+    "catalog": "Download Catalogue",
+    "contact": "Contact Us",
+    "paragraph": "The company of Indo charcoal supply was established in 2021 with a strong commitment to providing customers with the best, fastest, and most reliable services. Since its inception, the company has focused on the production and export of high-quality briquettes.",
+    "company-profile": "Download Company Profile",
+    "download-options": "Download Options"
+  },
+  "stat": {
+      "country": "Country",
+    "client": "Client",
+    "testimonie": "Testimonies"
+  },
+  "values": {
+    "ourValue": "Our Value",
+    "integrityDescription": "We are committed to conducting business with honesty, ethics and transparency in every aspect of our operations.",
+    "integrityTitle": "Integrity",
+    "qualityTitle": "Quality",
+    "qualityDescription": "We always prioritize quality in every product and service we offer to meet and exceed customer expectations.",
+    "innovationTitle": "Innovation",
+    "innovationDescription": "We always prioritize quality in every product and service we offer to meet and exceed customer expectations.",
+    "satisfactionTitle": "Customer Satisfaction",
+    "satisfactionDescription": "We conduct our business with honesty, transparency, and ethical principles.",
+    "serviceTitle": "Customer Service",
+    "serviceDescription": "We prioritize customer satisfaction through responsive, attentive, and professional service.",
+    "cooperationTitle": "Cooperation",
+    "cooperationDescription": "We believe that cooperation and collaboration with customers, business partners, and communities is the key to achieving mutual success."
+  },
+  "vision": {
+    "title": "Our Vision and Mission",
+    "visionTitle": "Vision",
+    "vision": "To be a leading export company that provides high quality and sustainable products, and makes a positive contribution to the global economy.",
+    "missionTitle": "Mission",
+    "mission1": "Establish long-term relationships with customers and business partners based on trust and mutual satisfaction.",
+    "mission2": "Develop an efficient and reliable international distribution network to meet the needs of the global market.",
+    "mission3": "Enhance employee skills and welfare through continuous training and professional development."
+  },
+  "product": {
+    "productTitle": "Our Products",
+    "specAsh": "Ash Content",
+    "specBurning": "Burning Time",
+    "specCaloric": "Caloric Value",
+    "specMoisture": "Moisture",
+    "specFixedCarbon": "Fixed Carbon",
+    "shishaType": "Briquette for Shisha",
+    "shishaCube": "Cube",
+    "shishaHighTemperature": "High Temperature",
+    "shishaCloud": "Cloud",
+    "shishaFlat": "Flat",
+    "shishaHighFlow": "High Flow",
+    "bbqType": "Briquette for BBQ",
+    "bbqOcta": "Octagonal",
+    "bbqDome": "Dome",
+    "bbqHexa": "Hexagonal",
+    "bbqFinger": "Finger",
+    "customTitle": "Need a Custom Shape?",
+    "customDescription": "Partner with us to design custom briquette shapes and sizes that reflect your brand identity, inside and out.",
+    "customButton": "Contact Us"
+  },
+  "prodProcess": {
+    "title": "PRODUCTION PROCESS",
+    "description": "Our coconut charcoal briquettes are crafted through a meticulous process that ensures the highest quality and sustainability. Here’s a breakdown of our production steps:",
+    "sourcingTitle": "Sourcing and Selection",
+    "sourcingDescription": "We begin by sourcing the finest coconut shells from sustainable plantations. Carefully selected for quality and purity.",
+    "dryingTitle": "Drying",
+    "dryingDescription": "The coconut shells are dried to reduce moisture content, ensuring efficient carbonization and high-quality briquettes.",
+    "carbonizationTitle": "Carbonization",
+    "carbonizationDescription": "Shells are carbonized in kilns under controlled temperature and oxygen conditions, producing high-carbon charcoal.",
+    "crushingTitle": "Crushing and Screening",
+    "crushingDescription": "Charcoal is crushed and screened to achieve uniform particle size, optimizing burning properties.",
+    "mixingTitle": "Mixing and Binding",
+    "mixingDescription": "The charcoal is mixed with natural binders like starch or clay to hold the briquettes together.",
+    "moldingTitle": "Molding and Pressing",
+    "moldingDescription": "The blend is pressed into molds. Pressure determines the briquette’s density and durability.",
+    "finalDryingTitle": "Final Drying",
+    "finalDryingDescription": "The molded briquettes are dried again to remove residual moisture, ready for packaging.",
+    "qualityControlTitle": "Quality Control",
+    "qualityControlDescription": "Each batch undergoes strict quality checks: density, ash, moisture, and burn duration.",
+    "packagingTitle": "Packaging",
+    "packagingDescription": "Finished briquettes are carefully packaged to protect them during transport and storage.",
+    "storageTitle": "Storage",
+    "storageDescription": "Briquettes should be stored in a dry, ventilated place away from direct sunlight and heat."
+  },
+  "shipping": {
+    "containerAlt": "Indo Charcoal Supply Shipping Container",
+    "aboutTitle": "ABOUT SHIPPING",
+    "aboutParagraph1": "Our team can provide support with your shipping needs. Please contact us for further information.",
+    "aboutParagraph2": "Our minimum order quantity (MOQ) is 1 container 18 tons (20’ft). Contact us to discuss your needs with our team to determine the optimal MOQ for your business.",
+    "guideTitle": "PURCHASE GUIDE: POLICIES & PROCEDURES",
+    "guideParagraph": "We ensure transactions with T/T and L/C payment methods. A 50% down payment for your order and starts production. The final 50% is processed upon the production completion or upon the closing container in our shipping port."
+  },
+  "packaging": {
+    "title": "Packaging Options",
+    "yourBrandourPackaging": "Your Brand, Our Packaging",
+    "masterAlt": "Master Box",
+    "masterTitle": "MASTER BOX",
+    "masterDescription": "This large master box is designed to hold and protect your charcoal briquettes during shipping and storage.",
+    "masterAvailable": "Available in sizes:",
+    "masterSize10": "10 kg",
+    "masterSize12": "12 kg",
+    "masterSize15": "15 kg",
+    "masterSize20": "20 kg",
+    "innerAlt": "Inner Box",
+    "innerTitle": "INNER BOX",
+    "innerDescription": "This box is designed to protect your briquettes from moisture and damage, making them easy to carry and store.",
+    "innerAvailable": "Available sizes:",
+    "innerSize1to2": "1 - 2 kg",
+    "innerSize250to500": "250 - 500 gr",
+    "customPackagingTitle": "Need Custom Packaging?",
+    "customizationText": "Our master boxes can be customized to feature your logo and branding.",
+    "customizationContact": "Contact us",
+    "customizationSuffix": "to discuss your custom design needs."
+  },
+  "testimonialsSection": {
+    "sectionId": "testimonialsSection",
+    "title": "What Our Clients Say",
+    "testimonialList": [
+      {
+        "quote": "The quality of the charcoal is outstanding. Consistent heat and long burning time. Our customers are very satisfied.",
+        "author": "Ahmed R.",
+        "location": "Dubai, UAE"
+      },
+      {
+        "quote": "Excellent communication and reliable shipping. Indo Charcoal Supply is a trustworthy partner for our business.",
+        "author": "Michael B.",
+        "location": "Berlin, Germany"
+      },
+      {
+        "quote": "We were impressed with the custom packaging options. It really helped our brand stand out in a competitive market.",
+        "author": "Fatima K.",
+        "location": "Jeddah, Saudi Arabia"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Company Gallery"
+  },
+  "footer": {
+    "about": "Established in 2021 with a strong commitment to providing the best, fastest, and most reliable services in the charcoal briquette industry.",
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Us",
+    "followUs": "Follow Us",
+    "address": "71 Magelang Street, Sleman, Yogyakarta, Indonesia",
+    "rights": "All Rights Reserved.",
+    "links": {
+      "home": "Home",
+      "product": "Product",
+      "ourValues": "Our Values",
+      "productProfile": "Product Profile",
+      "packaging": "Packaging",
+      "shipping": "Shipping"
+    }
+  },
+  "location": {
+    "title": "Our Location",
+    "ariaLabel": "View our location on Google Maps",
+    "iframeTitle": "Location Map Preview"
+  },
+  "team": {
+    "title": "Meet Our Team"
+  }
+}

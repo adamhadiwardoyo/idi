@@ -1,0 +1,171 @@
+{
+  "navbar": {
+    "home": "Home",
+    "ourValues": "Onze Waarden",
+    "product": "Product",
+    "packaging": "Verpakking",
+    "shipping": "Verzending",
+    "ourTeam": "Ons Team",
+    "contact": "Contact"
+  },
+  "hero": {
+     "catalog": "Catalogus Downloaden",
+    "contact": "Neem Contact Op",
+    "paragraph": "Het bedrijf Indo Charcoal Supply is opgericht in 2021 met een sterke toewijding om klanten de beste, snelste en meest betrouwbare diensten te bieden. Sinds de oprichting heeft het bedrijf zich gericht op de productie en export van hoogwaardige briketten.",
+    "company-profile": "Bedrijfsprofiel Downloaden",
+    "download-options": "Downloadopties"
+  },
+  "stat": {
+    "country": "Land",
+    "client": "Klant",
+    "testimonie": "Recensie"
+  },
+  "values": {
+    "ourValue": "Onze waarden",
+    "integrityDescription": "Wij zetten ons in om in elk aspect van onze bedrijfsvoering eerlijk, ethisch en transparant te handelen.",
+    "integrityTitle": "Integriteit",
+    "qualityTitle": "Kwaliteit",
+    "qualityDescription": "Wij geven altijd prioriteit aan kwaliteit in elk product en elke dienst die we aanbieden om de verwachtingen van de klant te overtreffen.",
+    "innovationTitle": "Innovatie",
+    "innovationDescription": "We zoeken voortdurend naar nieuwe en betere manieren om onze producten, processen en diensten te verbeteren.",
+    "satisfactionTitle": "Klanttevredenheid",
+    "satisfactionDescription": "Wij zetten ons volledig in om ervoor te zorgen dat elke klant volledig tevreden is met onze producten en diensten.",
+    "serviceTitle": "Klantenservice",
+    "serviceDescription": "Wij stellen klanttevredenheid voorop door middel van een responsieve, attente en professionele service.",
+    "cooperationTitle": "Samenwerking",
+    "cooperationDescription": "Wij geloven dat samenwerking met klanten, zakenpartners en gemeenschappen de sleutel is tot het behalen van wederzijds succes."
+  },
+  "vision": {
+    "title": "Onze Visie en Missie",
+    "visionTitle": "Visie",
+    "vision": "Een toonaangevend exportbedrijf zijn dat hoogwaardige en duurzame producten levert en een positieve bijdrage levert aan de wereldeconomie.",
+    "missionTitle": "Missie",
+    "mission1": "Lange-termijnrelaties opbouwen met klanten en zakenpartners, gebaseerd op vertrouwen en wederzijdse tevredenheid.",
+    "mission2": "Een efficiënt en betrouwbaar internationaal distributienetwerk ontwikkelen om aan de behoeften van de wereldmarkt te voldoen.",
+    "mission3": "De vaardigheden en het welzijn van medewerkers verbeteren door continue training en professionele ontwikkeling."
+  },
+  "product": {
+    "productTitle": "Onze Producten",
+    "specAsh": "Asgehalte",
+    "specBurning": "Brandtijd",
+    "specCaloric": "Verbrandingswaarde",
+    "specMoisture": "Vochtgehalte",
+    "specFixedCarbon": "Vaste Koolstof",
+    "shishaType": "Briketten voor Shisha",
+    "shishaCube": "Kubus",
+    "shishaHighTemperature": "Hoge Temperatuur",
+    "shishaCloud": "Cloud",
+    "shishaFlat": "Plat",
+    "shishaHighFlow": "High Flow",
+    "bbqType": "Briketten voor BBQ",
+    "bbqOcta": "Achthoekig",
+    "bbqDome": "Koepel",
+    "bbqHexa": "Zeshoekig",
+    "bbqFinger": "Staaftype",
+    "customTitle": "Aangepaste Vorm Nodig?",
+    "customDescription": "Werk met ons samen om aangepaste briketvormen en -maten te ontwerpen die uw merkidentiteit weerspiegelen.",
+    "customButton": "Neem Contact Op"
+  },
+  "prodProcess": {
+    "title": "PRODUCTIEPROCES",
+    "description": "Onze kokosnoot houtskoolbriketten worden vervaardigd via een zorgvuldig proces dat de hoogste kwaliteit en duurzaamheid garandeert. Hier is een overzicht van onze productiestappen:",
+    "sourcingTitle": "Inkoop en Selectie",
+    "sourcingDescription": "We beginnen met het inkopen van de beste kokosnootschillen van duurzame plantages. Zorgvuldig geselecteerd op kwaliteit en zuiverheid.",
+    "dryingTitle": "Drogen",
+    "dryingDescription": "De kokosnootschillen worden gedroogd om het vochtgehalte te verminderen, wat zorgt voor een efficiënte carbonisatie en briketten van hoge kwaliteit.",
+    "carbonizationTitle": "Carbonisatie",
+    "carbonizationDescription": "De schillen worden gecarboniseerd in ovens onder gecontroleerde temperatuur en zuurstofomstandigheden, waardoor koolstofrijke houtskool ontstaat.",
+    "crushingTitle": "Verpletteren en Zeven",
+    "crushingDescription": "De houtskool wordt verpletterd en gezeefd om een uniforme deeltjesgrootte te bereiken, wat de brandeigenschappen optimaliseert.",
+    "mixingTitle": "Mengen en Binden",
+    "mixingDescription": "De houtskool wordt gemengd met natuurlijke bindmiddelen zoals zetmeel of klei om de briketten bij elkaar te houden.",
+    "moldingTitle": "Vormen en Persen",
+    "moldingDescription": "Het mengsel wordt in mallen geperst. De druk bepaalt de dichtheid en duurzaamheid van de briket.",
+    "finalDryingTitle": "Einddrogen",
+    "finalDryingDescription": "De gevormde briketten worden opnieuw gedroogd om restvocht te verwijderen, klaar voor verpakking.",
+    "qualityControlTitle": "Kwaliteitscontrole",
+    "qualityControlDescription": "Elke partij ondergaat strenge kwaliteitscontroles: dichtheid, asgehalte, vocht en brandduur.",
+    "packagingTitle": "Verpakking",
+    "packagingDescription": "De afgewerkte briketten worden zorgvuldig verpakt om ze te beschermen tijdens transport en opslag.",
+    "storageTitle": "Opslag",
+    "storageDescription": "Briketten moeten worden opgeslagen op een droge, geventileerde plaats, uit de buurt van direct zonlicht en hitte."
+  },
+  "shipping": {
+    "containerAlt": "Verzendcontainer van Indo Charcoal Supply",
+    "aboutTitle": "OVER VERZENDING",
+    "aboutParagraph1": "Ons team kan u ondersteunen bij uw verzendbehoeften. Neem contact met ons op voor meer informatie.",
+    "aboutParagraph2": "Onze minimale bestelhoeveelheid (MOQ) is 1 container van 18 ton (20 ft). Neem contact met ons op om uw behoeften te bespreken met ons team en de optimale MOQ voor uw bedrijf te bepalen.",
+    "guideTitle": "KOOPGIDS: BELEID & PROCEDURES",
+    "guideParagraph": "Wij zorgen voor veilige transacties met T/T- en L/C-betaalmethoden. Een aanbetaling van 50% bevestigt uw bestelling en start de productie. De resterende 50% wordt verwerkt na voltooiing van de productie."
+  },
+  "packaging": {
+    "title": "Verpakkingsopties",
+    "yourBrandourPackaging": "Uw merk, onze verpakking",
+    "masterAlt": "Omdoos",
+    "masterTitle": "OMDOOS",
+    "masterDescription": "Deze grote omdoos is ontworpen om uw houtskoolbriketten te bevatten en te beschermen tijdens verzending en opslag.",
+    "masterAvailable": "Verkrijgbaar in de maten:",
+    "masterSize10": "10 kg",
+    "masterSize12": "12 kg",
+    "masterSize15": "15 kg",
+    "masterSize20": "20 kg",
+    "innerAlt": "Binnendoos",
+    "innerTitle": "BINNENDOOS",
+    "innerDescription": "Deze doos is ontworpen om uw briketten te beschermen tegen vocht en schade, waardoor ze gemakkelijk te dragen en op te bergen zijn.",
+    "innerAvailable": "Verkrijgbare maten:",
+    "innerSize1to2": "1 - 2 kg",
+    "innerSize250to500": "250 - 500 g",
+    "customPackagingTitle": "Heeft u aangepaste verpakkingen nodig?",
+    "customizationText": "Onze omdozen kunnen worden aangepast met uw logo en huisstijl.",
+    "customizationContact": "Neem contact met ons op",
+    "customizationSuffix": "om uw wensen voor een aangepast ontwerp te bespreken."
+  },
+  "testimonialsSection": {
+    "sectionId": "testimonialsSection",
+    "title": "Wat onze klanten zeggen",
+    "testimonialList": [
+      {
+        "quote": "The quality of the charcoal is outstanding. Consistent heat and long burning time. Our customers are very satisfied.",
+        "author": "Ahmed R.",
+        "location": "Dubai, UAE"
+      },
+      {
+        "quote": "Excellent communication and reliable shipping. Indo Charcoal Supply is a trustworthy partner for our business.",
+        "author": "Michael B.",
+        "location": "Berlin, Germany"
+      },
+      {
+        "quote": "We were impressed with the custom packaging options. It really helped our brand stand out in a competitive market.",
+        "author": "Fatima K.",
+        "location": "Jeddah, Saudi Arabia"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Bedrijfsgalerij"
+  },
+  "footer": {
+    "about": "Opgericht in 2021 met een sterke toewijding om de beste, snelste en meest betrouwbare diensten in de houtskoolbrikettenindustrie te bieden.",
+    "quickLinks": "Snelle Links",
+    "contactUs": "Neem Contact Op",
+    "followUs": "Volg Ons",
+    "address": "Magelang Street 71, Sleman, Yogyakarta, Indonesië",
+    "rights": "Alle rechten voorbehouden.",
+    "links": {
+      "home": "Home",
+      "product": "Product",
+      "ourValues": "Onze Waarden",
+      "productProfile": "Productprofiel",
+      "packaging": "Verpakking",
+      "shipping": "Verzending"
+    }
+  },
+  "location": {
+    "title": "Onze Locatie",
+    "ariaLabel": "Bekijk onze locatie op Google Maps",
+    "iframeTitle": "Voorbeeld van locatiekaart"
+  },
+  "team": {
+    "title": "Ontmoet Ons Team"
+  }
+}

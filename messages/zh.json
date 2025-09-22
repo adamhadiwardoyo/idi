@@ -1,0 +1,171 @@
+{
+  "navbar": {
+    "home": "首页",
+    "ourValues": "我们的价值观",
+    "product": "产品",
+    "packaging": "包装",
+    "shipping": "运输",
+    "ourTeam": "我们的团队",
+    "contact": "联系我们"
+  },
+  "hero": {
+    "catalog": "下载目录",
+    "contact": "联系我们",
+    "paragraph": "Indo Charcoal Supply 公司成立于2021年，致力于为客户提供最优质、最快捷、最可靠的服务。自成立以来，公司一直专注于高品质煤砖的生产和出口。",
+    "company-profile": "下载公司简介",
+    "download-options": "下载选项"
+  },
+  "stat": {
+    "country": "国家",
+    "client": "客户",
+    "testimonie": "客户评价"
+  },
+  "values": {
+    "ourValue": "我们的价值观",
+    "integrityDescription": "我们承诺在运营的各个方面都秉持诚实、道德和透明的原则。",
+    "integrityTitle": "诚信",
+    "qualityTitle": "品质",
+    "qualityDescription": "我们始终将产品和服务的质量放在首位，以满足并超越客户的期望。",
+    "innovationTitle": "创新",
+    "innovationDescription": "我们不断寻求新的、更好的方法来改进我们的产品、流程和服务。",
+    "satisfactionTitle": "客户满意度",
+    "satisfactionDescription": "我们致力于确保每一位客户对我们的产品和服务都完全满意。",
+    "serviceTitle": "客户服务",
+    "serviceDescription": "我们通过响应迅速、周到和专业的服务，将客户满意度放在首位。",
+    "cooperationTitle": "合作",
+    "cooperationDescription": "我们相信，与客户、商业伙伴和社区的合作是实现共同成功的关键。"
+  },
+  "vision": {
+    "title": "我们的愿景与使命",
+    "visionTitle": "愿景",
+    "vision": "成为一家提供高品质、可持续产品的领先出口公司，为全球经济做出积极贡献。",
+    "missionTitle": "使命",
+    "mission1": "在信任和相互满意度的基础上，与客户和商业伙伴建立长期关系。",
+    "mission2": "发展高效可靠的国际分销网络，以满足全球市场的需求。",
+    "mission3": "通过持续的培训和专业发展，提升员工的技能和福利。"
+  },
+  "product": {
+    "productTitle": "我们的产品",
+    "specAsh": "灰分含量",
+    "specBurning": "燃烧时间",
+    "specCaloric": "热值",
+    "specMoisture": "水分",
+    "specFixedCarbon": "固定碳",
+    "shishaType": "水烟炭",
+    "shishaCube": "方块",
+    "shishaHighTemperature": "高温型",
+    "shishaCloud": "Cloud",
+    "shishaFlat": "扁平",
+    "shishaHighFlow": "高流量型",
+    "bbqType": "烧烤炭",
+    "bbqOcta": "八角形",
+    "bbqDome": "圆顶形",
+    "bbqHexa": "六角形",
+    "bbqFinger": "条状",
+    "customTitle": "需要定制形状吗？",
+    "customDescription": "与我们合作，设计能体现您品牌形象的定制煤砖形状和尺寸。",
+    "customButton": "联系我们"
+  },
+  "prodProcess": {
+    "title": "生产过程",
+    "description": "我们的椰壳炭砖经过精心制作，确保最高的质量和可持续性。以下是我们的生产步骤分解：",
+    "sourcingTitle": "采购与筛选",
+    "sourcingDescription": "我们从可持续种植园采购最优质的椰子壳开始。精心挑选以确保质量和纯度。",
+    "dryingTitle": "干燥",
+    "dryingDescription": "椰子壳经过干燥以降低水分含量，确保高效的碳化和高质量的炭砖。",
+    "carbonizationTitle": "碳化",
+    "carbonizationDescription": "在受控的温度和氧气条件下，在窑中对壳进行碳化，生产高碳木炭。",
+    "crushingTitle": "破碎与筛选",
+    "crushingDescription": "将木炭破碎并筛选，以获得均匀的颗粒大小，优化燃烧性能。",
+    "mixingTitle": "混合与粘合",
+    "mixingDescription": "将木炭与淀粉或粘土等天然粘合剂混合，以将炭砖粘合在一起。",
+    "moldingTitle": "成型与压制",
+    "moldingDescription": "将混合物压入模具中。压力决定了炭砖的密度和耐久性。",
+    "finalDryingTitle": "最终干燥",
+    "finalDryingDescription": "成型的炭砖再次干燥，去除残留水分，准备包装。",
+    "qualityControlTitle": "质量控制",
+    "qualityControlDescription": "每批产品都经过严格的质量检查：密度、灰分、水分和燃烧持续时间。",
+    "packagingTitle": "包装",
+    "packagingDescription": "成品炭砖经过精心包装，以在运输和储存过程中保护它们。",
+    "storageTitle": "储存",
+    "storageDescription": "炭砖应存放在干燥、通风、避免阳光直射和高温的地方。"
+  },
+  "shipping": {
+    "containerAlt": "Indo Charcoal Supply 运输集装箱",
+    "aboutTitle": "关于运输",
+    "aboutParagraph1": "我们的团队可以为您的运输需求提供支持。请联系我们获取更多信息。",
+    "aboutParagraph2": "我们的最小起订量（MOQ）为一个18吨的集装箱（20英尺）。请联系我们的团队，讨论您的需求，以确定最适合您业务的最小起订量。",
+    "guideTitle": "购买指南：政策与流程",
+    "guideParagraph": "我们接受电汇（T/T）和信用证（L/C）付款方式，确保交易安全。支付50%的定金后，您的订单即获确认并开始生产。剩余50%的款项在生产完成后支付。"
+  },
+  "packaging": {
+    "title": "包装选项",
+    "yourBrandourPackaging": "您的品牌，我们的包装",
+    "masterAlt": "外箱",
+    "masterTitle": "外箱",
+    "masterDescription": "这款大型外箱专为在运输和储存过程中容纳和保护您的煤砖而设计。",
+    "masterAvailable": "可选尺寸：",
+    "masterSize10": "10公斤",
+    "masterSize12": "12公斤",
+    "masterSize15": "15公斤",
+    "masterSize20": "20公斤",
+    "innerAlt": "内盒",
+    "innerTitle": "内盒",
+    "innerDescription": "这款盒子旨在保护您的煤砖免受潮湿和损坏，便于携带和储存。",
+    "innerAvailable": "可选尺寸：",
+    "innerSize1to2": "1 - 2公斤",
+    "innerSize250to500": "250 - 500克",
+    "customPackagingTitle": "需要定制包装吗？",
+    "customizationText": "我们的外箱可以根据您的要求定制，印上您的徽标和品牌。",
+    "customizationContact": "联系我们",
+    "customizationSuffix": "，讨论您的定制设计需求。"
+  },
+  "testimonialsSection": {
+    "sectionId": "testimonialsSection",
+    "title": "我们的客户怎么说",
+    "testimonialList": [
+      {
+        "quote": "The quality of the charcoal is outstanding. Consistent heat and long burning time. Our customers are very satisfied.",
+        "author": "Ahmed R.",
+        "location": "Dubai, UAE"
+      },
+      {
+        "quote": "Excellent communication and reliable shipping. Indo Charcoal Supply is a trustworthy partner for our business.",
+        "author": "Michael B.",
+        "location": "Berlin, Germany"
+      },
+      {
+        "quote": "We were impressed with the custom packaging options. It really helped our brand stand out in a competitive market.",
+        "author": "Fatima K.",
+        "location": "Jeddah, Saudi Arabia"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "公司相册"
+  },
+  "footer": {
+    "about": "成立于2021年，致力于在煤砖行业提供最优质、最快捷、最可靠的服务。",
+    "quickLinks": "快速链接",
+    "contactUs": "联系我们",
+    "followUs": "关注我们",
+    "address": "印度尼西亚, 日惹特区, 斯莱曼县, 马格朗街71号",
+    "rights": "版权所有。",
+    "links": {
+      "home": "首页",
+      "product": "产品",
+      "ourValues": "我们的价值观",
+      "productProfile": "产品简介",
+      "packaging": "包装",
+      "shipping": "运输"
+    }
+  },
+  "location": {
+    "title": "我们的位置",
+    "ariaLabel": "在谷歌地图上查看我们的位置",
+    "iframeTitle": "位置地图预览"
+  },
+  "team": {
+    "title": "认识我们的团队"
+  }
+}

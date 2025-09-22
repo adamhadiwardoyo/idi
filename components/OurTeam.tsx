@@ -39,21 +39,21 @@ const OurTeam: React.FC = () => {
       name: "ADAM BILLAH HADI WARDOYO",
       role: "Chief Executive Officer",
       // Adam: Sedikit diturunkan agar seimbang
-      objectPositionCustom: 'center 35%' 
+      objectPositionCustom: 'center 30%' 
     },
     {
       imageSrc: "/team-image/member2.webp",
       name: "AZIZAH NAYANDA FADHILAH",
       role: "Chief Financial Officer",
       // Dinaikkan lagi
-      objectPositionCustom: 'center 2%' 
+      objectPositionCustom: 'center 50%' 
     },
     {
       imageSrc: "/team-image/member3.webp",
       name: "WASESA BERLIANTO",
       role: "Chief Marketing Officer",
       // Dinaikkan lagi
-      objectPositionCustom: 'center 5%'
+      objectPositionCustom: 'center 60%'
     }
   ];
 

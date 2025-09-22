@@ -1,12 +1,58 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useTranslations } from 'next-intl';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+
+// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+
+// --- Data Testimoni ---
+const testimonialsData = [
+  {
+    quote: 'Our first shipment of briquettes from Indo Charcoal Supply was a massive success. The quality is consistently high, and the packaging held up perfectly during the long transit. Their team is extremely professional and made the entire export process feel effortless. We are very satisfied!',
+    author: 'Noah Thompson',
+    location: 'TerraHeat Australia, Australia',
+  },
+  {
+    quote: 'We were looking for a reliable charcoal supplier for our restaurants, and Indo Charcoal Supply exceeded our expectations. The briquettes burn hot and long, which is crucial for our business. The communication and logistics support they provided were top-notch. Highly recommended for international buyers.',
+    author: 'Sophie Bakker',
+    location: 'EcoStroom Trading, Netherland',
+  },
+  {
+    quote: 'Navigating international trade can be complex, but working with Indo Charcoal Supply was a breeze. They handled all the documentation and ensured our order arrived on time. The quality of their coconut charcoal is simply unmatched. Our clients are thrilled with the product. A fantastic business partner.',
+    author: 'David Rodriguez',
+    location: 'Exportaciones Fénix, Spain',
+  },
+  {
+    quote: 'We have been in the charcoal business for decades, and we can confidently say that the quality of Indo Charcoal Supply’s briquettes is among the best we have ever sourced. Their production capacity and efficiency in fulfilling large orders is truly impressive. We look forward to a long-term partnership.',
+    author: 'Ahmed Al-Farsi',
+    location: 'Desert Trade LLC, United Arab Emirates',
+  },
+  {
+    quote: 'Finding sustainable and high-quality briquettes is a top priority for us. Indo Charcoal Supply meets both criteria perfectly. The product is environmentally friendly and the performance is excellent. Their commitment to customer service is what truly sets them apart. A reliable and trustworthy partner for our growing market.',
+    author: 'Sophie De Vries',
+    location: 'CharBrique Belgium SA, Belgium',
+  },
+  {
+    quote: 'Working with Indo Charcoal Supply has streamlined our supply chain significantly. Their attention to detail, from product quality to secure shipping, is exceptional. The briquettes have been a big hit with our wholesale clients. It is a pleasure doing business with such a professional and dedicated team.',
+    author: 'Omar Hassan',
+    location: 'Oasis Trading, Egypt',
+  },
+  {
+    quote: 'The quality of the charcoal briquettes we received from Indo Charcoal Supply is fantastic. They burn for a long time without much ash, which is exactly what our customers need. The team was very supportive throughout the entire export process. We are excited about our future orders.',
+    author: 'Isabella Rossi',
+    location: 'Carboni del Mondo, Italy',
+  },
+  {
+    quote: 'Reliability is key in our business, and Indo Charcoal Supply has proven to be a reliable partner. Their briquettes meet all our quality standards, and they have been very efficient with their shipments. The consistent product quality has helped us build trust with our customers.',
+    author: 'Oliver Thompson',
+    location: 'Kiwi Green Energy Ltd, New Zealand',
+  },
+];
 
 const StarIcon = () => (
   <svg className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
@@ -14,52 +60,29 @@ const StarIcon = () => (
   </svg>
 );
 
-type Testimonial = {
-  id: number;
-  name: string;
-  title: string;
-  message: string;
+type TestimonialCardProps = {
+  quote: string;
+  author: string;
+  location: string;
 };
 
-const TestimonialCard: React.FC<Testimonial> = ({ name, title, message }) => (
+const TestimonialCard: React.FC<TestimonialCardProps> = ({ quote, author, location }) => (
   <div className="bg-white/90 p-8 rounded-lg shadow-md flex flex-col h-full text-left border border-gray-200">
     <div className="flex mb-4">
       {[...Array(5)].map((_, index) => (
         <StarIcon key={index} />
       ))}
     </div>
-    <p className="text-gray-600 mb-6 flex-grow">&ldquo;{message}&rdquo;</p>
+    <p className="text-gray-600 mb-6 flex-grow">&ldquo;{quote}&rdquo;</p>
     <div>
-      <p className="font-bold text-gray-900">{name}</p>
-      <p className="text-sm text-gray-500">{title}</p>
+      <p className="font-bold text-gray-900">{author}</p>
+      <p className="text-sm text-gray-500">{location}</p>
     </div>
   </div>
 );
 
 const Testimonials: React.FC = () => {
   const t = useTranslations('testimonialsSection');
-  const [testimonials, setTestimonials] = useState<Testimonial[]>([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const fetchTestimonials = async () => {
-      try {
-        const res = await fetch('https://indocharcoalsupply.com/api/testimonials');
-        const data = await res.json();
-        setTestimonials(data);
-      } catch (error) {
-        console.error('Failed to fetch testimonials:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchTestimonials();
-  }, []);
-
-  if (loading) {
-    return <p className="text-center py-24">Loading testimonials...</p>;
-  }
 
   return (
     <section
@@ -67,12 +90,16 @@ const Testimonials: React.FC = () => {
       className="relative bg-cover bg-center bg-no-repeat py-24 sm:py-32"
       style={{ backgroundImage: "url('/prod-cover.webp')" }}
     >
+      {/* Overlay putih transparan */}
       <div className="absolute inset-0 bg-white/60"></div>
+
+      {/* Konten */}
       <div className="relative container mx-auto px-6 text-center">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl mb-12">
           {t('title')}
         </h2>
-
+        
+        {/* Swiper Carousel */}
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={30}
@@ -96,8 +123,8 @@ const Testimonials: React.FC = () => {
             },
           }}
         >
-          {testimonials.map((testimonial) => (
-            <SwiperSlide key={testimonial.id}>
+          {testimonialsData.map((testimonial, index) => (
+            <SwiperSlide key={index}>
               <TestimonialCard {...testimonial} />
             </SwiperSlide>
           ))}

@@ -2,7 +2,7 @@
 import { NextIntlClientProvider, hasLocale } from 'next-intl'
 import { routing } from '@/i18n/routing';
 import { notFound } from 'next/navigation'
-
+import GoogleAnalytics from '@/components/Analytics';
 // DEFAULT CONFIGURATION
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
@@ -50,28 +50,14 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <head>
-        {/* Google Analytics */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-WXH6D3K8XH"
-          strategy="afterInteractive"
-        />
-        <Script id="ga-script" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-WXH6D3K8XH');
-          `}
-        </Script>
+        
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <NextIntlClientProvider>
+          <GoogleAnalytics />
           {children}
           <ContactBubble />
         </NextIntlClientProvider>
-
-        {/* Track navigasi antar route */}
-        <Analytics />
       </body>
     </html>
   );

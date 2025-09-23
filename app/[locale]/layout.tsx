@@ -16,9 +16,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import Script from "next/script";
-import Analytics from "@/components/Analytics"; // kita bikin komponen client
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],

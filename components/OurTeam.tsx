@@ -35,25 +35,25 @@ const OurTeam: React.FC = () => {
 
   const teamMembers = [
     {
-      imageSrc: "/team-image/member1.webp",
+      imageSrc: "/team-image/member1-fix.webp",
       name: "ADAM BILLAH HADI WARDOYO",
       role: "Chief Executive Officer",
       // Adam: Sedikit diturunkan agar seimbang
-      objectPositionCustom: 'center 30%' 
+      objectPositionCustom: 'center 15%' 
     },
     {
       imageSrc: "/team-image/member2.webp",
       name: "AZIZAH NAYANDA FADHILAH",
       role: "Chief Financial Officer",
       // Dinaikkan lagi
-      objectPositionCustom: 'center 50%' 
+      objectPositionCustom: 'center 10%' 
     },
     {
       imageSrc: "/team-image/member3.webp",
       name: "WASESA BERLIANTO",
       role: "Chief Marketing Officer",
       // Dinaikkan lagi
-      objectPositionCustom: 'center 60%'
+      objectPositionCustom: 'center 10%'
     }
   ];
 

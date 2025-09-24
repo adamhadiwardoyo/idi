@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Column 3: Contact Info -- UPDATED */}
+          {/* Column 3: Contact Info */}
           <div>
             <h3 className="font-bold text-white mb-4 uppercase tracking-wider">
               {t('contactUs')}
@@ -112,6 +112,15 @@ const Footer: React.FC = () => {
               >
                 <LinkedInIcon />
               </a>
+              <a
+                href="https://www.youtube.com/@indocharcoalsupply"
+                aria-label="YouTube"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white"
+              >
+                <YouTubeIcon />
+              </a>
             </div>
           </div>
         </div>
@@ -146,7 +155,6 @@ const IconPhone = () => (
   </svg>
 );
 
-
 // --- SOCIAL MEDIA ICONS ---
 const FacebookIcon = () => (
   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" /></svg>
@@ -156,6 +164,11 @@ const InstagramIcon = () => (
 );
 const LinkedInIcon = () => (
   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-4.499 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" /></svg>
+);
+const YouTubeIcon = () => (
+  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M23.498 6.186a2.994 2.994 0 0 0-2.112-2.12C19.458 3.5 12 3.5 12 3.5s-7.458 0-9.386.566A2.994 2.994 0 0 0 .502 6.186C0 8.114 0 12 0 12s0 3.886.502 5.814a2.994 2.994 0 0 0 2.112 2.12C4.542 20.5 12 20.5 12 20.5s7.458 0 9.386-.566a2.994 2.994 0 0 0 2.112-2.12C24 15.886 24 12 24 12s0-3.886-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+  </svg>
 );
 
 export default Footer;

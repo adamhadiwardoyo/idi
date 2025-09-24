@@ -26,6 +26,7 @@ const Navbar: React.FC = () => {
     { href: '#packaging', label: t('packaging'), id: 'packaging' },
     { href: '#shipping', label: t('shipping'), id: 'shipping' },
     { href: '#our-team', label: t('ourTeam'), id: 'our-team' },
+    // { href: '#faq', label: t('FAQ'), id: 'faq' },
     { href: '#contact', label: t('contact'), id: 'contact' },
   ], [t]);
 

@@ -23,17 +23,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// The `params` object is now a Promise that needs to be awaited.
 type Props = {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 };
 
-// Generate dynamic, translated metadata
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  // ✅ FIX: Await the params promise to get the locale
   const { locale } = await params;
-  
   const t = await getTranslations({ locale, namespace: 'metadata' });
   const baseUrl = 'https://www.indocharcoalsupply.com';
 
@@ -42,7 +38,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: t('description'),
     keywords: t('keywords'),
     metadataBase: new URL(baseUrl),
-
     alternates: {
       canonical: `/${locale}`,
       languages: {
@@ -52,7 +47,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         ),
       },
     },
-
     openGraph: {
       type: 'website',
       siteName: t('openGraph.siteTitle'),
@@ -63,28 +57,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: `${baseUrl}/${locale}`,
       images: [
         {
-          url: `${baseUrl}/opengraph-image.png`, 
+          url: `${baseUrl}/opengraph-image.png`,
           width: 1200,
           height: 630,
           alt: t('openGraph.title'),
         },
         {
-          url: `${baseUrl}/logo.webp`, 
+          url: `${baseUrl}/logo.webp`,
           width: 800,
           height: 600,
           alt: 'Indo Charcoal Supply Logo',
         }
       ],
     },
-    
     robots: {
       index: true,
       follow: true,
     },
   };
 }
-
-
 
 export default async function RootLayout({ children, params }: Props) {
   const { locale } = await params;
@@ -94,7 +85,7 @@ export default async function RootLayout({ children, params }: Props) {
   }
 
   return (
-    // ✅ FIX: Add the data-scroll-behavior attribute here
+    // ✅ THE FIX IS HERE: Add the data-scroll-behavior attribute
     <html lang={locale} data-scroll-behavior="smooth">
       <head>
         <SchemaMarkup />

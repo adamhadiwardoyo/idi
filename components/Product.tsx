@@ -28,17 +28,12 @@ interface Product {
 
 // --- ProductCard component with shape names on images ---
 const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
-  //translation variable string
-
-
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: 'start' });
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   const scrollPrev = useCallback(() => emblaApi && emblaApi.scrollPrev(), [emblaApi]);
   const scrollNext = useCallback(() => emblaApi && emblaApi.scrollNext(), [emblaApi]);
   const scrollTo = useCallback((index: number) => emblaApi && emblaApi.scrollTo(index), [emblaApi]);
-  //translation
-
 
   useEffect(() => {
     if (!emblaApi) return;
@@ -63,7 +58,6 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
         <div className="flex">
           {product.images.map((image, index) => (
             <div className="relative flex-[0_0_100%] aspect-square" key={index}>
-              {/* Shape Name Overlay */}
               <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10 bg-black/50 text-white text-sm font-semibold px-3 py-1 rounded-full">
                 {image.shape}
               </div>
@@ -71,6 +65,8 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
                 src={image.src}
                 alt={`${product.type} - ${image.shape}`}
                 fill
+                // ✅ FIX: Added the 'sizes' prop
+                sizes="(max-width: 768px) 100vw, 50vw"
                 style={{ objectFit: 'contain' }}
                 className="p-4"
               />
@@ -78,7 +74,6 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
           ))}
         </div>
 
-        {/* --- Carousel Navigation Arrows --- */}
         {product.images.length > 1 && (
           <>
             <button
@@ -103,7 +98,6 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
         )}
       </div>
 
-      {/* --- Carousel Dots Indicator --- */}
       {product.images.length > 1 && (
         <div className="flex justify-center space-x-2 my-4 z-10">
           {product.images.map((_, idx) => (
@@ -133,7 +127,7 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
   );
 };
 
-// --- Main Products component with updated data structure ---
+// --- Main Products component ---
 const Products: React.FC = () => {
   const t = useTranslations('product');
 
@@ -222,6 +216,5 @@ const Products: React.FC = () => {
     </section>
   );
 };
-
 
 export default Products;

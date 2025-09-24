@@ -26,18 +26,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// app/layout.js
-
-export const metadata = {
-
-  title: {
-    default: ' Indo Charcoal Supply Premium | Indonesian Charcoal Exporter ',
-    template: '%s | Indo Charcoal Supply', 
-  },
-
-  description: 'Leading manufacturer and exporter of 100% natural coconut charcoal briquettes from Indonesia. We provide high-quality, sustainable charcoal for shisha, hookah, and BBQ to clients worldwide. Contact us for wholesale and OEM orders.',
-
-  keywords: ['coconut charcoal exporter', 'Indonesian charcoal supplier', 'wholesale shisha charcoal', 'OEM charcoal briquettes', 'BBQ charcoal bulk', 'global charcoal shipping'],
+export const metadata: Metadata = {
+  title: "Indo Charcoal Supply",
+  description: "production and export of high-quality briquettes",
 };
 
 export default async function RootLayout({

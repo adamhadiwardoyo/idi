@@ -11,11 +11,10 @@ const Packaging: React.FC = () => {
         className="absolute inset-0 bg-cover bg-center opacity-10"
         style={{ backgroundImage: "url('/charcoal-bg.webp')" }}
       />
-      {/* Background Shapes for Visual Interest (Optional, but adds a modern touch) */}
+      {/* Background Shapes */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-brand-orange/5 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
       <div className="absolute bottom-1/4 right-0 w-80 h-80 bg-blue-300/5 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
       <div className="absolute top-1/2 left-1/4 w-72 h-72 bg-purple-300/5 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
-
 
       <div className="container mx-auto px-6 relative z-10">
         <h2 className="text-4xl lg:text-5xl font-extrabold text-gray-900 text-center mb-8 leading-tight">
@@ -28,12 +27,13 @@ const Packaging: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-20 items-stretch mt-16">
           {/* Master Box Section */}
           <div className="flex flex-col items-center text-center p-8 bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
-            {/* Hapus kelas bg-gradient-to-br from-gray-50 to-gray-100 */}
             <div className="relative h-72 w-full max-w-sm mb-8 rounded-2xl flex items-center justify-center p-6 border border-gray-100">
               <Image
                 src="/packaging/masterbox.webp"
                 alt={t('masterAlt')}
                 fill
+                // ✅ FIX: Added sizes prop
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 style={{ objectFit: 'contain' }}
                 className="p-2"
               />
@@ -51,12 +51,13 @@ const Packaging: React.FC = () => {
 
           {/* Inner Box Section */}
           <div className="flex flex-col items-center text-center p-8 bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
-            {/* Hapus kelas bg-gradient-to-br from-gray-50 to-gray-100 */}
             <div className="relative h-72 w-full max-w-sm mb-8 rounded-2xl flex items-center justify-center p-6 border border-gray-100">
               <Image
                 src="/packaging/innerbox.webp"
                 alt={t('innerAlt')}
                 fill
+                // ✅ FIX: Added sizes prop
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 style={{ objectFit: 'contain' }}
                 className="p-6"
               />
@@ -71,7 +72,7 @@ const Packaging: React.FC = () => {
           </div>
         </div>
 
-        {/* Customization Footer Banner - Tetap seperti sebelumnya */}
+        {/* Customization Footer Banner */}
         <div className="mt-28 w-full max-w-6xl mx-auto">
           <div className="bg-zinc-800 rounded-3xl shadow-2xl p-8 md:p-14 transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="flex flex-col md:flex-row items-center justify-between gap-10">

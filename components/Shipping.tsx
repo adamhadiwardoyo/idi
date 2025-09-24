@@ -11,13 +11,10 @@ interface InfoCardProps {
   children: ReactNode;
 }
 
-interface ShippingContainerImageProps {
-  alt: string;
-}
+// The 'ShippingContainerImageProps' interface was removed as it was unused.
 
 /* --- Reusable Components --- */
 const InfoCard: React.FC<InfoCardProps> = ({ icon, title, children }) => (
-  // Tambahkan animasi fade-up pada kartu
   <div
     data-aos="fade-up"
     data-aos-once="true"
@@ -76,8 +73,7 @@ const IconGuide = () => (
   </svg>
 );
 
-const ShippingContainerImage: React.FC<ShippingContainerImageProps> = ({ alt }) => (
-  // Tambahkan animasi fade-right pada gambar
+const ShippingContainerImage: React.FC<{ alt: string }> = ({ alt }) => (
   <div
     data-aos="fade-right"
     data-aos-once="true"
@@ -89,6 +85,7 @@ const ShippingContainerImage: React.FC<ShippingContainerImageProps> = ({ alt }) 
         alt={alt}
         fill
         className="object-contain"
+        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 50vw"
         priority
       />
     </div>
@@ -103,17 +100,12 @@ const Shipping = () => {
     <section id="shipping" className="bg-gray-50 py-24 sm:py-32">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
-          {/* Column 1: Gambar */}
           <ShippingContainerImage alt={t("containerAlt")} />
-
-          {/* Column 2: Info Cards */}
           <div className="flex flex-col gap-8">
-            {/* Setiap InfoCard akan memiliki animasi fade-up */}
             <InfoCard icon={<IconShipping />} title={t("aboutTitle")}>
               <p>{t("aboutParagraph1")}</p>
               <p>{t("aboutParagraph2")}</p>
             </InfoCard>
-
             <InfoCard icon={<IconGuide />} title={t("guideTitle")}>
               <p>{t("guideParagraph")}</p>
             </InfoCard>

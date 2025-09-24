@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
   return (
     <footer id="contact" className="bg-zinc-900 text-white/70">
       <div className="container mx-auto px-6 py-16">
-        <div className="grid grid-cols-1 gap-12 text-center md:grid-cols-4 md:text-left">
+        <div className="grid grid-cols-1 gap-12 text-center md:grid-cols-2 lg:grid-cols-4 md:text-left">
           {/* Column 1: Logo and About */}
           <div className="md:col-span-1">
             <div className="flex justify-center md:justify-start mb-4">

@@ -1,6 +1,6 @@
 // components/StatsBar.tsx
 import React from 'react';
-import StatItem from './ui/StatItem';
+
 import { useTranslations } from 'next-intl'
 
 const StatsBar: React.FC = () => {

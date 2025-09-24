@@ -1,3 +1,4 @@
+// components/Navbar.tsx
 'use client';
 
 import React, { useState, useEffect, useRef, useMemo } from 'react';
@@ -20,15 +21,18 @@ const Navbar: React.FC = () => {
   const t = useTranslations('navbar');
 
   const navLinks = useMemo(() => [
-    { href: '#home', label: t('home'), id: 'home' },
-    { href: '#our-values', label: t('ourValues'), id: 'our-values' },
-    { href: '#product', label: t('product'), id: 'product' },
-    { href: '#packaging', label: t('packaging'), id: 'packaging' },
-    { href: '#shipping', label: t('shipping'), id: 'shipping' },
-    { href: '#our-team', label: t('ourTeam'), id: 'our-team' },
-    // { href: '#faq', label: t('FAQ'), id: 'faq' },
-    { href: '#contact', label: t('contact'), id: 'contact' },
+    // ✅ FIX: Prepend with '/' to make links absolute to the root
+    { href: '/#home', label: t('home'), id: 'home' },
+    { href: '/#our-values', label: t('ourValues'), id: 'our-values' },
+    { href: '/#product', label: t('product'), id: 'product' },
+    { href: '/#packaging', label: t('packaging'), id: 'packaging' },
+    { href: '/#shipping', label: t('shipping'), id: 'shipping' },
+    { href: '/#our-team', label: t('ourTeam'), id: 'our-team' },
+    { href: '/#blog', label: t('blog'), id: 'blog' }, 
+    { href: '/#contact', label: t('contact'), id: 'contact' },
   ], [t]);
+
+  // ... (rest of the component remains the same)
 
   const localeNames: Record<string, string> = {
     en: 'English',
@@ -67,32 +71,41 @@ const Navbar: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActiveSection(entry.target.id);
-          }
-        });
-      },
-      {
-        rootMargin: '-40% 0px -60% 0px',
-        threshold: 0,
-      }
-    );
+    // Only run intersection observer on the homepage
+    if (pathname === '/' || routing.locales.some(loc => pathname === `/${loc}` || pathname === `/${loc}/`)) {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              setActiveSection(entry.target.id);
+            }
+          });
+        },
+        {
+          rootMargin: '-40% 0px -60% 0px',
+          threshold: 0,
+        }
+      );
 
-    navLinks.forEach(link => {
-      const section = document.querySelector(link.href);
-      if (section) observer.observe(section);
-    });
-
-    return () => {
       navLinks.forEach(link => {
-        const section = document.querySelector(link.href);
-        if (section) observer.unobserve(section);
+        // link.href will be '/#home', so we need to get just 'home'
+        const sectionId = link.href.split('#')[1];
+        const section = document.getElementById(sectionId);
+        if (section) observer.observe(section);
       });
-    };
-  }, [navLinks]);
+
+      return () => {
+        navLinks.forEach(link => {
+          const sectionId = link.href.split('#')[1];
+          const section = document.getElementById(sectionId);
+          if (section) observer.unobserve(section);
+        });
+      };
+    } else {
+      // On other pages (like blog posts), reset active section
+      setActiveSection('');
+    }
+  }, [pathname, navLinks]);
 
   const LanguageSwitcher = () => (
     <div className="relative z-[60]" ref={langRef}>

@@ -11,7 +11,6 @@ import dynamic from 'next/dynamic';
 
 // Dynamically import components that are below the fold
 const VisionMission = dynamic(() => import('@/components/VisionMission'));
-
 const OurValues = dynamic(() => import('@/components/OurValues'));
 const Products = dynamic(() => import('@/components/Product'));
 const ProductionProcess = dynamic(() => import('@/components/ProdProcess'));
@@ -21,6 +20,7 @@ const Testimonials = dynamic(() => import('@/components/Testimonials'));
 const GallerySlider = dynamic(() => import('@/components/GallerySlider'));
 const OurTeam = dynamic(() => import('@/components/OurTeam'));
 const Footer = dynamic(() => import('@/components/Footer'));
+// const BlogSection = dynamic(() => import('@/components/BlogSection')); // ❌ Commented out
 const LocationMap = dynamic(() => import('@/components/LocationMap'));
 
 export default function HomePage() {
@@ -55,9 +55,11 @@ export default function HomePage() {
       <Testimonials />
       <GallerySlider />
       <OurTeam />
+      {/* <div id="blog"> 
+        <BlogSection />
+      </div> */} {/* ❌ Blog temporarily removed */}
       <LocationMap />
       <Footer />
-
     </main>
   );
 }

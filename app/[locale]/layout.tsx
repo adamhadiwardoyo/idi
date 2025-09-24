@@ -1,17 +1,14 @@
-// NEXT INTERNATIONAL
-import { NextIntlClientProvider, hasLocale } from 'next-intl'
+// app/[locale]/layout.tsx
+import { NextIntlClientProvider, hasLocale } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
-import { notFound } from 'next/navigation'
+import { notFound } from 'next/navigation';
 import GoogleAnalytics from '@/components/Analytics';
-// DEFAULT CONFIGURATION
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
-// COMPONENTS
 import ContactBubble from "@/components/ContactBubble";
-
-// app/[locale]/layout.tsx atau komponen Swiper kamu
+import SchemaMarkup from '@/components/SchemaMarkup';
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -26,18 +23,70 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Indo Charcoal Supply",
-  description: "production and export of high-quality briquettes",
-};
-
-export default async function RootLayout({
-  children,
-  params
-}: Readonly<{
+// The `params` object is now a Promise that needs to be awaited.
+type Props = {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
-}>) {
+};
+
+// Generate dynamic, translated metadata
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  // ✅ FIX: Await the params promise to get the locale
+  const { locale } = await params;
+  
+  const t = await getTranslations({ locale, namespace: 'metadata' });
+  const baseUrl = 'https://www.indocharcoalsupply.com';
+
+  return {
+    title: t('title'),
+    description: t('description'),
+    keywords: t('keywords'),
+    metadataBase: new URL(baseUrl),
+
+    alternates: {
+      canonical: `/${locale}`,
+      languages: {
+        'x-default': `${baseUrl}/en`,
+        ...Object.fromEntries(
+          routing.locales.map((l) => [l, `${baseUrl}/${l}`])
+        ),
+      },
+    },
+
+    openGraph: {
+      type: 'website',
+      siteName: t('openGraph.siteTitle'),
+      title: t('openGraph.title'),
+      description: t('openGraph.description'),
+      locale: locale,
+      alternateLocale: routing.locales.filter((l) => l !== locale),
+      url: `${baseUrl}/${locale}`,
+      images: [
+        {
+          url: `${baseUrl}/opengraph-image.png`, 
+          width: 1200,
+          height: 630,
+          alt: t('openGraph.title'),
+        },
+        {
+          url: `${baseUrl}/logo.webp`, 
+          width: 800,
+          height: 600,
+          alt: 'Indo Charcoal Supply Logo',
+        }
+      ],
+    },
+    
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
+}
+
+
+
+export default async function RootLayout({ children, params }: Props) {
   const { locale } = await params;
 
   if (!hasLocale(routing.locales, locale)) {
@@ -45,9 +94,10 @@ export default async function RootLayout({
   }
 
   return (
-    <html lang={locale}>
+    // ✅ FIX: Add the data-scroll-behavior attribute here
+    <html lang={locale} data-scroll-behavior="smooth">
       <head>
-        
+        <SchemaMarkup />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <NextIntlClientProvider>

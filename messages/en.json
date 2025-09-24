@@ -1,4 +1,14 @@
 {
+  "metadata": {
+    "title": "Indo Charcoal Supply | High-Quality Coconut Charcoal Briquettes",
+    "description": "Leading manufacturer and exporter of premium coconut charcoal briquettes for shisha and BBQ. We provide sustainable and high-quality products for worldwide shipping.",
+    "keywords": "coconut charcoal, shisha charcoal, hookah charcoal, BBQ briquettes, Indonesia charcoal exporter, sustainable charcoal",
+    "openGraph": {
+      "title": "Indo Charcoal Supply | Premium Briquettes",
+      "description": "Discover high-quality, sustainable coconut charcoal briquettes for shisha and BBQ. Exporting worldwide from Indonesia.",
+      "siteTitle": "Indo Charcoal Supply"
+    }
+  },
   "navbar": {
     "home": "Home",
     "ourValues": "Our Values",
@@ -6,7 +16,8 @@
     "packaging": "Packaging",
     "shipping": "Shipping",
     "ourTeam": "Our Team",
-    "contact": "Contact"
+    "contact": "Contact",
+    "blog": "Blog" 
   },
   "hero": {
     "catalog": "Download Catalogue",
@@ -160,6 +171,37 @@
     "q5_answer": "You can contact our marketing team via email or WhatsApp. We will guide you through the process, from product selection, price quotation (FOB/CIF), to order confirmation.",
     "q6_question": "Is Indo Charcoal Supply a direct factory or a broker?",
     "q6_answer": "We are a trusted charcoal briquette factory and exporter in Indonesia. We manage the entire production process, from raw material selection to packaging at our facility in Yogyakarta, Indonesia."
+  },  
+  "blog": {
+    "title": "Our Blog & Insights",
+    "readMore": "Read More", 
+    "choose-best-charcoal-for-shisha": {
+      "title": "How to Choose the Best Charcoal for Shisha",
+      "excerpt": "Unlock the perfect hookah experience by selecting the right charcoal. Learn about different types, key quality indicators, and expert tips.",
+      "meta": {
+        "title": "Guide to Choosing Shisha Charcoal | Indo Charcoal Supply",
+        "description": "Learn how to choose the best coconut charcoal briquettes for your shisha. Understand the importance of ash content, burning time, and caloric value for a perfect hookah session."
+      },
+      "content": "<h2>Understanding the Importance of Quality Charcoal</h2><p>The charcoal you use is the heart of any great shisha session. Low-quality charcoal can produce excessive ash, unpleasant odors, and die out quickly, ruining the flavor of your shisha. High-quality briquettes, like those from coconut shells, provide consistent, even heat, burn longer, and produce minimal ash, ensuring a clean and enjoyable experience.</p><h3>Key Factors to Consider:</h3><ul><li><strong>Ash Content:</strong> Look for charcoal with low ash content (under 2.5%). Less ash means a cleaner session and less interference with heat management.</li><li><strong>Burning Time:</strong> A longer burning time (2-2.5 hours) means you won't have to constantly replace coals, allowing for an uninterrupted experience.</li><li><strong>Caloric Value:</strong> A higher caloric value (over 7000 Kcal/kg) ensures the charcoal produces enough heat to properly cook the shisha tobacco without scorching it.</li><li><strong>Odorless and Tasteless:</strong> The best charcoal is completely neutral and should not add any flavor or smell to your shisha.</li></ul>"
+    },
+    "benefits-of-coconut-charcoal-for-bbq": {
+      "title": "The Benefits of Coconut Charcoal for BBQ",
+      "excerpt": "Elevate your grilling game with coconut charcoal briquettes. Discover why they're a healthier, more sustainable, and higher-performing choice for your next barbecue.",
+      "meta": {
+        "title": "Benefits of Coconut Charcoal for BBQ | Indo Charcoal Supply",
+        "description": "Discover why coconut charcoal briquettes are the superior choice for BBQ. Learn about their high heat, long burn time, minimal smoke, and eco-friendly advantages."
+      },
+      "content": "<h2>Why Switch to Coconut Charcoal?</h2><p>While traditional lump charcoal and standard briquettes have been the go-to for years, coconut charcoal offers several distinct advantages that make it a superior choice for grilling enthusiasts.</p><h3>Key Benefits:</h3><ul><li><strong>Higher, More Consistent Heat:</strong> Coconut charcoal burns hotter and more evenly than most wood-based charcoals, with a caloric value reaching up to 8800 Kcal. This means a better sear on your meat and more reliable cooking temperatures.</li><li><strong>Longer Burning Time:</strong> Our BBQ briquettes can burn for 5-6 hours, making them ideal for long smoking sessions or large gatherings without the need to refuel.</li><li><strong>Sustainable and Eco-Friendly:</strong> Made from a byproduct of the coconut industry, our briquettes are a renewable resource. They save trees and reduce waste.</li><li><strong>Less Smoke and Sparks:</strong> Due to their low moisture content and purity, coconut briquettes produce significantly less smoke and are virtually spark-free, creating a more pleasant grilling environment.</li></ul>"
+    },
+    "sustainable-production-process": {
+      "title": "Our Sustainable Briquette Production Process",
+      "excerpt": "From sourcing sustainable coconut shells to our final quality control, learn about the meticulous, eco-friendly process behind every Indo Charcoal Supply briquette.",
+      "meta": {
+        "title": "Sustainable Charcoal Production Process | Indo Charcoal Supply",
+        "description": "Explore the eco-friendly 10-step production process of our coconut charcoal briquettes, from sustainable sourcing in Indonesia to final packaging."
+      },
+      "content": "<h2>A Commitment to Quality and Sustainability</h2><p>At Indo Charcoal Supply, our production process is designed to be both environmentally responsible and to yield the highest quality product possible. We believe that you don't have to compromise on performance to be eco-friendly.</p><h3>Our 10-Step Process:</h3><ol><li><strong>Sourcing and Selection:</strong> We begin by sourcing the finest coconut shells from sustainable Indonesian plantations.</li><li><strong>Drying:</strong> Shells are dried to reduce moisture, ensuring efficient carbonization.</li><li><strong>Carbonization:</strong> The shells are converted into high-carbon charcoal in controlled kilns.</li><li><strong>Crushing and Screening:</strong> Charcoal is crushed to a uniform particle size.</li><li><strong>Mixing and Binding:</strong> We mix the charcoal with natural, food-grade binders.</li><li><strong>Molding and Pressing:</strong> The mixture is pressed into various shapes, determining density and durability.</li><li><strong>Final Drying:</strong> Briquettes are dried again to remove all remaining moisture.</li><li><strong>Quality Control:</strong> Every batch is tested for ash, moisture, and burn time.</li><li><strong>Packaging:</strong> Briquettes are carefully packaged for transport.</li><li><strong>Storage:</strong> Finished products are stored in a dry, ventilated facility.</li></ol>"
+    }
   },
   "footer": {
     "about": "Established in 2021 with a strong commitment to providing the best, fastest, and most reliable services in the charcoal briquette industry.",

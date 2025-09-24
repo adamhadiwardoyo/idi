@@ -1,4 +1,14 @@
 {
+  "metadata": {
+  "title": "Indo Charcoal Supply | 高品質ココナッツチャコールブリケット",
+  "description": "シーシャおよびBBQ用のプレミアムココナッツチャコールブリケットの主要な製造業者および輸出業者。持続可能で高品質な製品を世界中に発送します。",
+  "keywords": "ココナッツチャコール, シーシャ炭, 水タバコ炭, BBQブリケット, インドネシア炭輸出業者, 持続可能な木炭",
+  "openGraph": {
+    "title": "Indo Charcoal Supply | プレミアムブリケット",
+    "description": "シーシャおよびBBQ用の高品質で持続可能なココナッツチャコールブリケットをご覧ください。インドネシアから世界中に輸出しています。",
+    "siteTitle": "Indo Charcoal Supply"
+  }
+},
   "navbar": {
     "home": "ホーム",
     "ourValues": "企業理念",

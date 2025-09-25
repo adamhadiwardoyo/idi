@@ -6,35 +6,42 @@ import Footer from '@/components/Footer';
 import type { Metadata } from 'next';
 import { routing } from '@/i18n/routing';
 import Image from 'next/image';
+import { getMessages } from 'next-intl/server';
 
+// Perbarui tipe Props
 type Props = {
-  params: {
+  params: Promise<{
     slug: string;
     locale: string;
-  }
+  }>
 }
 
 // Generate dynamic metadata for each blog post
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale, slug } = params;
-  const t = await getTranslations({ locale, namespace: `blog.${slug}` });
+  const { locale, slug } = await params;
+  
+  const messages = await getMessages({ locale });
+  const postData = messages.blog[slug];
+
+  if (!postData) return { title: 'Not Found' };
+
   const baseUrl = 'https://www.indocharcoalsupply.com';
 
   return {
     metadataBase: new URL(baseUrl),
-    title: t('meta.title'),
-    description: t('meta.description'),
+    title: postData.meta.title,
+    description: postData.meta.description,
     openGraph: {
       type: 'article',
-      title: t('meta.title'),
-      description: t('meta.description'),
+      title: postData.meta.title,
+      description: postData.meta.description,
       url: `${baseUrl}/${locale}/blog/${slug}`,
       images: [
         {
-          url: `${baseUrl}${t('image')}`,
+          url: `${baseUrl}${postData.image}`,
           width: 1200,
           height: 630,
-          alt: t('meta.title'),
+          alt: postData.meta.title,
         }
       ]
     },
@@ -50,17 +57,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-// == PERUBAHAN DI SINI: Daftar slug diperbarui dengan 3 artikel baru ==
 const VALID_SLUGS = [
   'global-market-trends-2025',
   'guide-international-shipping-indonesian-charcoal',
-  'indonesian-advantage-worlds-best-coconut-charcoal'
+  'indonesian-advantage-worlds-best-coconut-charcoal',
+  'complete-guide-to-high-quality-shisha-charcoal' // Slug baru
 ];
 
 export default async function BlogPostPage({ params }: Props) {
-  const { locale, slug } = params;
+  const { locale, slug } = await params;
 
-  // Cek apakah slug ada di daftar, jika tidak, tampilkan halaman 404
   if (!VALID_SLUGS.includes(slug)) {
     notFound();
   }
@@ -95,7 +101,7 @@ export default async function BlogPostPage({ params }: Props) {
 
           {/* Konten Artikel */}
           <div
-            className="prose lg:prose-xl max-w-none text-gray-700"
+            className="prose lg:prose-xl max-w-none text-gray-700 text-justify"
             dangerouslySetInnerHTML={{ __html: tPost.raw('content') }}
           />
 

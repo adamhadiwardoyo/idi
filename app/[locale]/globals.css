@@ -1,8 +1,7 @@
-/* app/globals.css */
+/* Impor standar untuk Tailwind CSS v4 */
 @import "tailwindcss";
 
-
-
+/* Semua kode custom Anda di bawah ini sudah benar dan dipertahankan */
 html {
   scroll-behavior: smooth;
 }

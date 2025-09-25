@@ -20,7 +20,7 @@ const Testimonials = dynamic(() => import('@/components/Testimonials'));
 const GallerySlider = dynamic(() => import('@/components/GallerySlider'));
 const OurTeam = dynamic(() => import('@/components/OurTeam'));
 const Footer = dynamic(() => import('@/components/Footer'));
-// const BlogSection = dynamic(() => import('@/components/BlogSection')); // ❌ Commented out
+const BlogSection = dynamic(() => import('@/components/BlogSection'));
 const LocationMap = dynamic(() => import('@/components/LocationMap'));
 
 export default function HomePage() {
@@ -55,9 +55,9 @@ export default function HomePage() {
       <Testimonials />
       <GallerySlider />
       <OurTeam />
-      {/* <div id="blog"> 
+      <div id="blog"> 
         <BlogSection />
-      </div> */} {/* ❌ Blog temporarily removed */}
+      </div> 
       <LocationMap />
       <Footer />
     </main>

@@ -4,6 +4,8 @@
 /* Semua kode custom Anda di bawah ini sudah benar dan dipertahankan */
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  /* adjust to your Navbar height, e.g. h-24 = 6rem */
 }
 
 :root {

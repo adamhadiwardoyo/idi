@@ -55,9 +55,9 @@ export default function HomePage() {
       <Testimonials />
       <GallerySlider />
       <OurTeam />
-      <div id="blog"> 
+      <div id="blog">
         <BlogSection />
-      </div> 
+      </div>
       <LocationMap />
       <Footer />
     </main>

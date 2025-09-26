@@ -15,24 +15,23 @@ interface BlogCardProps {
   readMoreText: string;
 }
 
-const BlogCard = ({ slug, title, excerpt, image, date, category, readMoreText }: BlogCardProps) => (
-  <div 
-    data-aos="fade-up" 
+const BlogCard = ({ slug, title, excerpt, date, category, readMoreText }: BlogCardProps) => (
+  <div
+    data-aos="fade-up"
     className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col group h-full"
   >
     {/* Gambar Artikel */}
     <div className="relative w-full h-48 overflow-hidden">
-      <Link href={`/blog/${slug}`}>
-        <Image
-          src={image}
-          alt={title}
-          fill
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          className="object-cover w-full h-full transform transition-transform duration-500 group-hover:scale-110"
-        />
-      </Link>
+      <Image
+        src="/tren.webp"
+        alt="Global Market Trends"
+        fill
+        sizes="(max-width: 768px) 100vw, 
+           (max-width: 1200px) 50vw, 
+           33vw"
+        className="object-cover w-full h-full transform transition-transform duration-500 group-hover:scale-110"
+      />
     </div>
-    
     <div className="p-6 flex flex-col flex-grow">
       {/* Metadata: Kategori dan Tanggal */}
       <div className="mb-2">
@@ -40,21 +39,21 @@ const BlogCard = ({ slug, title, excerpt, image, date, category, readMoreText }:
         <span className="text-gray-500 text-sm mx-2">•</span>
         <span className="text-gray-500 text-sm">{date}</span>
       </div>
-      
+
       {/* Judul Artikel */}
       <h3 className="text-xl font-bold text-gray-900 mb-3 flex-grow group-hover:text-brand-orange transition-colors">
         <Link href={`/blog/${slug}`}>
           {title}
         </Link>
       </h3>
-      
+
       {/* Ringkasan Artikel */}
       <p className="text-gray-600 mb-6">{excerpt}</p>
-      
+
       {/* Tombol "Read More" */}
       <div className="mt-auto">
-        <Link 
-          href={`/blog/${slug}`} 
+        <Link
+          href={`/blog/${slug}`}
           className="font-semibold text-brand-orange uppercase text-sm tracking-wider hover:underline"
         >
           {readMoreText} &rarr;
@@ -66,9 +65,9 @@ const BlogCard = ({ slug, title, excerpt, image, date, category, readMoreText }:
 
 const BlogSection: React.FC = () => {
   const t = useTranslations('blog');
-  
+
   const slugs = [
-   'global-market-trends-2025',
+    'global-market-trends-2025',
     'guide-international-shipping-indonesian-charcoal',
     'indonesian-advantage-worlds-best-coconut-charcoal'
   ];
@@ -91,13 +90,13 @@ const BlogSection: React.FC = () => {
             {t('title')}
           </h2>
         </div>
-        
+
         {/* Grid untuk Postingan Blog */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {posts.map((post) => (
-            <BlogCard 
-              key={post.slug} 
-              {...post} 
+            <BlogCard
+              key={post.slug}
+              {...post}
               readMoreText={t('readMore')}
             />
           ))}
@@ -105,9 +104,9 @@ const BlogSection: React.FC = () => {
 
         {/* Tombol "View All Posts" */}
         <div className="text-center mt-16">
-            <Link href="/blog" className="inline-block bg-brand-orange text-white font-semibold px-8 py-3 rounded-full hover:bg-opacity-90 transition-all duration-300 transform hover:scale-105">
-                {t('viewAllPosts')}
-            </Link>
+          <Link href="/blog" className="inline-block bg-brand-orange text-white font-semibold px-8 py-3 rounded-full hover:bg-opacity-90 transition-all duration-300 transform hover:scale-105">
+            {t('viewAllPosts')}
+          </Link>
         </div>
       </div>
     </section>

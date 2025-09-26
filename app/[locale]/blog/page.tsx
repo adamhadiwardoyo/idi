@@ -15,20 +15,20 @@ interface BlogCardProps {
   readMoreText: string;
 }
 
-const BlogCard = ({ slug, title, excerpt, image, date, category, readMoreText }: BlogCardProps) => (
-  <div 
+const BlogCard = ({ slug, title, excerpt, date, category, readMoreText }: BlogCardProps) => (
+  <div
     className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col group h-full"
   >
     <div className="relative w-full h-48 overflow-hidden">
-      <Link href={`/blog/${slug}`}>
-        <Image
-          src={image}
-          alt={title}
-          fill
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          className="object-cover w-full h-full transform transition-transform duration-500 group-hover:scale-110"
-        />
-      </Link>
+      <Image
+        src="/tren.webp"
+        alt="Global Market Trends"
+        fill
+        sizes="(max-width: 768px) 100vw, 
+           (max-width: 1200px) 50vw, 
+           33vw"
+        className="object-cover w-full h-full transform transition-transform duration-500 group-hover:scale-110"
+      />
     </div>
     <div className="p-6 flex flex-col flex-grow">
       <div className="mb-2">
@@ -43,8 +43,8 @@ const BlogCard = ({ slug, title, excerpt, image, date, category, readMoreText }:
       </h3>
       <p className="text-gray-600 mb-6">{excerpt}</p>
       <div className="mt-auto">
-        <Link 
-          href={`/blog/${slug}`} 
+        <Link
+          href={`/blog/${slug}`}
           className="font-semibold text-brand-orange uppercase text-sm tracking-wider hover:underline"
         >
           {readMoreText} &rarr;
@@ -54,8 +54,14 @@ const BlogCard = ({ slug, title, excerpt, image, date, category, readMoreText }:
   </div>
 );
 
+// ✅ FIX: Define a Props type for the page component
+type Props = {
+  params: Promise<{ locale: string }>;
+};
 
-export default async function BlogIndexPage({ params: { locale } }: { params: { locale: string } }) {
+export default async function BlogIndexPage({ params }: Props) {
+  // ✅ FIX: Await the params promise to get the locale
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'blog' });
 
   // Daftar slug artikel yang ingin ditampilkan di halaman ini
@@ -87,18 +93,18 @@ export default async function BlogIndexPage({ params: { locale } }: { params: { 
               Explore our latest articles, insights, and guides on the charcoal industry.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {posts.map((post) => (
-              <BlogCard 
-                key={post.slug} 
-                {...post} 
+              <BlogCard
+                key={post.slug}
+                {...post}
                 readMoreText={t('readMore')}
               />
             ))}
           </div>
 
-         
+
           <div className="text-center mt-20">
             <Link
               href="/"

@@ -19,7 +19,7 @@ type Props = {
 // Generate dynamic metadata for each blog post
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
-  
+
   const messages = await getMessages({ locale });
   const postData = messages.blog[slug];
 

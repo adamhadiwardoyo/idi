@@ -8,6 +8,70 @@ import { routing } from '@/i18n/routing';
 import Image from 'next/image';
 import { getMessages } from 'next-intl/server';
 
+// Define the structure of a content item
+interface ContentItem {
+  type: 'h2' | 'h3' | 'p' | 'ul' | 'blockquote';
+  text?: string;
+  items?: string[];
+}
+const StructuredContent = ({ content }: { content: ContentItem[] }) => {
+  return (
+    <div className="prose prose-lg prose-gray lg:prose-xl max-w-none text-gray-800 leading-relaxed">
+      {content.map((item, index) => {
+        switch (item.type) {
+          case 'h2':
+            return (
+              <h2
+                key={index}
+                className="text-3xl font-bold text-brand-orange mt-12 mb-6 border-b border-gray-200 pb-2"
+                dangerouslySetInnerHTML={{ __html: item.text || '' }}
+              />
+            );
+          case 'h3':
+            return (
+              <h3
+                key={index}
+                className="text-2xl font-semibold text-gray-900 mt-8 mb-4"
+                dangerouslySetInnerHTML={{ __html: item.text || '' }}
+              />
+            );
+          case 'p':
+            return (
+              <p
+                key={index}
+                className="mb-6 text-justify"
+                dangerouslySetInnerHTML={{ __html: item.text || '' }}
+              />
+            );
+          case 'ul':
+            return (
+              <ul key={index} className="list-disc list-inside space-y-2 mb-6">
+                {item.items?.map((li, i) => (
+                  <li
+                    key={i}
+                    className="text-gray-700"
+                    dangerouslySetInnerHTML={{ __html: li }}
+                  />
+                ))}
+              </ul>
+            );
+          case 'blockquote':
+            return (
+              <blockquote
+                key={index}
+                className="border-l-4 border-brand-orange pl-4 italic text-gray-600 bg-orange-50/40 p-4 rounded-md my-6"
+              >
+                <p dangerouslySetInnerHTML={{ __html: item.text || '' }} />
+              </blockquote>
+            );
+          default:
+            return null;
+        }
+      })}
+    </div>
+  );
+};
+
 // Perbarui tipe Props
 type Props = {
   params: Promise<{
@@ -74,6 +138,9 @@ export default async function BlogPostPage({ params }: Props) {
   const tPost = await getTranslations({ locale, namespace: `blog.${slug}` });
   const tBlog = await getTranslations({ locale, namespace: 'blog' });
 
+  // Get the structured content
+  const content = tPost.raw('content') as ContentItem[];
+
   return (
     <>
       <Navbar />
@@ -100,10 +167,7 @@ export default async function BlogPostPage({ params }: Props) {
           </div>
 
           {/* Konten Artikel */}
-          <div
-            className="prose lg:prose-xl max-w-none text-gray-700 text-justify"
-            dangerouslySetInnerHTML={{ __html: tPost.raw('content') }}
-          />
+          <StructuredContent content={content} />
 
           {/* Tombol Kembali */}
           <Link href="/blog" className="inline-block mt-12 bg-brand-orange text-white font-semibold px-8 py-3 rounded-full hover:bg-opacity-90 transition-opacity duration-300">

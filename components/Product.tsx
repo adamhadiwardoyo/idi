@@ -65,7 +65,6 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
                 src={image.src}
                 alt={`${product.type} - ${image.shape}`}
                 fill
-                // ✅ FIX: Added the 'sizes' prop
                 sizes="(max-width: 768px) 100vw, 50vw"
                 style={{ objectFit: 'contain' }}
                 className="p-4"

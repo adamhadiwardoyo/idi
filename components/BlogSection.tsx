@@ -15,7 +15,7 @@ interface BlogCardProps {
   readMoreText: string;
 }
 
-const BlogCard = ({ slug, title, excerpt, date, category, readMoreText }: BlogCardProps) => (
+const BlogCard = ({ slug, title, excerpt, image, date, category, readMoreText }: BlogCardProps) => (
   <div
     data-aos="fade-up"
     className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col group h-full"
@@ -23,8 +23,8 @@ const BlogCard = ({ slug, title, excerpt, date, category, readMoreText }: BlogCa
     {/* Gambar Artikel */}
     <div className="relative w-full h-48 overflow-hidden">
       <Image
-        src="/tren.webp"
-        alt="Global Market Trends"
+        src={image}
+        alt={title}
         fill
         sizes="(max-width: 768px) 100vw, 
            (max-width: 1200px) 50vw, 

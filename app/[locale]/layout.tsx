@@ -36,7 +36,8 @@ export async function generateMetadata(
     keywords: t('keywords'),
     metadataBase: new URL(baseUrl),
     alternates: {
-      canonical: `/${locale}`,
+      // ✅ FIX: Changed from a relative path to an absolute URL
+      canonical: `${baseUrl}/${locale}`,
       languages: {
         'x-default': `${baseUrl}/en`,
         ...Object.fromEntries(

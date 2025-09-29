@@ -1,3 +1,5 @@
+// adamhadiwardoyo/idi/idi-35830ce3e10c25c43cbaab599c7ee58117901f70/app/[locale]/layout.tsx
+
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
@@ -22,7 +24,6 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 });
 
-// ✅ Proper typing for params
 export async function generateMetadata(
   { params }: { params: Promise<{ locale: string }> }
 ): Promise<Metadata> {
@@ -30,18 +31,22 @@ export async function generateMetadata(
   const t = await getTranslations({ locale, namespace: 'metadata' });
   const baseUrl = 'https://www.indocharcoalsupply.com';
 
+  // ✅ FIX: Conditionally set the canonical URL
+  const canonicalUrl = locale === 'en' ? baseUrl : `${baseUrl}/${locale}`;
+
   return {
     title: t('title'),
     description: t('description'),
     keywords: t('keywords'),
     metadataBase: new URL(baseUrl),
     alternates: {
-      // ✅ FIX: Changed from a relative path to an absolute URL
-      canonical: `${baseUrl}/${locale}`,
+      canonical: canonicalUrl,
       languages: {
-        'x-default': `${baseUrl}/en`,
+        // ✅ FIX: Set x-default to the root URL
+        'x-default': baseUrl,
+        // ✅ FIX: Generate alternate links correctly for all locales
         ...Object.fromEntries(
-          routing.locales.map((l) => [l, `${baseUrl}/${l}`])
+          routing.locales.map((l) => [l, l === 'en' ? baseUrl : `${baseUrl}/${l}`])
         ),
       },
     },
@@ -52,7 +57,8 @@ export async function generateMetadata(
       description: t('openGraph.description'),
       locale,
       alternateLocale: routing.locales.filter((l) => l !== locale),
-      url: `${baseUrl}/${locale}`,
+      // ✅ FIX: Use the correct canonical URL for Open Graph
+      url: canonicalUrl,
       images: [
         {
           url: `${baseUrl}/opengraph-image.png`,
@@ -92,7 +98,6 @@ export default async function RootLayout(
           <GoogleAnalytics />
           {children}
           <ContactBubble />
-          {/* ✅ SchemaMarkup safely placed in body */}
           <SchemaMarkup />
         </NextIntlClientProvider>
       </body>

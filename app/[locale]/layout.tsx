@@ -89,7 +89,6 @@ export default async function RootLayout({ children, params }: Props) {
   }
 
   return (
-    // ✅ THE FIX IS HERE: Add the data-scroll-behavior attribute
     <html lang={locale} data-scroll-behavior="smooth">
       <head>
         <SchemaMarkup />

@@ -79,7 +79,6 @@ type Props = {
     locale: string;
   }>
 }
-
 // Generate dynamic metadata for each blog post
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
@@ -110,7 +109,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ]
     },
     alternates: {
-      canonical: `/${locale}/blog/${slug}`,
+      canonical: `${baseUrl}/${locale}/blog/${slug}`,
       languages: {
         'x-default': `${baseUrl}/en/blog/${slug}`,
         ...Object.fromEntries(

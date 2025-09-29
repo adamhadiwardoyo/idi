@@ -37,7 +37,7 @@ const InfoCard = ({ icon, title, children }: { icon: React.ReactNode, title: str
 const VisionMission: React.FC = () => {
   const t = useTranslations('vision');
 
-  // Inisialisasi AOS (jika Anda ingin melakukannya di sini)
+  // Initialize AOS
   useEffect(() => {
     Aos.init({
       duration: 1000,
@@ -57,6 +57,7 @@ const VisionMission: React.FC = () => {
               fill
               style={{ objectFit: 'cover' }}
               sizes="(max-width: 1024px) 100vw, 50vw"
+              loading="lazy"
             />
           </div>
           <div className="flex flex-col">

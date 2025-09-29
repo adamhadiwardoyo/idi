@@ -6,30 +6,29 @@ import 'aos/dist/aos.css';
 
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-// Import 'dynamic' from Next.js
 import dynamic from 'next/dynamic';
 
-// Dynamically import components that are below the fold
+// Dynamically import components, disabling SSR for those with carousels
 const VisionMission = dynamic(() => import('@/components/VisionMission'));
 const OurValues = dynamic(() => import('@/components/OurValues'));
-const Products = dynamic(() => import('@/components/Product'));
+const Products = dynamic(() => import('@/components/Product'), { ssr: false });
 const ProductionProcess = dynamic(() => import('@/components/ProdProcess'));
 const Packaging = dynamic(() => import('@/components/Packaging'));
 const Shipping = dynamic(() => import('@/components/Shipping'));
-const Testimonials = dynamic(() => import('@/components/Testimonials'));
-const GallerySlider = dynamic(() => import('@/components/GallerySlider'));
+const Testimonials = dynamic(() => import('@/components/Testimonials'), { ssr: false });
+const GallerySlider = dynamic(() => import('@/components/GallerySlider'), { ssr: false });
 const OurTeam = dynamic(() => import('@/components/OurTeam'));
 const Footer = dynamic(() => import('@/components/Footer'));
 const BlogSection = dynamic(() => import('@/components/BlogSection'));
 const LocationMap = dynamic(() => import('@/components/LocationMap'));
 
 export default function HomePage() {
-  // Inisialisasi AOS saat komponen dimuat di sisi klien
+  // Initialize AOS when the component mounts on the client side
   useEffect(() => {
     Aos.init({
       duration: 1000,
       once: true,
-      offset: 100, // Mulai animasi 100px sebelum elemen terlihat
+      offset: 100, // Start animation 100px before the element is visible
     });
   }, []);
 

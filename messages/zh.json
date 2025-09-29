@@ -1,12 +1,43 @@
 {
   "metadata": {
-    "title": "Indo Charcoal Supply | 高品质椰壳炭砖",
-    "description": "领先的优质椰壳炭砖制造商和出口商，适用于水烟和烧烤。我们提供可持续的高品质产品，全球发货。",
-    "keywords": "水烟椰壳炭, 水烟炭供应商, 烧烤压块, 印度尼西亚木炭出口商, 椰壳木炭, 木炭供应商, 印度尼西亚椰壳炭块出口",
+    "title": "Indo Charcoal | 用于水烟和烧烤的椰壳炭块",
+    "description": "来自印度尼西亚的高品质椰壳炭块。耐用、环保，非常适合水烟和烧烤。联系我们进行全球出口。",
+    "keywords": "水烟椰壳炭, 水烟炭供应商, 烧烤炭块, 印度尼西亚木炭出口商, 椰壳炭, 木炭供应商, 从印度尼西亚出口椰壳炭块",
+    "alternates": {
+      "canonical": "https://www.indocharcoalsupply.com/zh",
+      "languages": {
+        "x-default": "https://www.indocharcoalsupply.com",
+        "en": "https://www.indocharcoalsupply.com",
+        "ar": "https://www.indocharcoalsupply.com/ar",
+        "zh": "https://www.indocharcoalsupply.com/zh"
+      }
+    },
     "openGraph": {
-      "title": "Indo Charcoal Supply | 优质炭砖",
-      "description": "发现适用于水烟和烧烤的高品质、可持续的椰壳炭砖。从印度尼西亚出口到世界各地。",
-      "siteTitle": "Indo Charcoal Supply"
+      "title": "Indo Charcoal Supply | 优质炭块",
+      "description": "探索用于水烟和烧烤的高品质、可持续的椰壳炭块。从印度尼西亚出口到世界各地。",
+      "siteTitle": "Indo Charcoal Supply",
+      "type": "website",
+      "url": "https://www.indocharcoalsupply.com/zh",
+      "images": [
+        {
+          "url": "https://www.indocharcoalsupply.com/opengraph-image.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Indo Charcoal Supply"
+        }
+      ]
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Indo Charcoal Supply | 优质炭块",
+      "description": "探索用于水烟和烧烤的高品质、可持续的椰壳炭块。从印度尼西亚出口到世界各地。",
+      "images": [
+        "https://www.indocharcoalsupply.com/opengraph-image.png"
+      ]
+    },
+    "robots": {
+      "index": true,
+      "follow": true
     }
   },
   "navbar": {

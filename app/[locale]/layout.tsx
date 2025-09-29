@@ -31,7 +31,7 @@ export async function generateMetadata(
   const t = await getTranslations({ locale, namespace: 'metadata' });
   const baseUrl = 'https://www.indocharcoalsupply.com';
 
-  // ✅ FIX: Conditionally set the canonical URL
+  // Canonical per locale
   const canonicalUrl = locale === 'en' ? baseUrl : `${baseUrl}/${locale}`;
 
   return {
@@ -42,9 +42,7 @@ export async function generateMetadata(
     alternates: {
       canonical: canonicalUrl,
       languages: {
-        // ✅ FIX: Set x-default to the root URL
         'x-default': baseUrl,
-        // ✅ FIX: Generate alternate links correctly for all locales
         ...Object.fromEntries(
           routing.locales.map((l) => [l, l === 'en' ? baseUrl : `${baseUrl}/${l}`])
         ),
@@ -52,13 +50,12 @@ export async function generateMetadata(
     },
     openGraph: {
       type: 'website',
+      url: canonicalUrl,
       siteName: t('openGraph.siteTitle'),
       title: t('openGraph.title'),
       description: t('openGraph.description'),
       locale,
       alternateLocale: routing.locales.filter((l) => l !== locale),
-      // ✅ FIX: Use the correct canonical URL for Open Graph
-      url: canonicalUrl,
       images: [
         {
           url: `${baseUrl}/opengraph-image.png`,
@@ -66,13 +63,13 @@ export async function generateMetadata(
           height: 630,
           alt: t('openGraph.title'),
         },
-        {
-          url: `${baseUrl}/logo.webp`,
-          width: 800,
-          height: 600,
-          alt: 'Indo Charcoal Supply Logo',
-        },
       ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: t('openGraph.title'),
+      description: t('openGraph.description'),
+      images: [`${baseUrl}/opengraph-image.png`],
     },
     robots: {
       index: true,

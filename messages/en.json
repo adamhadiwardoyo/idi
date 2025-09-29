@@ -1,12 +1,42 @@
 {
   "metadata": {
-    "title": "Premium Coconut Charcoal Briquettes for Shisha & BBQ | Indo Charcoal Supply",
-    "description": "High-quality coconut charcoal briquettes manufacturer from Indonesia. We produce premium, long-lasting briquettes for shisha and BBQ. Contact us for export inquiries.",
+    "title": "Indo Charcoal | Coconut Charcoal Briquettes for Shisha & BBQ",
+    "description": "High-quality coconut charcoal briquettes from Indonesia. Durable, eco-friendly, and perfect for shisha & BBQ. Contact us for export worldwide.",
     "keywords": "coconut charcoal for shisha, shisha charcoal supplier, BBQ briquettes, Indonesia charcoal exporter, coconut shell charcoal, charcoal supplier, coconut briquette export from Indonesia",
+    "alternates": {
+      "canonical": "https://www.indocharcoalsupply.com",
+      "languages": {
+        "x-default": "https://www.indocharcoalsupply.com",
+        "en": "https://www.indocharcoalsupply.com",
+        "ar": "https://www.indocharcoalsupply.com/ar"
+      }
+    },
     "openGraph": {
       "title": "Indo Charcoal Supply | Premium Briquettes",
       "description": "Discover high-quality, sustainable coconut charcoal briquettes for shisha and BBQ. Exporting worldwide from Indonesia.",
-      "siteTitle": "Indo Charcoal Supply"
+      "siteTitle": "Indo Charcoal Supply",
+      "type": "website",
+      "url": "https://www.indocharcoalsupply.com",
+      "images": [
+        {
+          "url": "https://www.indocharcoalsupply.com/opengraph-image.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Indo Charcoal Supply"
+        }
+      ]
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Indo Charcoal Supply | Premium Briquettes",
+      "description": "Discover high-quality, sustainable coconut charcoal briquettes for shisha and BBQ. Exporting worldwide from Indonesia.",
+      "images": [
+        "https://www.indocharcoalsupply.com/opengraph-image.png"
+      ]
+    },
+    "robots": {
+      "index": true,
+      "follow": true
     }
   },
   "navbar": {

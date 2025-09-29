@@ -1,12 +1,42 @@
 {
   "metadata": {
-    "title": "Indo Charcoal Supply | قوالب فحم جوز الهند عالية الجودة",
-    "description": "شركة رائدة في تصنيع وتصدير قوالب فحم جوز الهند الفاخرة للشيشة والشواء. نقدم منتجات مستدامة وعالية الجودة للشحن في جميع أنحاء العالم.",
-    "keywords": "فحم جوز الهند للشيشة، مورد فحم الشيشة، فحم الشواء، مصدر الفحم من إندونيسيا، فحم قشرة جوز الهند، مورد الفحم، تصدير فحم جوز الهند المضغوط من إندونيسيا",
+    "title": "إندو فحم | قوالب فحم جوز الهند للشيشة والشواء",
+    "description": "قوالب فحم جوز الهند عالية الجودة من إندونيسيا. متينة وصديقة للبيئة ومثالية للشيشة والشواء. اتصل بنا للتصدير في جميع أنحاء العالم.",
+    "keywords": "فحم جوز الهند للشيشة، مورد فحم الشيشة، قوالب الشواء، مصدر الفحم الإندونيسي، فحم قشرة جوز الهند، مورد الفحم، تصدير قوالب جوز الهند من إندونيسيا",
+    "alternates": {
+      "canonical": "https://www.indocharcoalsupply.com/ar",
+      "languages": {
+        "x-default": "https://www.indocharcoalsupply.com",
+        "en": "https://www.indocharcoalsupply.com",
+        "ar": "https://www.indocharcoalsupply.com/ar"
+      }
+    },
     "openGraph": {
-      "title": "Indo Charcoal Supply | قوالب فحم فاخرة",
-      "description": "اكتشف قوالب فحم جوز الهند عالية الجودة والمستدامة للشيشة والشواء. تصدير عالمي من إندونيسيا.",
-      "siteTitle": "Indo Charcoal Supply"
+      "title": "توريد فحم إندو | قوالب فاخرة",
+      "description": "اكتشف قوالب فحم جوز الهند عالية الجودة والمستدامة للشيشة والشواء. التصدير في جميع أنحاء العالم من إندونيسيا.",
+      "siteTitle": "توريد فحم إندو",
+      "type": "website",
+      "url": "https://www.indocharcoalsupply.com/ar",
+      "images": [
+        {
+          "url": "https://www.indocharcoalsupply.com/opengraph-image.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "توريد فحم إندو"
+        }
+      ]
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "توريد فحم إندو | قوالب فاخرة",
+      "description": "اكتشف قوالب فحم جوز الهند عالية الجودة والمستدامة للشيشة والشواء. التصدير في جميع أنحاء العالم من إندونيسيا.",
+      "images": [
+        "https://www.indocharcoalsupply.com/opengraph-image.png"
+      ]
+    },
+    "robots": {
+      "index": true,
+      "follow": true
     }
   },
   "navbar": {

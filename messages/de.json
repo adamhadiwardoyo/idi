@@ -1,12 +1,43 @@
 {
   "metadata": {
-    "title": "Indo Charcoal Supply | Hochwertige Kokosnuss-Holzkohlebriketts",
-    "description": "Kokoskohle für Shisha, Shisha-Kohle Lieferant, BBQ-Briketts, Indonesischer Kohleexporteur, Kokosnussschalenkohle, Kohlelieferant, Kokosbrikett-Export aus Indonesien",
-    "keywords": "kokosnuss holzkohle, shisha kohle, hookah kohle, grillbriketts, indonesien holzkohle exporteur, nachhaltige holzkohle",
+    "title": "Indo Charcoal | Kokoskohle-Briketts für Shisha & BBQ",
+    "description": "Hochwertige Kokoskohle-Briketts aus Indonesien. Langlebig, umweltfreundlich und perfekt für Shisha & BBQ. Kontaktieren Sie uns für den weltweiten Export.",
+    "keywords": "Kokoskohle für Shisha, Shisha Kohle Lieferant, Grillbriketts, Holzkohle-Exporteur Indonesien, Kokosnussschalenkohle, Kohlelieferant, Export von Kokosbriketts aus Indonesien",
+    "alternates": {
+      "canonical": "https://www.indocharcoalsupply.com/de",
+      "languages": {
+        "x-default": "https://www.indocharcoalsupply.com",
+        "en": "https://www.indocharcoalsupply.com",
+        "ar": "https://www.indocharcoalsupply.com/ar",
+        "de": "https://www.indocharcoalsupply.com/de"
+      }
+    },
     "openGraph": {
-      "title": "Indo Charcoal Supply | Premium Briketts",
-      "description": "Entdecken Sie hochwertige, nachhaltige Kokosnuss-Holzkohlebriketts für Shisha und BBQ. Weltweiter Export aus Indonesien.",
-      "siteTitle": "Indo Charcoal Supply"
+      "title": "Indo Charcoal Supply | Premium-Briketts",
+      "description": "Entdecken Sie hochwertige, nachhaltige Kokoskohle-Briketts für Shisha und Grillen. Weltweiter Export aus Indonesien.",
+      "siteTitle": "Indo Charcoal Supply",
+      "type": "website",
+      "url": "https://www.indocharcoalsupply.com/de",
+      "images": [
+        {
+          "url": "https://www.indocharcoalsupply.com/opengraph-image.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Indo Charcoal Supply"
+        }
+      ]
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Indo Charcoal Supply | Premium-Briketts",
+      "description": "Entdecken Sie hochwertige, nachhaltige Kokoskohle-Briketts für Shisha und Grillen. Weltweiter Export aus Indonesien.",
+      "images": [
+        "https://www.indocharcoalsupply.com/opengraph-image.png"
+      ]
+    },
+    "robots": {
+      "index": true,
+      "follow": true
     }
   },
   "navbar": {

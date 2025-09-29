@@ -1,12 +1,43 @@
 {
   "metadata": {
-    "title": "Indo Charcoal Supply | Hoogwaardige Kokosnoot Houtskoolbriketten",
-    "description": "Toonaangevende fabrikant en exporteur van premium kokosnoot houtskoolbriketten voor shisha en BBQ. Wij bieden duurzame en hoogwaardige producten voor wereldwijde verzending.",
-    "keywords": "Kokosnoot houtskool voor shisha, shisha houtskool leverancier, BBQ-briketten, Indonesische houtskool exporteur, kokosnootschaal houtskool, houtskool leverancier, kokosbriketten export uit Indonesië",
+    "title": "Indo Charcoal | Kokoskoolbriketten voor Shisha & BBQ",
+    "description": "Hoogwaardige kokoskoolbriketten uit Indonesië. Duurzaam, milieuvriendelijk en perfect voor shisha & BBQ. Neem contact met ons op voor wereldwijde export.",
+    "keywords": "kokoskool voor shisha, shisha kool leverancier, BBQ briketten, Indonesië houtskool exporteur, kokosschaal houtskool, houtskool leverancier, export van kokosbriketten uit Indonesië",
+    "alternates": {
+      "canonical": "https://www.indocharcoalsupply.com/nl",
+      "languages": {
+        "x-default": "https://www.indocharcoalsupply.com",
+        "en": "https://www.indocharcoalsupply.com",
+        "ar": "https://www.indocharcoalsupply.com/ar",
+        "nl": "https://www.indocharcoalsupply.com/nl"
+      }
+    },
     "openGraph": {
       "title": "Indo Charcoal Supply | Premium Briketten",
-      "description": "Ontdek hoogwaardige, duurzame kokosnoot houtskoolbriketten voor shisha en BBQ. Wereldwijde export vanuit Indonesië.",
-      "siteTitle": "Indo Charcoal Supply"
+      "description": "Ontdek hoogwaardige, duurzame kokoskoolbriketten voor shisha en BBQ. Wereldwijd geëxporteerd vanuit Indonesië.",
+      "siteTitle": "Indo Charcoal Supply",
+      "type": "website",
+      "url": "https://www.indocharcoalsupply.com/nl",
+      "images": [
+        {
+          "url": "https://www.indocharcoalsupply.com/opengraph-image.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Indo Charcoal Supply"
+        }
+      ]
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Indo Charcoal Supply | Premium Briketten",
+      "description": "Ontdek hoogwaardige, duurzame kokoskoolbriketten voor shisha en BBQ. Wereldwijd geëxporteerd vanuit Indonesië.",
+      "images": [
+        "https://www.indocharcoalsupply.com/opengraph-image.png"
+      ]
+    },
+    "robots": {
+      "index": true,
+      "follow": true
     }
   },
   "navbar": {

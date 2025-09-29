@@ -1,12 +1,43 @@
 {
   "metadata": {
-    "title": "Indo Charcoal Supply | Briquettes de Charbon de Coco de Haute Qualité",
-    "description": "Principal fabricant et exportateur de briquettes de charbon de coco de qualité supérieure pour chicha et barbecue. Nous fournissons des produits durables et de haute qualité pour une expédition mondiale.",
-    "keywords": "Charbon de coco pour chicha, fournisseur de charbon à chicha, briquettes de barbecue, exportateur de charbon d’Indonésie, charbon de coque de coco, fournisseur de charbon, exportation de briquettes de coco d’Indonésie",
+    "title": "Indo Charcoal | Briquettes de Charbon de Noix de Coco pour Chicha & BBQ",
+    "description": "Briquettes de charbon de noix de coco de haute qualité d'Indonésie. Durables, écologiques et parfaites pour la chicha et le BBQ. Contactez-nous pour une exportation mondiale.",
+    "keywords": "charbon de coco pour chicha, fournisseur de charbon pour chicha, briquettes pour BBQ, exportateur de charbon d'Indonésie, charbon de coque de noix de coco, fournisseur de charbon, exportation de briquettes de coco d'Indonésie",
+    "alternates": {
+      "canonical": "https://www.indocharcoalsupply.com/fr",
+      "languages": {
+        "x-default": "https://www.indocharcoalsupply.com",
+        "en": "https://www.indocharcoalsupply.com",
+        "ar": "https://www.indocharcoalsupply.com/ar",
+        "fr": "https://www.indocharcoalsupply.com/fr"
+      }
+    },
     "openGraph": {
-      "title": "Indo Charcoal Supply | Briquettes de Qualité Supérieure",
-      "description": "Découvrez des briquettes de charbon de coco durables et de haute qualité pour chicha et barbecue. Exportation mondiale depuis l'Indonésie.",
-      "siteTitle": "Indo Charcoal Supply"
+      "title": "Indo Charcoal Supply | Briquettes Premium",
+      "description": "Découvrez des briquettes de charbon de noix de coco durables et de haute qualité pour chicha et barbecue. Exportation mondiale depuis l'Indonésie.",
+      "siteTitle": "Indo Charcoal Supply",
+      "type": "website",
+      "url": "https://www.indocharcoalsupply.com/fr",
+      "images": [
+        {
+          "url": "https://www.indocharcoalsupply.com/opengraph-image.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Indo Charcoal Supply"
+        }
+      ]
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Indo Charcoal Supply | Briquettes Premium",
+      "description": "Découvrez des briquettes de charbon de noix de coco durables et de haute qualité pour chicha et barbecue. Exportation mondiale depuis l'Indonésie.",
+      "images": [
+        "https://www.indocharcoalsupply.com/opengraph-image.png"
+      ]
+    },
+    "robots": {
+      "index": true,
+      "follow": true
     }
   },
   "navbar": {

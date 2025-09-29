@@ -37,6 +37,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: t('title'),
     description: t('description'),
     keywords: t('keywords'),
+    icons: {
+      icon: '/favicon.ico',
+      apple: '/apple-icon.png',
+    },
     metadataBase: new URL(baseUrl),
     alternates: {
       canonical: `/${locale}`,

@@ -8,7 +8,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import ContactBubble from "@/components/ContactBubble";
-import SchemaMarkup from '@/components/SchemaMarkup';
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -25,7 +24,7 @@ const geistMono = Geist_Mono({
 
 type Props = {
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
+  params: { locale: string };
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -88,12 +87,28 @@ export default async function RootLayout({ children, params }: Props) {
     notFound();
   }
 
+  // ✅ Define your schema markup object here
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Indo Charcoal Supply",
+    "url": "https://www.indocharcoalsupply.com",
+    "logo": "https://www.indocharcoalsupply.com/logo.webp",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+62-851-5675-1503",
+      "contactType": "customer service"
+    }
+  };
+
   return (
     <html lang={locale} data-scroll-behavior="smooth">
-      <head>
-        <SchemaMarkup />
-      </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body>
+        {/* ✅ This script tag is the correct way to add JSON-LD */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+        />
         <NextIntlClientProvider>
           <GoogleAnalytics />
           {children}

@@ -1,33 +1,31 @@
-// app/[locale]/layout.tsx
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
 import GoogleAnalytics from '@/components/Analytics';
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-import ContactBubble from "@/components/ContactBubble";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+import type { Metadata } from 'next';
+import { Geist, Geist_Mono } from 'next/font/google';
+import './globals.css';
+import ContactBubble from '@/components/ContactBubble';
+import SchemaMarkup from '@/components/SchemaMarkup';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+  variable: '--font-geist-sans',
+  subsets: ['latin'],
 });
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  variable: '--font-geist-mono',
+  subsets: ['latin'],
 });
 
-type Props = {
-  children: React.ReactNode;
-  params: { locale: string };
-};
-
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+// ✅ Proper typing for params
+export async function generateMetadata(
+  { params }: { params: Promise<{ locale: string }> }
+): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'metadata' });
   const baseUrl = 'https://www.indocharcoalsupply.com';
@@ -36,13 +34,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: t('title'),
     description: t('description'),
     keywords: t('keywords'),
-    icons: {
-      icon: '/favicon.ico',
-      apple: '/apple-icon.png',
-    },
     metadataBase: new URL(baseUrl),
     alternates: {
-      canonical: `${baseUrl}/${locale}`,
+      canonical: `/${locale}`,
       languages: {
         'x-default': `${baseUrl}/en`,
         ...Object.fromEntries(
@@ -55,7 +49,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: t('openGraph.siteTitle'),
       title: t('openGraph.title'),
       description: t('openGraph.description'),
-      locale: locale,
+      locale,
       alternateLocale: routing.locales.filter((l) => l !== locale),
       url: `${baseUrl}/${locale}`,
       images: [
@@ -70,7 +64,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           width: 800,
           height: 600,
           alt: 'Indo Charcoal Supply Logo',
-        }
+        },
       ],
     },
     robots: {
@@ -80,39 +74,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function RootLayout({ children, params }: Props) {
+export default async function RootLayout(
+  { children, params }: { children: React.ReactNode; params: Promise<{ locale: string }> }
+) {
   const { locale } = await params;
 
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
 
-  // ✅ Define your schema markup object here
-  const schemaMarkup = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Indo Charcoal Supply",
-    "url": "https://www.indocharcoalsupply.com",
-    "logo": "https://www.indocharcoalsupply.com/logo.webp",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+62-851-5675-1503",
-      "contactType": "customer service"
-    }
-  };
-
   return (
     <html lang={locale} data-scroll-behavior="smooth">
-      <body>
-        {/* ✅ This script tag is the correct way to add JSON-LD */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
-        />
+      <head />
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <NextIntlClientProvider>
           <GoogleAnalytics />
           {children}
           <ContactBubble />
+          {/* ✅ SchemaMarkup safely placed in body */}
+          <SchemaMarkup />
         </NextIntlClientProvider>
       </body>
     </html>

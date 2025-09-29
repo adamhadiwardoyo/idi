@@ -3,6 +3,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Link } from '@/i18n/navigation';
 import Image from 'next/image';
+import type { Metadata } from 'next';
+import { routing } from '@/i18n/routing';
 
 // Komponen Kartu Blog untuk konsistensi
 interface BlogCardProps {
@@ -56,12 +58,34 @@ const BlogCard = ({ slug, title, excerpt, image, date, category, readMoreText }:
 
 // ✅ FIX: Define a Props type for the page component
 type Props = {
-  params: Promise<{ locale: string }>;
+  params: { locale: string };
 };
 
+// ✅ FIX: Added generateMetadata function for the blog index page
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = params;
+  const t = await getTranslations({ locale, namespace: 'blog' });
+  const baseUrl = 'https://www.indocharcoalsupply.com';
+  const pageUrl = `${baseUrl}/${locale}/blog`;
+
+  return {
+    title: t('title'),
+    description: 'Explore our latest articles, insights, and guides on the charcoal industry.',
+    alternates: {
+      canonical: pageUrl,
+      languages: {
+        'x-default': `${baseUrl}/en/blog`,
+        ...Object.fromEntries(
+          routing.locales.map((l) => [l, `${baseUrl}/${l}/blog`])
+        ),
+      },
+    },
+  };
+}
+
+
 export default async function BlogIndexPage({ params }: Props) {
-  // ✅ FIX: Await the params promise to get the locale
-  const { locale } = await params;
+  const { locale } = params;
   const t = await getTranslations({ locale, namespace: 'blog' });
 
   // Daftar slug artikel yang ingin ditampilkan di halaman ini

@@ -1,3 +1,5 @@
+// components/Navbar.tsx
+
 'use client';
 
 import React, { useState, useEffect, useRef, useMemo } from 'react';
@@ -19,7 +21,7 @@ const Navbar: React.FC = () => {
   const router = useRouter();
   const t = useTranslations('navbar');
 
-  // ... (navLinks, localeNames, localeFlags, currentLocale tidak perlu diubah)
+  // ... (navLinks, localeNames, localeFlags, currentLocale do not need to be changed)
   const navLinks = useMemo(
     () => [
       { href: '/#home', label: t('home'), id: 'home' },
@@ -53,7 +55,7 @@ const Navbar: React.FC = () => {
       new RegExp(`^/(${routing.locales.join('|')})`),
       ''
     );
-    // Pastikan path fallback ke root jika kosong
+    // Ensure path fallback to root if empty
     router.push(`/${locale}${pathWithoutLocale || '/'}`);
     setIsLangOpen(false);
   };
@@ -68,7 +70,7 @@ const Navbar: React.FC = () => {
     return () => document.removeEventListener('click', onClickOutside);
   }, []);
 
-  // ... (useEffect untuk observer tidak perlu diubah)
+  // ... (useEffect for observer does not need to be changed)
   useEffect(() => {
     if (
       pathname === '/' ||
@@ -106,7 +108,7 @@ const Navbar: React.FC = () => {
 
   return (
     <header
-      className="fixed top-0 left-0 w-full z-50 h-16 lg:h-20 
+      className="fixed top-0 left-0 w-full z-50 h-16 lg:h-20
                  bg-zinc-900/90 backdrop-blur-md shadow-lg
                  transition-all duration-300 ease-in-out
                  rounded-b-[28px] md:rounded-b-[40px] lg:rounded-b-[48px]"
@@ -142,11 +144,13 @@ const Navbar: React.FC = () => {
                 setIsLangOpen((s) => !s);
               }}
               className="flex items-center gap-2 rounded-lg border border-white/20 bg-zinc-800/90 px-3 py-2.5 text-sm text-white hover:bg-zinc-700 focus:outline-none"
+              aria-label={`Change language, current language is ${localeNames[currentLocale]}`}
             >
               <ReactCountryFlag
                 countryCode={localeFlags[currentLocale] || 'US'}
                 svg
                 style={{ width: '1.1em', height: '1.1em' }}
+                aria-label={localeNames[currentLocale]}
               />
               {/* ✅ hide text on mobile, show on sm+ */}
               <span className="hidden sm:inline truncate max-w-[80px]">
@@ -161,7 +165,6 @@ const Navbar: React.FC = () => {
             </button>
             {isLangOpen && (
               <div
-                // 🔥 FIX 2: Tambahkan ini sebagai pengaman agar klik di dalam menu tidak menutupnya
                 onClick={(e) => e.stopPropagation()}
                 className="absolute right-0 mt-3 w-40 rounded-xl border border-white/10 bg-zinc-800/95 shadow-xl backdrop-blur"
               >
@@ -175,6 +178,7 @@ const Navbar: React.FC = () => {
                       countryCode={localeFlags[loc] || 'US'}
                       svg
                       style={{ width: '1.1em', height: '1.1em' }}
+                      aria-label={localeNames[loc]}
                     />
                     <span className="truncate">{localeNames[loc]}</span>
                   </button>
@@ -204,7 +208,7 @@ const Navbar: React.FC = () => {
         </div>
       </div>
 
-      {/* Mobile Menu (tidak ada perubahan) */}
+      {/* Mobile Menu (no changes needed) */}
       {isMenuOpen && (
         <nav
           className="absolute top-16 left-0 w-full bg-zinc-900/95 backdrop-blur-md 

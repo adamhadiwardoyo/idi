@@ -22,7 +22,7 @@ const ProductionProcess = () => {
   const processSteps = [
     { id: "01", icon: "/prod-icon/mount.svg", title: t("sourcingTitle"), description: t("sourcingDescription") },
     { id: "02", icon: "/prod-icon/sun.svg", title: t("dryingTitle"), description: t("dryingDescription") },
-    { id: "03", icon: "/prod-icon/bike.svg", title: t("carbonizationTitle"), description: t("carbonizationDescription") },
+    { id: "03", icon: "/prod-icon/carbon.svg", title: t("carbonizationTitle"), description: t("carbonizationDescription") },
     { id: "04", icon: "/prod-icon/double.svg", title: t("crushingTitle"), description: t("crushingDescription") },
     { id: "05", icon: "/prod-icon/mix.svg", title: t("mixingTitle"), description: t("mixingDescription") },
     { id: "06", icon: "/prod-icon/arrow.svg", title: t("moldingTitle"), description: t("moldingDescription") },

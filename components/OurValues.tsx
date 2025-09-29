@@ -1,12 +1,19 @@
-import React from 'react';
-import { useTranslations } from 'next-intl'
+"use client";
+import React, { useState } from "react";
+import { useTranslations } from "next-intl";
 
-// A single card component for a value
-const ValueCard = ({ icon, title, description }: { icon: React.ReactNode, title: string, description: string }) => (
-  // Reduced padding on mobile
+// Single card component
+const ValueCard = ({
+  icon,
+  title,
+  description,
+}: {
+  icon: React.ReactNode;
+  title: string;
+  description: string;
+}) => (
   <div className="bg-zinc-900/50 backdrop-blur-sm rounded-2xl p-6 sm:p-8 text-center border border-white/10 transform hover:-translate-y-2 transition-transform duration-300">
     <div className="flex justify-center mb-4">
-      {/* Reduced icon size on mobile */}
       <div className="flex-shrink-0 h-14 w-14 sm:h-16 sm:w-16 rounded-full bg-brand-orange/10 flex items-center justify-center text-brand-orange">
         {icon}
       </div>
@@ -17,44 +24,22 @@ const ValueCard = ({ icon, title, description }: { icon: React.ReactNode, title:
 );
 
 const OurValues: React.FC = () => {
-  const t = useTranslations('values')
+  const t = useTranslations("values");
+  const [showAll, setShowAll] = useState(false);
 
   const values = [
-    {
-      icon: <IconIntegrity />,
-      title: t('integrityTitle'),
-      description: t('integrityDescription'),
-    },
-    {
-      icon: <IconQuality />,
-      title: t('qualityTitle'),
-      description: t('integrityDescription'),
-    },
-    {
-      icon: <IconInnovation />,
-      title: t('innovationTitle'),
-      description: t('innovationDescription'),
-    },
-    {
-      icon: <IconCustomerSatisfaction />,
-      title: t('satisfactionTitle'),
-      description: t('satisfactionDescription'),
-    },
-    {
-      icon: <IconCustomerService />,
-      title: t('serviceTitle'),
-      description: t('serviceDescription'),
-    },
-    {
-      icon: <IconCooperation />,
-      title: t('cooperationTitle'),
-      description: t('cooperationDescription'),
-    },
+    { icon: <IconIntegrity />, title: t("integrityTitle"), description: t("integrityDescription") },
+    { icon: <IconQuality />, title: t("qualityTitle"), description: t("qualityDescription") },
+    { icon: <IconInnovation />, title: t("innovationTitle"), description: t("innovationDescription") },
+    { icon: <IconCustomerSatisfaction />, title: t("satisfactionTitle"), description: t("satisfactionDescription") },
+    { icon: <IconCustomerService />, title: t("serviceTitle"), description: t("serviceDescription") },
+    { icon: <IconCooperation />, title: t("cooperationTitle"), description: t("cooperationDescription") },
   ];
 
+  // Mobile: tampil 3 atau semua sesuai toggle
+  const mobileValues = showAll ? values : values.slice(0, 3);
+
   return (
-
-
     <section className="relative bg-zinc-900 text-white py-24 sm:py-32">
       <div
         className="absolute inset-0 bg-cover bg-center opacity-10"
@@ -64,10 +49,23 @@ const OurValues: React.FC = () => {
 
       <div className="relative container mx-auto px-6 text-center">
         <h2 className="text-3xl font-extrabold text-white sm:text-4xl mb-12">
-          {t('ourValue')}
+          {t("ourValue")}
         </h2>
-        {/* Changed to 2 columns on small screens to avoid a long list */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        {/* Mobile version (with show more) */}
+        <div className="grid grid-cols-1 gap-8 sm:hidden">
+          {mobileValues.map((value) => (
+            <ValueCard
+              key={value.title}
+              icon={value.icon}
+              title={value.title}
+              description={value.description}
+            />
+          ))}
+        </div>
+
+        {/* Desktop & Tablet version (always show all) */}
+        <div className="hidden sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {values.map((value) => (
             <ValueCard
               key={value.title}
@@ -76,6 +74,16 @@ const OurValues: React.FC = () => {
               description={value.description}
             />
           ))}
+        </div>
+
+        {/* Toggle button hanya muncul di mobile */}
+        <div className="mt-8 sm:hidden">
+          <button
+            onClick={() => setShowAll(!showAll)}
+            className="px-6 py-3 rounded-xl bg-brand-orange text-white font-semibold shadow-lg hover:bg-orange-600 transition-colors"
+          >
+            {showAll ? "Show Less" : "Show More"}
+          </button>
         </div>
       </div>
     </section>
@@ -118,6 +126,5 @@ const IconCooperation = () => (
     <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M15 21a6 6 0 00-9-5.197M15 21a6 6 0 016-5.197M12 12a4 4 0 110-8 4 4 0 010 8z" />
   </svg>
 );
-
 
 export default OurValues;

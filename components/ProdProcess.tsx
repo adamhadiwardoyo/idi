@@ -26,7 +26,7 @@ const ProductionProcess = () => {
     { id: "04", icon: "/prod-icon/double.svg", title: t("crushingTitle"), description: t("crushingDescription") },
     { id: "05", icon: "/prod-icon/mix.svg", title: t("mixingTitle"), description: t("mixingDescription") },
     { id: "06", icon: "/prod-icon/arrow.svg", title: t("moldingTitle"), description: t("moldingDescription") },
-    { id: "07", icon: "/prod-icon/sun 2.svg", title: t("finalDryingTitle"), description: t("finalDryingDescription") },
+    { id: "07", icon: "/prod-icon/oven.svg", title: t("finalDryingTitle"), description: t("finalDryingDescription") },
     { id: "08", icon: "/prod-icon/shield.svg", title: t("qualityControlTitle"), description: t("qualityControlDescription") },
     { id: "09", icon: "/prod-icon/package.svg", title: t("packagingTitle"), description: t("packagingDescription") },
     { id: "10", icon: "/prod-icon/safe.svg", title: t("storageTitle"), description: t("storageDescription") },

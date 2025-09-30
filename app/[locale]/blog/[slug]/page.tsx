@@ -74,10 +74,10 @@ const StructuredContent = ({ content }: { content: ContentItem[] }) => {
 
 // Perbarui tipe Props
 type Props = {
-  params: Promise<{
+  params: {
     slug: string;
     locale: string;
-  }>
+  }
 }
 // Generate dynamic metadata for each blog post
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -124,7 +124,9 @@ const VALID_SLUGS = [
   'global-market-trends-2025',
   'guide-international-shipping-indonesian-charcoal',
   'indonesian-advantage-worlds-best-coconut-charcoal',
-  'complete-guide-to-high-quality-shisha-charcoal' // Slug baru
+  'complete-guide-to-high-quality-shisha-charcoal',
+  'indonesian-briquette-charcoal-export-2025',
+  "indonesia-coconut-briquette-export"// Slug baru
 ];
 
 export default async function BlogPostPage({ params }: Props) {

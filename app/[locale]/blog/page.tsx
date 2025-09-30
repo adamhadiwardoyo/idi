@@ -1,4 +1,6 @@
-import { getTranslations } from 'next-intl/server';
+
+
+import { getTranslations, getMessages, getLocale } from 'next-intl/server'; 
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Link } from '@/i18n/navigation';
@@ -6,7 +8,7 @@ import Image from 'next/image';
 import type { Metadata } from 'next';
 import { routing } from '@/i18n/routing';
 
-// Komponen Kartu Blog untuk konsistensi
+// Komponen Kartu Blog (tidak ada perubahan)
 interface BlogCardProps {
   slug: string;
   title: string;
@@ -18,19 +20,10 @@ interface BlogCardProps {
 }
 
 const BlogCard = ({ slug, title, excerpt, image, date, category, readMoreText }: BlogCardProps) => (
-  <div
-    className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col group h-full"
-  >
+  // ... Implementasi komponen ini tidak perlu diubah
+  <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col group h-full">
     <div className="relative w-full h-48 overflow-hidden">
-      <Image
-        src={image}
-        alt={title}
-        fill
-        sizes="(max-width: 768px) 100vw, 
-           (max-width: 1200px) 50vw, 
-           33vw"
-        className="object-cover w-full h-full transform transition-transform duration-500 group-hover:scale-110"
-      />
+      <Image src={image} alt={title} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-cover w-full h-full transform transition-transform duration-500 group-hover:scale-110" />
     </div>
     <div className="p-6 flex flex-col flex-grow">
       <div className="mb-2">
@@ -39,16 +32,11 @@ const BlogCard = ({ slug, title, excerpt, image, date, category, readMoreText }:
         <span className="text-gray-500 text-sm">{date}</span>
       </div>
       <h3 className="text-xl font-bold text-gray-900 mb-3 flex-grow group-hover:text-brand-orange transition-colors">
-        <Link href={`/blog/${slug}`}>
-          {title}
-        </Link>
+        <Link href={`/blog/${slug}`}>{title}</Link>
       </h3>
       <p className="text-gray-600 mb-6">{excerpt}</p>
       <div className="mt-auto">
-        <Link
-          href={`/blog/${slug}`}
-          className="font-semibold text-brand-orange uppercase text-sm tracking-wider hover:underline"
-        >
+        <Link href={`/blog/${slug}`} className="font-semibold text-brand-orange uppercase text-sm tracking-wider hover:underline">
           {readMoreText} &rarr;
         </Link>
       </div>
@@ -56,14 +44,11 @@ const BlogCard = ({ slug, title, excerpt, image, date, category, readMoreText }:
   </div>
 );
 
-// ✅ FIX: Define a Props type for the page component
-type Props = {
-  params: { locale: string };
-};
 
-// ✅ FIX: Added generateMetadata function for the blog index page
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = params;
+export async function generateMetadata(): Promise<Metadata> {
+  // Gunakan `getLocale` untuk mendapatkan locale
+  const locale = await getLocale(); 
+  
   const t = await getTranslations({ locale, namespace: 'blog' });
   const baseUrl = 'https://www.indocharcoalsupply.com';
   const pageUrl = `${baseUrl}/${locale}/blog`;
@@ -84,19 +69,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 
-export default async function BlogIndexPage({ params }: Props) {
-  const { locale } = params;
+export default async function BlogIndexPage() {
+  // Gunakan `getLocale` untuk mendapatkan locale
+  const locale = await getLocale();
+  
   const t = await getTranslations({ locale, namespace: 'blog' });
+  const messages = await getMessages();
+  const blogMessages = messages.blog;
 
-  // Daftar slug artikel yang ingin ditampilkan di halaman ini
-  const slugs = [
-    'global-market-trends-2025',
-    'guide-international-shipping-indonesian-charcoal',
-    'indonesian-advantage-worlds-best-coconut-charcoal'
-  ];
+  const slugs = Object.keys(blogMessages).filter(key => 
+    !['title', 'readMore', 'viewAllPosts', 'backToBlog', 'backToHome'].includes(key)
+  );
 
   const posts = slugs.map(slug => ({
-    slug: slug,
+    slug,
     title: t(`${slug}.title`),
     excerpt: t(`${slug}.excerpt`),
     image: t(`${slug}.image`),
@@ -128,7 +114,6 @@ export default async function BlogIndexPage({ params }: Props) {
             ))}
           </div>
 
-
           <div className="text-center mt-20">
             <Link
               href="/"
@@ -137,8 +122,6 @@ export default async function BlogIndexPage({ params }: Props) {
               {t('backToHome')}
             </Link>
           </div>
-          {/* ============================================== */}
-
         </div>
       </main>
       <Footer />

@@ -1,7 +1,6 @@
-// adamhadiwardoyo/idi/idi-35830ce3e10c25c43cbaab599c7ee58117901f70/app/[locale]/layout.tsx
-
+// Import getMessages untuk mengambil semua pesan
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
-import { getTranslations } from 'next-intl/server';
+import { getMessages, getTranslations } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
 import GoogleAnalytics from '@/components/Analytics';
@@ -30,8 +29,6 @@ export async function generateMetadata(
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'metadata' });
   const baseUrl = 'https://www.indocharcoalsupply.com';
-
-  // Canonical per locale
   const canonicalUrl = locale === 'en' ? baseUrl : `${baseUrl}/${locale}`;
 
   return {
@@ -87,11 +84,20 @@ export default async function RootLayout(
     notFound();
   }
 
+  
+  let messages;
+  try {
+    messages = await getMessages();
+  } catch (error) {
+    notFound();
+  }
+
   return (
     <html lang={locale} data-scroll-behavior="smooth">
       <head />
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <NextIntlClientProvider>
+      
+        <NextIntlClientProvider messages={messages}>
           <GoogleAnalytics />
           {children}
           <ContactBubble />

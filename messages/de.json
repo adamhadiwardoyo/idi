@@ -1,20 +1,24 @@
 {
   "metadata": {
-    "title": "Indo Charcoal | Kokoskohle-Briketts für Shisha & BBQ",
-    "description": "Hochwertige Kokoskohle-Briketts aus Indonesien. Langlebig, umweltfreundlich und perfekt für Shisha & BBQ. Kontaktieren Sie uns für den weltweiten Export.",
-    "keywords": "Kokoskohle für Shisha, Shisha Kohle Lieferant, Grillbriketts, Holzkohle-Exporteur Indonesien, Kokosnussschalenkohle, Kohlelieferant, Export von Kokosbriketts aus Indonesien",
+    "title": "Indo Charcoal | Kokosnuss-Holzkohlebriketts für Shisha & BBQ",
+    "description": "Hochwertige Kokosnuss-Holzkohlebriketts aus Indonesien. Langlebig, umweltfreundlich und perfekt für Shisha & BBQ. Kontaktieren Sie uns für den weltweiten Export.",
+    "keywords": "kokosnuss holzkohle für shisha, shisha kohle lieferant, grillbriketts, indonesien kohle exporteur, kokosnuss holzkohle, kohlelieferant, kokosnuss holzkohlebrikett export aus indonesien",
     "alternates": {
       "canonical": "https://www.indocharcoalsupply.com/de",
       "languages": {
         "x-default": "https://www.indocharcoalsupply.com",
         "en": "https://www.indocharcoalsupply.com",
         "ar": "https://www.indocharcoalsupply.com/ar",
-        "de": "https://www.indocharcoalsupply.com/de"
+        "de": "https://www.indocharcoalsupply.com/de",
+        "fr": "https://www.indocharcoalsupply.com/fr",
+        "ja": "https://www.indocharcoalsupply.com/ja",
+        "nl": "https://www.indocharcoalsupply.com/nl",
+        "zh": "https://www.indocharcoalsupply.com/zh"
       }
     },
     "openGraph": {
       "title": "Indo Charcoal Supply | Premium-Briketts",
-      "description": "Entdecken Sie hochwertige, nachhaltige Kokoskohle-Briketts für Shisha und Grillen. Weltweiter Export aus Indonesien.",
+      "description": "Entdecken Sie hochwertige, nachhaltige Kokosnuss-Holzkohlebriketts für Shisha und BBQ. Weltweiter Export aus Indonesien.",
       "siteTitle": "Indo Charcoal Supply",
       "type": "website",
       "url": "https://www.indocharcoalsupply.com/de",
@@ -30,7 +34,7 @@
     "twitter": {
       "card": "summary_large_image",
       "title": "Indo Charcoal Supply | Premium-Briketts",
-      "description": "Entdecken Sie hochwertige, nachhaltige Kokoskohle-Briketts für Shisha und Grillen. Weltweiter Export aus Indonesien.",
+      "description": "Entdecken Sie hochwertige, nachhaltige Kokosnuss-Holzkohlebriketts für Shisha und BBQ. Weltweiter Export aus Indonesien.",
       "images": [
         "https://www.indocharcoalsupply.com/opengraph-image.png"
       ]
@@ -53,47 +57,47 @@
   "hero": {
     "catalog": "Katalog herunterladen",
     "contact": "Kontaktieren Sie uns",
-    "paragraph": "Das Unternehmen Indo Charcoal Supply wurde 2021 mit dem festen Vorsatz gegründet, Kunden die besten, schnellsten und zuverlässigsten Dienstleistungen zu bieten. Seit seiner Gründung konzentriert sich das Unternehmen auf die Produktion und den Export von hochwertigen Briketts.",
+    "paragraph": "Das Unternehmen Indo Charcoal Supply wurde 2021 mit dem festen Ziel gegründet, Kunden die besten, schnellsten und zuverlässigsten Dienstleistungen zu bieten. Seit seiner Gründung konzentriert sich das Unternehmen auf die Produktion und den Export von hochwertigen Briketts.",
     "company-profile": "Firmenprofil herunterladen",
     "download-options": "Download-Optionen"
   },
   "stat": {
     "country": "Land",
     "client": "Kunde",
-    "testimonie": "Kundenstimme"
+    "testimonie": "Referenzen"
   },
   "values": {
-    "ourValue": "Unsere Werte",
-    "integrityDescription": "Wir verpflichten uns, unser Geschäft in allen Aspekten ehrlich, ethisch und transparent zu führen.",
+    "ourValue": "Unser Wert",
+    "integrityDescription": "Wir verpflichten uns, in jedem Aspekt unserer Tätigkeit Geschäfte mit Ehrlichkeit, Ethik und Transparenz zu führen.",
     "integrityTitle": "Integrität",
     "qualityTitle": "Qualität",
-    "qualityDescription": "Wir legen stets höchsten Wert auf die Qualität unserer Produkte und Dienstleistungen, um die Erwartungen unserer Kunden zu erfüllen und zu übertreffen.",
+    "qualityDescription": "Wir legen stets Wert auf Qualität bei jedem Produkt und jeder Dienstleistung, die wir anbieten, um die Erwartungen der Kunden zu erfüllen und zu übertreffen.",
     "innovationTitle": "Innovation",
-    "innovationDescription": "Wir suchen ständig nach neuen und besseren Wegen, um unsere Produkte, Prozesse und Dienstleistungen zu verbessern.",
+    "innovationDescription": "Wir legen stets Wert auf Qualität bei jedem Produkt und jeder Dienstleistung, die wir anbieten, um die Erwartungen der Kunden zu erfüllen und zu übertreffen.",
     "satisfactionTitle": "Kundenzufriedenheit",
-    "satisfactionDescription": "Wir setzen alles daran, sicherzustellen, dass jeder Kunde mit unseren Produkten und Dienstleistungen vollkommen zufrieden ist.",
+    "satisfactionDescription": "Wir führen unser Geschäft mit Ehrlichkeit, Transparenz und ethischen Grundsätzen.",
     "serviceTitle": "Kundenservice",
     "serviceDescription": "Wir priorisieren die Kundenzufriedenheit durch einen reaktionsschnellen, aufmerksamen und professionellen Service.",
     "cooperationTitle": "Zusammenarbeit",
     "cooperationDescription": "Wir glauben, dass die Zusammenarbeit mit Kunden, Geschäftspartnern und Gemeinschaften der Schlüssel zum gemeinsamen Erfolg ist."
   },
   "certifications": {
-    "title": "Qualität & Sicherheit Garantiert: Unsere Zertifizierungen",
-    "description": "Wir verpflichten uns zu den höchsten Standards in Qualität, Sicherheit und Transparenz. Unsere Produkte werden streng geprüft und von unabhängigen Laboren zertifiziert, um internationale Exportstandards zu erfüllen und Ihnen bei jeder Lieferung volles Vertrauen zu geben.",
-    "labTestTitle": "Laborprüfbericht / Analysenzertifikat (CoA)",
-    "labTestDescription": "Jede Produktionscharge wird von einem Analysenzertifikat eines vertrauenswürdigen, unabhängigen Labors begleitet. Dieser Bericht überprüft wichtige Qualitätsspezifikationen wie Aschegehalt, Feuchtigkeit, flüchtige Bestandteile und Brennwert und stellt sicher, dass das Produkt, das Sie erhalten, der von Ihnen bestellten Qualität entspricht.",
+    "title": "Qualität & Sicherheit garantiert: Unsere Zertifizierungen",
+    "description": "Wir verpflichten uns zu den höchsten Standards in Bezug auf Qualität, Sicherheit und Transparenz. Unsere Produkte werden von unabhängigen Laboren streng geprüft und zertifiziert, um internationale Exportstandards zu erfüllen und Ihnen bei jeder Lieferung volles Vertrauen zu geben.",
+    "labTestTitle": "Laborprüfbericht / Analysezertifikat (CoA)",
+    "labTestDescription": "Jede Produktionscharge wird von einem Analysezertifikat eines vertrauenswürdigen, unabhängigen Labors begleitet. Dieser Bericht überprüft wichtige Qualitätsspezifikationen wie Aschegehalt, Feuchtigkeit, flüchtige Bestandteile und Brennwert und stellt sicher, dass das erhaltene Produkt der bestellten Qualität entspricht.",
     "msdsTitle": "Materialsicherheitsdatenblatt (MSDS)",
-    "msdsDescription": "Wir stellen ein umfassendes Sicherheitsdatenblatt für unsere Kokosnuss-Holzkohlebriketts zur Verfügung. Dieses wichtige Dokument beschreibt die Eigenschaften, Handhabungsverfahren und Sicherheitsmaßnahmen des Produkts und wird von internationalen Reedereien für einen sicheren und konformen Transport verlangt.",
-    "legalDocsTitle": "Offizielle Rechtsdokumente",
-    "legalDocsDescription": "Unser Unternehmen ist vollständig registriert und erfüllt alle indonesischen Exportvorschriften. Wir stellen alle notwendigen rechtlichen Dokumente, einschließlich des Ursprungszeugnisses (COO), zur Verfügung, um einen reibungslosen und transparenten Zollabfertigungsprozess in Ihrem Zielland zu gewährleisten."
+    "msdsDescription": "Wir stellen ein umfassendes MSDS für unsere Kokosnuss-Holzkohlebriketts zur Verfügung. Dieses wichtige Dokument beschreibt die Eigenschaften des Produkts, Handhabungsverfahren und Sicherheitsmaßnahmen und wird von internationalen Reedereien für einen sicheren und konformen Transport verlangt.",
+    "legalDocsTitle": "Offizielle rechtliche Dokumente",
+    "legalDocsDescription": "Unser Unternehmen ist vollständig registriert und erfüllt alle indonesischen Exportvorschriften. Wir stellen alle notwendigen rechtlichen Dokumente, einschließlich des Ursprungszeugnisses (COO), zur Verfügung, um eine reibungslose und transparente Zollabfertigung in Ihrem Zielland zu gewährleisten."
   },
   "whyChooseUs": {
     "title": "Warum Indo Charcoal Supply wählen?",
-    "description": "Wir sind mehr als nur ein Hersteller; wir sind Ihr strategischer Partner in der Holzkohleindustrie. Wir sind bestrebt, Ihr Geschäft zum Erfolg zu führen, indem wir nicht nur ein Premium-Produkt, sondern auch umfassende Unterstützung und unerschütterliche Zuverlässigkeit bieten.",
-    "point1Title": "Premium- & gleichbleibende Qualität",
-    "point1Description": "Wir implementieren eine strenge Qualitätskontrolle in jeder Phase, von der Auswahl der Schalen bis zur Endverpackung, um sicherzustellen, dass jedes Brikett den höchsten internationalen Standards entspricht.",
+    "description": "Wir sind mehr als nur ein Hersteller; wir sind Ihr strategischer Partner in der Holzkohleindustrie. Wir sind bestrebt, Ihrem Unternehmen zum Erfolg zu verhelfen, indem wir nicht nur ein Premium-Produkt, sondern auch umfassende Unterstützung und unerschütterliche Zuverlässigkeit bieten.",
+    "point1Title": "Premium & gleichbleibende Qualität",
+    "point1Description": "Wir führen in jeder Phase strenge Qualitätskontrollen durch, von der Auswahl der Schalen bis zur Endverpackung, um sicherzustellen, dass jedes Brikett den höchsten internationalen Standards entspricht.",
     "point2Title": "Direkt ab Werk & wettbewerbsfähige Preise",
-    "point2Description": "Als direkter Hersteller eliminieren wir Zwischenhändler und bieten Ihnen die wettbewerbsfähigsten Preise ohne Kompromisse bei der Qualität.",
+    "point2Description": "Als direkter Hersteller eliminieren wir Zwischenhändler und bieten Ihnen die wettbewerbsfähigsten Preise, ohne Kompromisse bei der Qualität einzugehen.",
     "point3Title": "Anpassung & White-Label-Expertise",
     "point3Description": "Wir sind darauf spezialisiert, individuelle Brikettformen und Eigenmarkenverpackungen zu erstellen, um Ihnen beim Aufbau und Wachstum Ihrer eigenen einzigartigen Marke zu helfen.",
     "point4Title": "Zuverlässiger & globaler Versand",
@@ -106,11 +110,11 @@
   "vision": {
     "title": "Unsere Vision und Mission",
     "visionTitle": "Vision",
-    "vision": "Ein führendes Exportunternehmen zu sein, das hochwertige und nachhaltige Produkte anbietet und einen positiven Beitrag zur Weltwirtschaft leistet.",
+    "vision": "Ein führendes Exportunternehmen zu sein, das qualitativ hochwertige und nachhaltige Produkte anbietet und einen positiven Beitrag zur Weltwirtschaft leistet.",
     "missionTitle": "Mission",
-    "mission1": "Langfristige Beziehungen zu Kunden und Geschäftspartnern aufzubauen, die auf Vertrauen und gegenseitiger Zufriedenheit basieren.",
-    "mission2": "Ein effizientes und zuverlässiges internationales Vertriebsnetz zu entwickeln, um den Anforderungen des globalen Marktes gerecht zu werden.",
-    "mission3": "Die Fähigkeiten und das Wohlergehen der Mitarbeiter durch kontinuierliche Schulungen und berufliche Weiterentwicklung zu fördern."
+    "mission1": "Langfristige Beziehungen zu Kunden und Geschäftspartnern aufzubauen, die auf Vertrauen und gegenseitiger Zufriedenheit beruhen.",
+    "mission2": "Ein effizientes und zuverlässiges internationales Vertriebsnetz zu entwickeln, um den Bedürfnissen des globalen Marktes gerecht zu werden.",
+    "mission3": "Die Fähigkeiten und das Wohlergehen der Mitarbeiter durch kontinuierliche Schulung und berufliche Weiterentwicklung zu verbessern."
   },
   "product": {
     "productTitle": "Unsere Produkte",
@@ -122,29 +126,29 @@
     "shishaType": "Briketts für Shisha",
     "shishaCube": "Würfel",
     "shishaHighTemperature": "Hohe Temperatur",
-    "shishaCloud": "Cloud",
+    "shishaCloud": "Wolke",
     "shishaFlat": "Flach",
-    "shishaHighFlow": "High Flow",
-    "bbqType": "Briketts für BBQ",
+    "shishaHighFlow": "Hoher Durchfluss",
+    "bbqType": "Briketts zum Grillen",
     "bbqOcta": "Achteckig",
-    "bbqDome": "Kuppelförmig",
+    "bbqDome": "Kuppel",
     "bbqHexa": "Sechseckig",
-    "bbqFinger": "Stäbchen",
-    "customTitle": "Benötigen Sie eine spezielle Form?",
-    "customDescription": "Arbeiten Sie mit uns zusammen, um individuelle Brikettformen und -größen zu entwerfen, die Ihre Markenidentität widerspiegeln.",
+    "bbqFinger": "Finger",
+    "customTitle": "Benötigen Sie eine benutzerdefinierte Form?",
+    "customDescription": "Arbeiten Sie mit uns zusammen, um individuelle Brikettformen und -größen zu entwerfen, die Ihre Markenidentität von innen und außen widerspiegeln.",
     "customButton": "Kontaktieren Sie uns"
   },
   "prodProcess": {
     "title": "PRODUKTIONSPROZESS",
     "description": "Unsere Kokosnuss-Holzkohlebriketts werden in einem sorgfältigen Prozess hergestellt, der höchste Qualität und Nachhaltigkeit gewährleistet. Hier ist eine Aufschlüsselung unserer Produktionsschritte:",
     "sourcingTitle": "Beschaffung und Auswahl",
-    "sourcingDescription": "Wir beginnen mit der Beschaffung feinster Kokosnussschalen aus nachhaltigen Plantagen. Sorgfältig ausgewählt nach Qualität und Reinheit.",
+    "sourcingDescription": "Wir beginnen mit der Beschaffung feinster Kokosnussschalen aus nachhaltigen Plantagen. Sorgfältig nach Qualität und Reinheit ausgewählt.",
     "dryingTitle": "Trocknung",
-    "dryingDescription": "Die Kokosnussschalen werden getrocknet, um den Feuchtigkeitsgehalt zu reduzieren und eine effiziente Karbonisierung sowie hochwertige Briketts zu gewährleisten.",
+    "dryingDescription": "Die Kokosnussschalen werden getrocknet, um den Feuchtigkeitsgehalt zu reduzieren, was eine effiziente Karbonisierung und hochwertige Briketts gewährleistet.",
     "carbonizationTitle": "Karbonisierung",
-    "carbonizationDescription": "Die Schalen werden in Öfen unter kontrollierter Temperatur und Sauerstoffbedingungen karbonisiert, um Holzkohle mit hohem Kohlenstoffgehalt zu erzeugen.",
+    "carbonizationDescription": "Die Schalen werden in Öfen unter kontrollierten Temperatur- und Sauerstoffbedingungen karbonisiert, wodurch kohlenstoffreiche Holzkohle entsteht.",
     "crushingTitle": "Zerkleinern und Sieben",
-    "crushingDescription": "Die Holzkohle wird zerkleinert und gesiebt, um eine einheitliche Partikelgröße zu erreichen und die Brenneigenschaften zu optimieren.",
+    "crushingDescription": "Die Holzkohle wird zerkleinert und gesiebt, um eine einheitliche Partikelgröße zu erreichen, was die Brenneigenschaften optimiert.",
     "mixingTitle": "Mischen und Binden",
     "mixingDescription": "Die Holzkohle wird mit natürlichen Bindemitteln wie Stärke oder Ton gemischt, um die Briketts zusammenzuhalten.",
     "moldingTitle": "Formen und Pressen",
@@ -152,60 +156,60 @@
     "finalDryingTitle": "Endtrocknung",
     "finalDryingDescription": "Die geformten Briketts werden erneut getrocknet, um Restfeuchtigkeit zu entfernen, und sind dann bereit für die Verpackung.",
     "qualityControlTitle": "Qualitätskontrolle",
-    "qualityControlDescription": "Jede Charge durchläuft strenge Qualitätsprüfungen: Dichte, Aschegehalt, Feuchtigkeit und Brenndauer.",
+    "qualityControlDescription": "Jede Charge durchläuft strenge Qualitätsprüfungen: Dichte, Asche, Feuchtigkeit und Brenndauer.",
     "packagingTitle": "Verpackung",
-    "packagingDescription": "Die fertigen Briketts werden sorgfältig verpackt, um sie während des Transports und der Lagerung zu schützen.",
+    "packagingDescription": "Fertige Briketts werden sorgfältig verpackt, um sie während des Transports und der Lagerung zu schützen.",
     "storageTitle": "Lagerung",
     "storageDescription": "Briketts sollten an einem trockenen, belüfteten Ort, fern von direkter Sonneneinstrahlung und Hitze, gelagert werden."
   },
   "shipping": {
-    "containerAlt": "Versandcontainer von Indo Charcoal Supply",
+    "containerAlt": "Indo Charcoal Supply Versandcontainer",
     "aboutTitle": "ÜBER DEN VERSAND",
     "aboutParagraph1": "Unser Team kann Sie bei Ihren Versandanforderungen unterstützen. Bitte kontaktieren Sie uns für weitere Informationen.",
     "aboutParagraph2": "Unsere Mindestbestellmenge (MOQ) beträgt 1 Container mit 18 Tonnen (20 Fuß). Kontaktieren Sie uns, um Ihre Bedürfnisse mit unserem Team zu besprechen und die optimale MOQ für Ihr Unternehmen zu ermitteln.",
     "guideTitle": "KAUFLEITFADEN: RICHTLINIEN & VERFAHREN",
-    "guideParagraph": "Wir gewährleisten sichere Transaktionen mit den Zahlungsmethoden T/T und L/C. Eine Anzahlung von 50 % bestätigt Ihre Bestellung und startet die Produktion. Die restlichen 50 % werden nach Abschluss der Produktion fällig."
+    "guideParagraph": "Wir gewährleisten Transaktionen mit den Zahlungsmethoden T/T und L/C. Eine Anzahlung von 50 % für Ihre Bestellung startet die Produktion. Die restlichen 50 % werden nach Abschluss der Produktion oder beim Verschließen des Containers in unserem Verschiffungshafen abgewickelt."
   },
   "packaging": {
     "title": "Verpackungsoptionen",
     "yourBrandourPackaging": "Ihre Marke, unsere Verpackung",
-    "masterAlt": "Umkarton",
-    "masterTitle": "UMKARTON",
-    "masterDescription": "Dieser große Umkarton dient dazu, Ihre Holzkohlebriketts während des Transports und der Lagerung zu fassen und zu schützen.",
-    "masterAvailable": "Erhältlich in den Größen:",
+    "masterAlt": "Master Box",
+    "masterTitle": "MASTER BOX",
+    "masterDescription": "Diese große Master Box ist dafür konzipiert, Ihre Holzkohlebriketts während des Versands und der Lagerung zu halten und zu schützen.",
+    "masterAvailable": "Verfügbar in den Größen:",
     "masterSize10": "10 kg",
     "masterSize12": "12 kg",
     "masterSize15": "15 kg",
     "masterSize20": "20 kg",
     "innerAlt": "Innenkarton",
     "innerTitle": "INNENKARTON",
-    "innerDescription": "Dieser Karton schützt Ihre Briketts vor Feuchtigkeit und Beschädigung und erleichtert das Tragen und Lagern.",
-    "innerAvailable": "Erhältliche Größen:",
+    "innerDescription": "Dieser Karton ist so konzipiert, dass er Ihre Briketts vor Feuchtigkeit und Beschädigung schützt und sie leicht zu transportieren und zu lagern sind.",
+    "innerAvailable": "Verfügbare Größen:",
     "innerSize1to2": "1 - 2 kg",
-    "innerSize250to500": "250 - 500 g",
-    "customPackagingTitle": "Benötigen Sie individuelle Verpackungen?",
-    "customizationText": "Unsere Umkartons können individuell mit Ihrem Logo und Branding gestaltet werden.",
+    "innerSize250to500": "250 - 500 gr",
+    "customPackagingTitle": "Benötigen Sie eine individuelle Verpackung?",
+    "customizationText": "Unsere Master Boxen können individuell gestaltet werden, um Ihr Logo und Ihr Branding zu präsentieren.",
     "customizationContact": "Kontaktieren Sie uns",
-    "customizationSuffix": ", um Ihre individuellen Designwünsche zu besprechen."
+    "customizationSuffix": ", um Ihre individuellen Designanforderungen zu besprechen."
   },
   "testimonialsSection": {
     "sectionId": "testimonialsSection",
     "title": "Was unsere Kunden sagen",
     "testimonialList": [
       {
-        "quote": "The quality of the charcoal is outstanding. Consistent heat and long burning time. Our customers are very satisfied.",
+        "quote": "Die Qualität der Holzkohle ist hervorragend. Gleichmäßige Hitze und lange Brenndauer. Unsere Kunden sind sehr zufrieden.",
         "author": "Ahmed R.",
-        "location": "Dubai, UAE"
+        "location": "Dubai, VAE"
       },
       {
-        "quote": "Excellent communication and reliable shipping. Indo Charcoal Supply is a trustworthy partner for our business.",
+        "quote": "Exzellente Kommunikation und zuverlässiger Versand. Indo Charcoal Supply ist ein vertrauenswürdiger Partner für unser Geschäft.",
         "author": "Michael B.",
-        "location": "Berlin, Germany"
+        "location": "Berlin, Deutschland"
       },
       {
-        "quote": "We were impressed with the custom packaging options. It really helped our brand stand out in a competitive market.",
+        "quote": "Wir waren von den individuellen Verpackungsoptionen beeindruckt. Es hat unserer Marke wirklich geholfen, sich in einem wettbewerbsintensiven Markt abzuheben.",
         "author": "Fatima K.",
-        "location": "Jeddah, Saudi Arabia"
+        "location": "Jeddah, Saudi-Arabien"
       }
     ]
   },
@@ -213,19 +217,19 @@
     "title": "Unternehmensgalerie"
   },
   "faq": {
-    "supertitle": "Ihre Fragen, unsere Antworten",
+    "supertitle": "Ihre Fragen, beantwortet",
     "title": "Häufig gestellte Fragen",
-    "subtitle": "Hier finden Sie Antworten auf häufig gestellte Fragen zu unseren Kokosnuss-Holzkohlebriketts, Qualitätsstandards und dem Exportprozess.",
-    "q1_question": "Welche Qualitätsspezifikationen haben Ihre Kokosnuss-Holzkohlebriketts?",
-    "q1_answer": "Wir garantieren hochwertige Kokosnuss-Holzkohlebriketts für den Export. Unsere Spezifikationen umfassen einen Feuchtigkeitsgehalt von unter 5 %, einen Aschegehalt von unter 2,5 % und einen Brennwert von über 7400 Kcal/kg, was eine lange Brenndauer und gleichmäßige Hitze gewährleistet.",
+    "subtitle": "Finden Sie Antworten auf häufig gestellte Fragen zu unseren Kokosnuss-Holzkohlebriketts, Qualitätsstandards und dem Exportprozess.",
+    "q1_question": "Was sind die Qualitätsspezifikationen für Ihre Kokosnuss-Holzkohlebriketts?",
+    "q1_answer": "Wir garantieren hochwertige Kokosnuss-Holzkohlebriketts für den Export. Unsere Spezifikationen umfassen einen Feuchtigkeitsgehalt von unter 5 %, einen Aschegehalt von unter 2,5 % und einen Heizwert von über 7400 Kcal/kg, was eine lange Brenndauer und gleichmäßige Hitze gewährleistet.",
     "q2_question": "Welche Arten von Briketts stellen Sie her?",
-    "q2_answer": "Als Holzkohlebrikettfabrik in Indonesien produzieren wir verschiedene Arten, darunter Briketts für Shishas (Wasserpfeifen) in Würfel- und Sechseckform sowie Grillbriketts aus Hartholz-Sägemehl.",
+    "q2_answer": "Als Holzkohlebrikettfabrik in Indonesien stellen wir verschiedene Arten her, einschließlich Briketts für Shisha (Wasserpfeife) in Würfel- und Sechseckform sowie Grillbriketts aus Hartholz-Sägemehl.",
     "q3_question": "Sind Ihre Produkte umweltfreundlich?",
-    "q3_answer": "Ja, unsere Briketts bestehen zu 100 % aus Kokosnussschalen oder Sägemehl, bei denen es sich um nachwachsende Rohstoffe handelt. Unsere Produkte erzeugen sehr wenig Rauch und sind eine umweltfreundlichere Alternative zu normaler Holzkohle.",
+    "q3_answer": "Ja, unsere Briketts werden zu 100 % aus Kokosnussschalen oder Sägemehl hergestellt, bei denen es sich um nachwachsende Rohstoffe handelt. Unsere Produkte erzeugen sehr wenig Rauch und sind eine umweltfreundlichere Alternative zu normaler Holzkohle.",
     "q4_question": "Was ist die Mindestbestellmenge (MOQ) für den Export?",
-    "q4_answer": "Unsere MOQ beträgt einen 20-Fuß-Container mit einer Kapazität von ca. 18 Tonnen. Wir sind bereit, die Exportbedürfnisse von Holzkohlebriketts in verschiedene Länder zu bedienen.",
+    "q4_answer": "Unsere MOQ beträgt einen 20-Fuß-Container mit einer Kapazität von etwa 18 Tonnen. Wir sind bereit, die Exportanforderungen von Holzkohlebriketts in verschiedene Länder zu bedienen.",
     "q5_question": "Wie kann ich eine Bestellung aufgeben?",
-    "q5_answer": "Sie können unser Marketingteam per E-Mail oder WhatsApp kontaktieren. Wir führen Sie durch den Prozess, von der Produktauswahl, dem Preisangebot (FOB/CIF) bis zur Auftragsbestätigung.",
+    "q5_answer": "Sie können unser Marketingteam per E-Mail oder WhatsApp kontaktieren. Wir werden Sie durch den Prozess führen, von der Produktauswahl, dem Preisangebot (FOB/CIF) bis zur Auftragsbestätigung.",
     "q6_question": "Ist Indo Charcoal Supply eine direkte Fabrik oder ein Makler?",
     "q6_answer": "Wir sind eine vertrauenswürdige Holzkohlebrikettfabrik und ein Exporteur in Indonesien. Wir verwalten den gesamten Produktionsprozess, von der Rohstoffauswahl bis zur Verpackung in unserer Anlage in Yogyakarta, Indonesien."
   },
@@ -236,14 +240,14 @@
     "backToBlog": "Zurück zum Blog",
     "backToHome": "Zurück zur Startseite",
     "global-market-trends-2025": {
-      "title": "Globale Markttrends für Kokosnusskohlebriketts (Analyse für Q3 2025)",
-      "excerpt": "Eine definitive Analyse der 5 wichtigsten Trends, die den internationalen Kokosnusskohlemarkt im Jahr 2025 prägen, von der Nachfrage nach niedrigem Aschegehalt bis zum Aufstieg des White Labeling.",
+      "title": "Globale Markttrends für Kokosnuss-Holzkohlebriketts (Analyse für Q3 2025)",
+      "excerpt": "Eine definitive Analyse der 5 wichtigsten Trends, die den internationalen Kokosnuss-Holzkohlemarkt im Jahr 2025 prägen, von der Nachfrage nach niedrigem Aschegehalt bis zum Aufstieg des White Labeling.",
       "image": "/tren.webp",
       "date": "25. September 2025",
       "category": "Marktanalyse",
       "meta": {
         "title": "Globale Holzkohle-Markttrends 2025 | Indo Charcoal Supply",
-        "description": "Bleiben Sie mit unserer Expertenanalyse der globalen Markttrends für Kokosnusskohlebriketts für 2025 auf dem Laufenden. Verstehen Sie den Wandel zu niedrigem Aschegehalt, Nachhaltigkeit und White Labeling."
+        "description": "Bleiben Sie mit unserer Expertenanalyse der globalen Markttrends für Kokosnuss-Holzkohlebriketts 2025 auf dem Laufenden. Verstehen Sie den Wandel zu niedrigem Aschegehalt, Nachhaltigkeit und White Labeling."
       },
       "content": [
         {
@@ -252,7 +256,7 @@
         },
         {
           "type": "p",
-          "text": "Der globale Markt für Kokosnusskohlebriketts durchläuft 2025 eine bedeutende Transformation. Er hat sich von einem preisgetriebenen Rohstoffmarkt zu einer <strong>wertorientierten Branche</strong> entwickelt, in der Qualität, Nachhaltigkeit und Markenidentität an erster Stelle stehen. Für Importeure, Händler und Marken ist das Verständnis dieser Schlüsseltrends entscheidend, um sich in der Landschaft zurechtzufinden und einen Wettbewerbsvorteil zu sichern."
+          "text": "Der globale Markt für Kokosnuss-Holzkohlebriketts durchläuft 2025 eine bedeutende Transformation. Er hat sich von einem preisgetriebenen Rohstoffmarkt zu einer <strong>wertorientierten Branche</strong> entwickelt, in der Qualität, Nachhaltigkeit und Markenidentität an erster Stelle stehen. Für Importeure, Händler und Marken ist das Verständnis dieser Schlüsseltrends unerlässlich, um sich in der Landschaft zurechtzufinden und einen Wettbewerbsvorteil zu sichern."
         },
         {
           "type": "p",
@@ -269,23 +273,23 @@
         {
           "type": "ul",
           "items": [
-            "<strong>Der neue Standard:</strong> Ein Aschegehalt von <strong>unter 2,5 %</strong> ist jetzt der erwartete Standard für jedes Premium-Produkt. Briketts mit 3-4 % Asche werden zunehmend als Standard- oder minderwertig angesehen.",
-            "<strong>Treibende Faktoren:</strong> Dies wird durch eine besser informierte Verbraucherbasis angetrieben, die ein saubereres Erlebnis ohne Geschmacksveränderung, eine bessere Wärmeregulierung und weniger Wartung verlangt. Für Importeure führen Produkte mit niedrigem Aschegehalt zu höherer Kundenzufriedenheit und Markentreue."
+            "<strong>Der neue Standard:</strong> Ein Aschegehalt von <strong>unter 2,5 %</strong> ist mittlerweile der erwartete Standard für jedes Premium-Produkt. Briketts mit 3-4 % Asche werden zunehmend als Standard- oder minderwertig angesehen.",
+            "<strong>Treibende Faktoren:</strong> Dies wird durch eine besser informierte Verbraucherbasis vorangetrieben, die ein saubereres Erlebnis ohne Geschmacksveränderung, besseres Wärmemanagement und weniger Wartung fordert. Für Importeure führen Produkte mit niedrigem Aschegehalt zu höherer Kundenzufriedenheit und Markentreue."
           ]
         },
         {
           "type": "h3",
-          "text": "2. Nachhaltigkeit ist zu einer nicht verhandelbaren Anforderung geworden"
+          "text": "2. Nachhaltigkeit ist zu einer unverzichtbaren Anforderung geworden"
         },
         {
           "type": "p",
-          "text": "Umwelt- und ethische Beschaffung ist kein 'nice-to-have'-Merkmal mehr; es ist eine <strong>kritische Anforderung</strong> für den Marktzugang, insbesondere in westlichen Märkten."
+          "text": "Umwelt- und ethische Beschaffung ist kein 'Nice-to-have'-Merkmal mehr; es ist eine <strong>kritische Anforderung</strong> für den Marktzugang, insbesondere in westlichen Märkten."
         },
         {
           "type": "ul",
           "items": [
-            "<strong>Transparenz der Lieferkette:</strong> Importeure müssen nun eine umweltfreundliche Lieferkette nachweisen. Das bedeutet, dass sie nachweisen müssen, dass die Briketts aus <strong>upgecycelten Kokosnussschalenabfällen</strong> (nicht aus Abholzung) hergestellt werden und dass die Produktion eine Kreislaufwirtschaft unterstützt.",
-            "<strong>Ein Wettbewerbsvorteil:</strong> Eine nachweisbare Nachhaltigkeitsgeschichte ist ein starkes Marketinginstrument, das bei bewussten Verbrauchern Anklang findet und Türen zu großen Einzelhändlern öffnet, die strenge CSR-Vorschriften haben."
+            "<strong>Transparenz der Lieferkette:</strong> Importeure müssen nun eine umweltfreundliche Lieferkette nachweisen. Dies bedeutet, dass nachgewiesen werden muss, dass Briketts aus <strong>wiederverwerteten Kokosnussschalenabfällen</strong> (nicht aus Abholzung) hergestellt werden und dass die Produktion eine Kreislaufwirtschaft unterstützt.",
+            "<strong>Ein Wettbewerbsvorteil:</strong> Eine nachprüfbare Nachhaltigkeitsgeschichte ist ein starkes Marketinginstrument, das bei bewussten Verbrauchern Anklang findet und Türen zu großen Einzelhändlern öffnet, die strenge Vorschriften zur sozialen Verantwortung von Unternehmen (CSR) haben."
           ]
         },
         {
@@ -299,13 +303,13 @@
         {
           "type": "ul",
           "items": [
-            "<strong>Markenbildung statt Wiederverkauf:</strong> Käufer suchen aktiv nach Fertigungspartnern, die umfassende <strong>'White Label'-Dienstleistungen</strong> anbieten können. Dazu gehört das Bedrucken von Innenkartons und Umkartons mit individuellen Designs, um eine eigene Markenidentität aufzubauen.",
+            "<strong>Markenaufbau statt Wiederverkauf:</strong> Käufer suchen aktiv nach Fertigungspartnern, die umfassende <strong>'White Label'-Dienstleistungen</strong> anbieten können. Dazu gehört das Bedrucken von Innenkartons und Masterkartons mit individuellen Designs, um ihre eigene Markenidentität aufzubauen.",
             "<strong>Strategische Ziele:</strong> Das Ziel ist es, höhere Gewinnspannen zu erzielen, Markentreue auf lokalen Märkten zu schaffen und ihre Produkte von der Konkurrenz abzuheben. Fabriken, die flexible, hochwertige kundenspezifische Verpackungsdienstleistungen anbieten, sind sehr gefragt."
           ]
         },
         {
           "type": "h3",
-          "text": "4. Eine 'Flucht zur Qualität' bei Lieferantenpartnerschaften"
+          "text": "4. Eine 'Flucht zur Qualität' in Lieferantenpartnerschaften"
         },
         {
           "type": "p",
@@ -315,7 +319,7 @@
           "type": "ul",
           "items": [
             "<strong>Risikominderung:</strong> Dieser Trend wird durch den Wunsch angetrieben, häufige Probleme wie inkonsistente Qualität zwischen den Lieferungen, Produktionsverzögerungen und schlechte Kommunikation zu vermeiden. Käufer legen jetzt ebenso viel Wert auf <strong>Zuverlässigkeit und Professionalität</strong> wie auf Produktqualität.",
-            "<strong>Nachfrage nach Transparenz:</strong> Importeure erwarten nun direkte Fabrikbeziehungen, klare und detaillierte technische Datenblätter (TDS) und eine reaktionsschnelle, professionelle Kommunikation vom Exportteam eines Lieferanten."
+            "<strong>Nachfrage nach Transparenz:</strong> Importeure erwarten jetzt direkte Fabrikbeziehungen, klare und detaillierte technische Datenblätter (TDS) und eine reaktionsschnelle, professionelle Kommunikation vom Exportteam eines Lieferanten."
           ]
         },
         {
@@ -324,39 +328,39 @@
         },
         {
           "type": "p",
-          "text": "Während die klassische Würfelform der Standard für Shisha bleibt, gibt es ein wachsendes Interesse an verschiedenen Formen, um spezifische Nischen zu bedienen und zur Markendifferenzierung beizutragen."
+          "text": "Während die klassische Würfelform der Standard für Shisha bleibt, gibt es ein wachsendes Interesse an verschiedenen Formen, um spezifische Nischen zu bedienen und zur Markendifferenzierung."
         },
         {
           "type": "ul",
           "items": [
-            "<strong>Benutzerdefinierte Formen:</strong> Formen wie <strong>sechseckige, fingerförmige und flache Briketts</strong> werden für bestimmte Arten von Grills, einzigartige Shisha-Köpfe oder einfach als Möglichkeit für eine Marke, sich visuell abzuheben, immer beliebter.",
+            "<strong>Benutzerdefinierte Formen:</strong> Formen wie <strong>sechseckige, Finger- und flache Briketts</strong> werden für bestimmte Arten von Grills, einzigartige Shisha-Köpfe oder einfach als Möglichkeit für eine Marke, sich visuell abzuheben, immer beliebter.",
             "<strong>Nachgewiesene Fähigkeit:</strong> Die Fähigkeit eines Herstellers, eine Vielzahl von Formen zu produzieren, wird als Indikator für fortschrittliche Produktionskapazitäten und Flexibilität angesehen, was ihn zu einem attraktiveren langfristigen Partner macht."
           ]
         },
         {
           "type": "blockquote",
-          "text": "Zusammenfassend lässt sich sagen, dass der globale Brikettmarkt im Jahr 2025 <strong>nachweisbare Qualität (niedriger Aschegehalt), eine authentische Geschichte (Nachhaltigkeit) und professionelle, wertschöpfende Partnerschaften (White Labeling & Transparenz)</strong> priorisiert. Der Preis ist nicht mehr der primäre Treiber, wenn er auf Kosten dieser drei Kernsäulen geht."
+          "text": "Zusammenfassend lässt sich sagen, dass der globale Brikettmarkt 2025 <strong>nachweisbare Qualität (niedrige Asche), eine authentische Geschichte (Nachhaltigkeit) und professionelle, wertschöpfende Partnerschaften (White Labeling & Transparenz)</strong> priorisiert. Der Preis ist nicht mehr der Haupttreiber, wenn er auf Kosten dieser drei Grundpfeiler geht."
         }
       ]
     },
     "guide-international-shipping-indonesian-charcoal": {
-      "title": "Vom Fabrikhallenboden zu Ihrem Lager: Ein Leitfaden für internationalen Versand und Logistik für indonesische Holzkohle",
-      "excerpt": "Ein hochwertiges Produkt ist nur dann wertvoll, wenn es sicher und pünktlich ankommt. Dieser Leitfaden entmystifiziert den Logistikprozess, von der professionellen Verpackung und Containerbeladung bis zur Exportdokumentation.",
+      "title": "Vom Fabrikhof zu Ihrem Lager: Ein Leitfaden für internationalen Versand & Logistik für indonesische Holzkohle",
+      "excerpt": "Ein hochwertiges Produkt ist nur dann wertvoll, wenn es sicher und pünktlich ankommt. Dieser Leitfaden entmystifiziert den Logistikprozess, von der professionellen Verpackung und Containerbeladung bis hin zur Exportdokumentation.",
       "image": "/shiping.webp",
       "date": "25. September 2025",
       "category": "Logistik & Versand",
       "meta": {
         "title": "Versand- & Logistikleitfaden für indonesische Holzkohle | Indo Charcoal Supply",
-        "description": "Ein wesentlicher Leitfaden für Importeure über den internationalen Versandprozess für Kokosnusskohlebriketts aus Indonesien, einschließlich Verpackung, Verladung, Dokumentation und Incoterms."
+        "description": "Ein wesentlicher Leitfaden für Importeure zum internationalen Versandprozess für Kokosnuss-Holzkohlebriketts aus Indonesien, einschließlich Verpackung, Beladung, Dokumentation und Incoterms."
       },
       "content": [
         {
           "type": "h2",
-          "text": "Ein großartiges Produkt ist nur die halbe Miete"
+          "text": "Ein großartiges Produkt ist nur die halbe Reise"
         },
         {
           "type": "p",
-          "text": "Sie haben ein hochwertiges Kokosnusskohlebrikett mit hervorragenden Spezifikationen ausgewählt. Aber die Reise von der Fabrik in Indonesien zu Ihrem Lager ist komplex und mit potenziellen Herausforderungen behaftet. Ein wirklich professioneller Lieferant beherrscht nicht nur die Produktion; <strong>er beherrscht die Logistik</strong>. Dieser Leitfaden bietet volle Transparenz über den internationalen Versandprozess und stellt sicher, dass Ihre Investition bei jedem Schritt geschützt ist."
+          "text": "Sie haben ein Premium-Kokosnuss-Holzkohlebrikett mit ausgezeichneten Spezifikationen ausgewählt. Aber die Reise von der Fabrik in Indonesien zu Ihrem Lager ist komplex und mit potenziellen Herausforderungen behaftet. Ein wirklich professioneller Lieferant beherrscht nicht nur die Produktion; <strong>er beherrscht die Logistik</strong>. Dieser Leitfaden bietet volle Transparenz über den internationalen Versandprozess und stellt sicher, dass Ihre Investition bei jedem Schritt geschützt ist."
         },
         {
           "type": "h3",
@@ -364,7 +368,7 @@
         },
         {
           "type": "p",
-          "text": "Bevor Ihre Bestellung den Strapazen des Seetransports ausgesetzt wird, muss sie tadellos verpackt sein. Dies beinhaltet mehr als nur eine Kiste. Die Umkartons werden sicher auf Holzpaletten gestapelt, die den <strong>internationalen ISPM-15-Standards</strong> für die Holzbehandlung entsprechen. Die gesamte Palette wird dann fest in mehrere Lagen Stretchfolie eingewickelt. Dieser Prozess, bekannt als <strong>Palettierung</strong>, schafft einen stabilen, einheitlichen Block, der verhindert, dass die Kisten während des Transports verrutschen und zerdrückt werden."
+          "text": "Bevor Ihre Bestellung den Strapazen des Seetransports ausgesetzt wird, muss sie tadellos verpackt werden. Dies beinhaltet mehr als nur einen Karton. Die Masterkartons werden sicher auf Holzpaletten gestapelt, die den <strong>internationalen Standards ISPM 15</strong> für die Holzbehandlung entsprechen. Die gesamte Palette wird dann fest in mehreren Lagen Stretchfolie eingewickelt. Dieser Prozess, bekannt als <strong>Palettierung</strong>, schafft einen stabilen, einheitlichen Block, der verhindert, dass sich die Kartons während des Transports verschieben und zerdrückt werden."
         },
         {
           "type": "h3",
@@ -372,7 +376,7 @@
         },
         {
           "type": "p",
-          "text": "Die Maximierung des Containerraums bei gleichzeitiger Gewährleistung der Sicherheit ist eine Fähigkeit. Wir verwenden in der Regel <strong>20-Fuß- oder 40-Fuß-Container</strong> mit einer Kapazität von ca. 18-19 Tonnen bzw. 26-27 Tonnen. Mit einer 'Bodenlade'- oder 'handgestapelten' Methode ordnet unser erfahrenes Team jeden Umkarton sorgfältig an, um den Platz zu optimieren und das Gewicht gleichmäßig zu verteilen. Dies verhindert Bewegungen während der Seereise und stellt sicher, dass der Container stabil und sicher für den Transport ist."
+          "text": "Die Maximierung des Containerraums bei gleichzeitiger Gewährleistung der Sicherheit ist eine Fähigkeit. Wir verwenden typischerweise <strong>20-Fuß- oder 40-Fuß-Container</strong> mit Kapazitäten von ca. 18-19 Tonnen bzw. 26-27 Tonnen. Mit einer 'Bodenlade'- oder 'handgestapelten' Methode ordnet unser erfahrenes Team jeden Masterkarton sorgfältig an, um den Platz zu optimieren und das Gewicht gleichmäßig zu verteilen. Dies verhindert Bewegungen während der Seereise und stellt sicher, dass der Container stabil und sicher für den Transport ist."
         },
         {
           "type": "h3",
@@ -380,15 +384,15 @@
         },
         {
           "type": "p",
-          "text": "Ein reibungsloser internationaler Handel basiert auf einer genauen Dokumentation. Ein professioneller Lieferant verwaltet diesen komplexen Prozess für Sie. Zu den wichtigsten Dokumenten gehören:"
+          "text": "Reibungsloser internationaler Handel basiert auf korrekter Dokumentation. Ein professioneller Lieferant verwaltet diesen komplexen Prozess für Sie. Zu den wichtigsten Dokumenten gehören:"
         },
         {
           "type": "ul",
           "items": [
             "<strong>Frachtbrief (B/L):</strong> Der Hauptvertrag zwischen dem Versender und dem Spediteur, der als Quittung und Eigentumsnachweis für die Waren dient.",
-            "<strong>Handelsrechnung & Packliste:</strong> Detailliert die Transaktion, den Wert der Waren und eine vollständige Liste der versendeten Waren.",
-            "<strong>Ursprungszeugnis (COO):</strong> Bestätigt, dass die Waren in Indonesien hergestellt wurden, was für die Zollabfertigung und Zölle entscheidend sein kann.",
-            "<strong>Materialsicherheitsdatenblatt (MSDS):</strong> Enthält Informationen zu den Eigenschaften und der Handhabung des Produkts und wird häufig von Reedereien verlangt."
+            "<strong>Handelsrechnung & Packliste:</strong> Detailliert die Transaktion, den Wert der Waren und eine vollständige Liste dessen, was versendet wird.",
+            "<strong>Ursprungszeugnis (COO):</strong> Bestätigt, dass die Waren in Indonesien hergestellt wurden, was für die Zollabfertigung und die Zölle entscheidend sein kann.",
+            "<strong>Materialsicherheitsdatenblatt (MSDS):</strong> Bietet Informationen zu den Eigenschaften und der Handhabung des Produkts, die oft von den Reedereien verlangt werden."
           ]
         },
         {
@@ -398,14 +402,14 @@
       ]
     },
     "indonesian-advantage-worlds-best-coconut-charcoal": {
-      "title": "Der indonesische Vorteil: Warum die beste Kokosnusskohle der Welt aus dem Archipel kommt",
-      "excerpt": "Es ist kein Zufall, dass Indonesien der weltweite Marktführer für hochwertige Kokosnusskohle ist. Entdecken Sie die einzigartige Kombination aus geografischen, landwirtschaftlichen und industriellen Faktoren, die diesen Vorteil schaffen.",
+      "title": "Der indonesische Vorteil: Warum die beste Kokosnuss-Holzkohle der Welt aus dem Archipel kommt",
+      "excerpt": "Es ist kein Zufall, dass Indonesien der weltweite Marktführer für hochwertige Kokosnuss-Holzkohle ist. Entdecken Sie die einzigartige Kombination aus geografischen, landwirtschaftlichen und industriellen Faktoren, die diesen Vorteil schaffen.",
       "image": "/charcoal.webp",
       "date": "24. September 2025",
       "category": "Brancheneinblicke",
       "meta": {
-        "title": "Der indonesische Vorteil in der Kokosnusskohleproduktion | Indo Charcoal Supply",
-        "description": "Entdecken Sie die 4 Hauptgründe – Rohstoffreichtum, ideales Klima, ein ausgereiftes Produktionsökosystem und strategische Lage –, warum Indonesien die beste Kokosnusskohle der Welt produziert."
+        "title": "Der indonesische Vorteil in der Kokosnuss-Holzkohleproduktion | Indo Charcoal Supply",
+        "description": "Entdecken Sie die 4 Hauptgründe – Rohstoffreichtum, ideales Klima, ein ausgereiftes Produktionsökosystem und strategische Lage – warum Indonesien die beste Kokosnuss-Holzkohle der Welt produziert."
       },
       "content": [
         {
@@ -414,43 +418,124 @@
         },
         {
           "type": "p",
-          "text": "Auf dem globalen Markt für hochwertige Kokosnusskohle steht ein Land als unangefochtener Führer da: <strong>Indonesien</strong>. Aber warum? Diese Dominanz ist kein Zufall. Sie ist das Ergebnis einer starken Kombination aus einzigartigen geografischen Vorteilen, einem reifen Agrarsektor und einem tief verwurzelten industriellen Ökosystem. Für anspruchsvolle Käufer bedeutet die Wahl eines indonesischen Lieferanten, auf dieses gesamte Rahmenwerk der Exzellenz zurückzugreifen."
+          "text": "Auf dem globalen Markt für hochwertige Kokosnuss-Holzkohle steht ein Land als unbestrittener Führer da: <strong>Indonesien</strong>. Aber warum? Diese Dominanz ist kein Zufall. Sie ist das Ergebnis einer kraftvollen Kombination aus einzigartigen geografischen Segnungen, einem reifen Agrarsektor und einem tief verwurzelten industriellen Ökosystem. Für anspruchsvolle Käufer bedeutet die Wahl eines indonesischen Lieferanten, sich dieses gesamte Rahmenwerk der Exzellenz zunutze zu machen."
         },
         {
           "type": "h3",
-          "text": "1. Beispielloser Reichtum an hochwertigem Rohmaterial"
+          "text": "1. Beispiellose Fülle an überlegenem Rohmaterial"
         },
         {
           "type": "p",
-          "text": "Die Grundlage jeder guten Holzkohle ist ihr Rohmaterial. Indonesien ist die <strong>Kokosnuss-Hauptstadt der Welt</strong> mit weitläufigen Plantagen auf Inseln wie Sumatra, Java und Sulawesi. Diese enorme Größenordnung sorgt für eine konstante, ganzjährige Versorgung mit reifen Kokosnussschalen – der dichtesten und reinsten Quelle für die Holzkohleproduktion. Im Gegensatz zu kleineren Nationen haben indonesische Produzenten einen beispiellosen Zugang zu den besten Rohstoffen und gewährleisten eine stabile Lieferkette, die die große internationale Nachfrage ohne Qualitätseinbußen decken kann."
+          "text": "Die Grundlage jeder großartigen Holzkohle ist ihr Rohmaterial. Indonesien ist die <strong>Kokosnuss-Hauptstadt der Welt</strong>, mit weitläufigen Plantagen auf Inseln wie Sumatra, Java und Sulawesi. Diese enorme Größenordnung bietet eine beständige, ganzjährige Versorgung mit reifen Kokosnussschalen – der dichtesten und reinsten Quelle für die Holzkohleproduktion. Im Gegensatz zu kleineren Nationen haben indonesische Produzenten einen beispiellosen Zugang zu den besten Rohstoffen, was eine stabile Lieferkette gewährleistet, die die große internationale Nachfrage ohne Qualitätseinbußen decken kann."
         },
         {
           "type": "h3",
-          "text": "2. Ein ideales Klima für Hochleistungskohle"
+          "text": "2. Ein ideales Klima für Hochleistungs-Holzkohle"
         },
         {
           "type": "p",
-          "text": "Das äquatoriale Klima Indonesiens mit seiner konstanten Sonneneinstrahlung und den Regenfällen schafft die perfekten Bedingungen für den Anbau von Kokosnüssen mit <strong>außergewöhnlich dicken und dichten Schalen</strong>. Dies ist ein entscheidender, oft übersehener Faktor. Eine dickere, dichtere Schale enthält mehr Kohlenstoff und weniger Verunreinigungen. Dies schlägt sich direkt in den wichtigsten Leistungsmetriken des Endprodukts nieder: einem höheren Gehalt an festem Kohlenstoff, der einen höheren Brennwert (mehr Wärme) und eine deutlich längere Brenndauer erzeugt."
+          "text": "Das äquatoriale Klima Indonesiens mit seiner konstanten Sonneneinstrahlung und seinen Niederschlägen schafft die perfekten Bedingungen für den Anbau von Kokosnüssen mit <strong>außergewöhnlich dicken und dichten Schalen</strong>. Dies ist ein entscheidender, oft übersehener Faktor. Eine dickere, dichtere Schale enthält mehr Kohlenstoff und weniger Verunreinigungen. Dies schlägt sich direkt in den wichtigsten Leistungsmetriken des Endprodukts nieder: ein höherer Gehalt an festem Kohlenstoff, der einen höheren Heizwert (mehr Hitze) und eine deutlich längere Brenndauer erzeugt."
         },
         {
           "type": "h3",
-          "text": "3. Ein ausgereiftes und weiterentwickeltes Produktionsökosystem"
+          "text": "3. Ein reifes und entwickeltes Produktionsökosystem"
         },
         {
           "type": "p",
-          "text": "Die Kokosnusskohleindustrie in Indonesien ist nicht neu; es ist ein <strong>ausgereiftes, hochentwickeltes Ökosystem</strong>. Jahrzehntelange Erfahrung haben einen großen Pool an qualifizierten Arbeitskräften, erfahrenen Produktionstechnikern und spezialisierten Geräteherstellern gefördert. Diese industrielle Reife bedeutet, dass führende Produzenten über grundlegende Methoden hinausgegangen sind und moderne, wissenschaftliche Ansätze für Karbonisierung, Mischen und Qualitätskontrolle übernommen haben. Dieses Ökosystem aus gemeinsamem Wissen und kontinuierlicher Verbesserung ermöglicht es den Fabriken, Briketts herzustellen, die den strengen <strong>Aschegehalt von unter 2,5 %</strong> erfüllen, der von den internationalen Premium-Märkten gefordert wird."
+          "text": "Die Kokosnuss-Holzkohleindustrie in Indonesien ist nicht neu; sie ist ein <strong>reifes, hochentwickeltes Ökosystem</strong>. Jahrzehntelange Erfahrung hat einen tiefen Pool an qualifizierten Arbeitskräften, erfahrenen Produktionstechnikern und spezialisierten Geräteherstellern gefördert. Diese industrielle Reife bedeutet, dass führende Produzenten über grundlegende Methoden hinausgegangen sind und moderne, wissenschaftliche Ansätze zur Karbonisierung, Mischung und Qualitätskontrolle übernommen haben. Dieses Ökosystem aus gemeinsamem Wissen und kontinuierlicher Verbesserung ermöglicht es den Fabriken, Briketts herzustellen, die den strengen <strong>Aschegehalt von unter 2,5 %</strong> erfüllen, der von den internationalen Premium-Märkten gefordert wird."
+        }
+      ]
+    },
+    "indonesian-briquette-charcoal-export-2025": {
+      "title": "Globale Marktdynamik des indonesischen Brikett-Holzkohle-Exports im Jahr 2025",
+      "excerpt": "Indonesien festigt seine Rolle als weltweit führender Exporteur von Brikett-Holzkohle, angetrieben durch nachhaltige Kokosnussschalen-Ressourcen, steigende Nachfrage nach umweltfreundlichen Brennstoffen und staatliche Unterstützung für den internationalen Handel.",
+      "image": "/globalMarket.webp",
+      "date": "30. September 2025",
+      "category": "Geschäftseinblicke",
+      "meta": {
+        "title": "Indonesiens Brikett-Holzkohle-Exporttrends 2025 | Indo Charcoal Supply",
+        "description": "Entdecken Sie, wie Indonesien den globalen Brikett-Holzkohlemarkt im Jahr 2025 anführt. Erfahren Sie mehr über Nachfragetreiber, Top-Exportziele, Nachhaltigkeitstrends und warum indonesische Holzkohle weltweit gefragt ist."
+      },
+      "content": [
+        {
+          "type": "h2",
+          "text": "Indonesiens wachsende Dominanz im Export von Brikett-Holzkohle"
+        },
+        {
+          "type": "p",
+          "text": "Indonesien hat sich zum <strong>weltweit größten Lieferanten von Brikett-Holzkohle</strong> entwickelt, insbesondere aus Kokosnussschalen. Dieser Erfolg spiegelt nicht nur den Reichtum an natürlichen Ressourcen wider, sondern auch die Fähigkeit des Landes, die weltweite Nachfrage nach sauberen, nachhaltigen und leistungsstarken Brennstoffalternativen zu decken."
+        },
+        {
+          "type": "h2",
+          "text": "Schlüsselfaktoren für das Marktwachstum"
+        },
+        {
+          "type": "h3",
+          "text": "1. Steigende globale Nachfrage nach umweltfreundlichem Brennstoff"
+        },
+        {
+          "type": "p",
+          "text": "Verbraucher und Unternehmen weltweit wenden sich aufgrund von Bedenken hinsichtlich der Entwaldung von Holzkohle auf Holzbasis ab. <strong>Kokosnussschalenbriketts</strong> werden als nachhaltige Alternative angesehen. Sie brennen länger, erzeugen weniger Rauch und werden aus landwirtschaftlichen Abfällen hergestellt, was sie zu einer umweltbewussten Wahl macht."
+        },
+        {
+          "type": "h3",
+          "text": "2. Staatliche Unterstützung und Handelsmöglichkeiten"
+        },
+        {
+          "type": "p",
+          "text": "Die indonesische Regierung hat Brikett-Holzkohle als Teil ihrer Exportstrategie für Nicht-Öl- und Gasprodukte priorisiert. Handelsabkommen mit Ländern im Nahen Osten, Europa und Asien eröffnen neue Märkte. Exporteure profitieren von vereinfachten Vorschriften und der wachsenden globalen Anerkennung der Produktqualität Indonesiens."
+        },
+        {
+          "type": "h3",
+          "text": "3. Wettbewerbsvorteile in der Produktion"
+        },
+        {
+          "type": "p",
+          "text": "Mit reichlich Rohstoffen, qualifizierten Arbeitskräften und etablierten Produktionsanlagen bietet Indonesien <strong>wettbewerbsfähige Preise</strong> bei gleichbleibender Qualität. Das Produktionsökosystem unterstützt sowohl kleine Produzenten als auch große Exporteure und gewährleistet eine stabile Versorgung auch während der Hochsaison."
+        },
+        {
+          "type": "h2",
+          "text": "Top-Exportziele"
+        },
+        {
+          "type": "p",
+          "text": "Im Jahr 2025 umfassen die Hauptmärkte für indonesische Brikett-Holzkohle den <strong>Nahen Osten (Saudi-Arabien, VAE)</strong> für den Shisha-Konsum, <strong>Europa (Deutschland, Großbritannien, Niederlande)</strong> für umweltfreundliches Grillen und <strong>Ostasien (Südkorea, Japan)</strong> für hochwertige Grillprodukte. Diese Regionen schätzen gleichbleibende Qualität und nachhaltige Beschaffung."
+        },
+        {
+          "type": "h2",
+          "text": "Nachhaltigkeit und Umweltauswirkungen"
+        },
+        {
+          "type": "p",
+          "text": "Kokosnussschalenbriketts werden aus Abfallmaterialien hergestellt, was die Umweltbelastung reduziert. Die Produzenten wenden zunehmend <strong>ISO-zertifizierte Produktionsmethoden</strong> an und investieren in erneuerbare Energien für den Betrieb. Dies erhöht sowohl die Nachhaltigkeit als auch das Vertrauen internationaler Käufer."
+        },
+        {
+          "type": "h2",
+          "text": "Herausforderungen und Chancen"
+        },
+        {
+          "type": "p",
+          "text": "Trotz starken Wachstums sehen sich Exporteure Herausforderungen wie <strong>steigenden Logistikkosten, strengeren Importvorschriften</strong> und zunehmendem Wettbewerb aus anderen produzierenden Ländern gegenüber. Indonesien bleibt jedoch aufgrund von Größe, Qualität und dem Vertrauen internationaler Käufer führend."
+        },
+        {
+          "type": "h2",
+          "text": "Fazit"
+        },
+        {
+          "type": "p",
+          "text": "Die Position Indonesiens als weltweit führender Exporteur von Brikett-Holzkohle ist 2025 stärker denn je. Mit reichlich Ressourcen, staatlicher Unterstützung und steigender globaler Nachfrage nach nachhaltigen Produkten sind indonesische Exporteure gut positioniert, um ihren Marktanteil auszubauen. Für Unternehmen und Händler weltweit sichert die Partnerschaft mit indonesischen Produzenten den Zugang zu einem zuverlässigen, umweltfreundlichen und profitablen Produkt."
         }
       ]
     },
     "complete-guide-to-high-quality-shisha-charcoal": {
-      "title": "Der vollständige Leitfaden zu hochwertigen Shisha-Kohlebriketts",
-      "excerpt": "Ein erstklassiges Shisha-Erlebnis hängt von zwei Dingen ab: der Qualität des Tabaks und der Qualität der Kohle. Dieser Leitfaden bietet einen detaillierten Einblick, was ein wirklich hochwertiges Kohlebrikett ausmacht.",
-      "image": "/shisha-charcoal-guide.webp",
+      "title": "Der vollständige Leitfaden zu hochwertigen Shisha-Holzkohlebriketts",
+      "excerpt": "Eine erstklassige Shisha-Sitzung hängt von zwei Dingen ab: der Qualität des Tabaks und der Qualität der Holzkohle. Dieser Leitfaden bietet einen detaillierten Einblick, was ein wirklich hochwertiges Holzkohlebrikett ausmacht.",
+      "image": "/shisha2.webp",
       "date": "25. September 2025",
       "category": "Brancheneinblicke",
       "meta": {
         "title": "Leitfaden für hochwertige Shisha-Kohle | Indo Charcoal Supply",
-        "description": "Erfahren Sie, was eine Premium-Shisha-Kohle ausmacht, von niedrigem Aschegehalt und langer Brenndauer bis hin zum detaillierten Produktionsprozess. Ein Leitfaden für Importeure und Marken."
+        "description": "Erfahren Sie, was eine erstklassige Shisha-Kohle ausmacht, von niedrigem Aschegehalt und langer Brenndauer bis zum detaillierten Produktionsprozess. Ein Leitfaden für Importeure und Marken."
       },
       "content": [
         {
@@ -459,16 +544,16 @@
         },
         {
           "type": "p",
-          "text": "Die Wahl der richtigen Kohle ist sowohl für das Verbrauchererlebnis als auch für den Ruf Ihrer Marke entscheidend. Hier sind die Kernspezifikationen, die ein überlegenes Produkt definieren:"
+          "text": "Die Wahl der richtigen Holzkohle ist entscheidend für das Kundenerlebnis und den Ruf Ihrer Marke. Hier sind die Kernspezifikationen, die ein überlegenes Produkt definieren:"
         },
         {
           "type": "ul",
           "items": [
-            "<strong>Niedriger Aschegehalt:</strong> Dies ist der kritischste Faktor. Premium-Briketts, wie die von Indo Charcoal Supply, weisen einen Aschegehalt von <strong>unter 2,5 %</strong> auf. Wenig Asche bedeutet eine sauberere Verbrennung, weniger Rückstände im Ascheteller und keine Geschmacksveränderung der Shisha.",
+            "<strong>Niedriger Aschegehalt:</strong> Dies ist der kritischste Faktor. Premium-Briketts, wie die von Indo Charcoal Supply, haben einen Aschegehalt von <strong>unter 2,5 %</strong>. Wenig Asche bedeutet eine sauberere Verbrennung, weniger Rückstände im Ascheteller und keine Veränderung des Shisha-Geschmacks.",
             "<strong>Lange Brenndauer:</strong> Ein hochwertiges Brikett sollte mindestens <strong>1,5 Stunden</strong> in einem Standard-Shisha-Kopf brennen. Dies ermöglicht eine längere, angenehmere Sitzung, ohne dass die Kohlen häufig ausgetauscht werden müssen.",
-            "<strong>Hoher Brennwert:</strong> Gemessen in Kcal/kg, weist ein hoher Brennwert (über <strong>7400 Kcal/kg</strong>) auf intensive, gleichmäßige Hitze hin. Dies ist für das richtige Erhitzen des Shisha-Tabaks und die Erzeugung von dickem, geschmackvollem Rauch unerlässlich.",
-            "<strong>Geruchs- und geschmacksneutral:</strong> Briketts müssen zu 100 % aus natürlichen Kokosnussschalen bestehen und dürfen keine chemischen Zusätze enthalten. Dadurch wird sichergestellt, dass die Kohle keine unangenehmen Gerüche oder Geschmäcker erzeugt, die das Shisha-Erlebnis beeinträchtigen könnten.",
-            "<strong>Kein Funkenflug:</strong> Professionelle Briketts sollten beim Anzünden nicht funken oder knistern, um ein sicheres und problemloses Erlebnis für den Benutzer zu gewährleisten."
+            "<strong>Hoher Heizwert:</strong> Gemessen in Kcal/kg, zeigt ein hoher Heizwert (über <strong>7400 Kcal/kg</strong>) eine intensive, gleichmäßige Hitze an. Dies ist entscheidend, um den Shisha-Tabak richtig zu erhitzen und dichten, geschmackvollen Rauch zu erzeugen.",
+            "<strong>Geruchs- und geschmacksneutral:</strong> Briketts müssen zu 100 % aus natürlichen Kokosnussschalen bestehen und dürfen keine chemischen Zusätze enthalten. Dies stellt sicher, dass die Holzkohle keine unangenehmen Gerüche oder Geschmäcker erzeugt, die das Shisha-Erlebnis ruinieren könnten.",
+            "<strong>Keine Funkenbildung:</strong> Professionelle Briketts sollten beim Anzünden keine Funken sprühen oder knacken, was ein sicheres und problemloses Erlebnis für den Benutzer garantiert."
           ]
         },
         {
@@ -477,11 +562,11 @@
         },
         {
           "type": "p",
-          "text": "Das Erreichen dieser Premium-Eigenschaften erfordert einen sorgfältigen Produktionsprozess. Alles beginnt mit dem <strong>Rohmaterial</strong>: reife, dichte Kokosnussschalen. Diese Schalen werden dann bei hohen Temperaturen in speziellen Öfen karbonisiert, um hochwertige Holzkohle mit hohem Festkohlenstoffgehalt zu erzeugen."
+          "text": "Das Erreichen dieser Premium-Eigenschaften erfordert einen sorgfältigen Produktionsprozess. Alles beginnt mit dem <strong>Rohmaterial</strong>: reife, dichte Kokosnussschalen. Diese Schalen werden dann bei hohen Temperaturen in speziellen Öfen karbonisiert, um hochwertige Holzkohle mit einem hohen Gehalt an festem Kohlenstoff zu erzeugen."
         },
         {
           "type": "p",
-          "text": "Nach der Karbonisierung wird die Holzkohle zerkleinert und mit einem <strong>natürlichen Bindemittel</strong> (typischerweise lebensmittelechte Tapiokastärke) gemischt, bevor sie in einheitliche Formen wie Würfel oder Sechsecke gepresst wird. Dieser Prozess, bekannt als Brikettierung, ist der Schlüssel zur Erzielung einer gleichmäßigen Dichte und Brenndauer. Die Briketts werden dann getrocknet, um jegliche Feuchtigkeit zu entfernen, sodass sie für die Verpackung und den Versand bereit sind."
+          "text": "Nach der Karbonisierung wird die Holzkohle zerkleinert und mit einem <strong>natürlichen Bindemittel</strong> (typischerweise lebensmittelechte Tapiokastärke) gemischt, bevor sie in einheitliche Formen wie Würfel oder Sechsecke gepresst wird. Dieser Prozess, bekannt als Brikettierung, ist der Schlüssel zur Erzielung einer gleichmäßigen Dichte und Brenndauer. Die Briketts werden dann getrocknet, um jegliche Feuchtigkeit zu entfernen, und sind somit bereit für die Verpackung und den Versand."
         },
         {
           "type": "h2",
@@ -494,24 +579,122 @@
         {
           "type": "ul",
           "items": [
-            "<strong>Laborgeprüfte Qualität</strong> mit einem Analysenzertifikat für jede Charge.",
-            "<strong>Eine konsistente Lieferkette</strong> dank der reichhaltigen Kokosnussressourcen Indonesiens.",
+            "<strong>Laborgeprüfte Qualität</strong> mit einem Analysezertifikat für jede Charge.",
+            "<strong>Eine beständige Lieferkette</strong> dank der reichlichen Kokosnussressourcen Indonesiens.",
             "<strong>Anpassbare Verpackung</strong>, um Ihnen beim Aufbau Ihrer eigenen Markenidentität zu helfen."
           ]
         },
         {
           "type": "p",
-          "text": "Wenn Sie sich für uns entscheiden, erhalten Sie nicht nur ein Produkt; Sie erhalten einen strategischen Vorteil auf dem globalen Shisha-Markt. Wir sind bestrebt, Ihnen dabei zu helfen, Ihren Kunden ein unvergleichliches Shisha-Erlebnis zu bieten."
+          "text": "Indem Sie uns wählen, erhalten Sie nicht nur ein Produkt; Sie erlangen einen strategischen Vorteil auf dem globalen Shisha-Markt. Wir sind bestrebt, Ihnen dabei zu helfen, Ihren Kunden ein unvergleichliches Shisha-Erlebnis zu bieten."
+        }
+      ]
+    },
+    "indonesia-coconut-briquette-export": {
+      "title": "Indonesiens Kokosnuss-Brikett-Holzkohle: Der aufsteigende Stern im globalen Export",
+      "excerpt": "Indonesien verwandelt Kokosnuss-Brikett-Holzkohle in eines seiner vielversprechendsten Exportgüter. Entdecken Sie, warum die Nachfrage weltweit boomt, welche einzigartigen Vorteile Indonesien hat und wo die zukünftigen Chancen liegen.",
+      "image": "/artikel1.webp",
+      "date": "30. September 2025",
+      "category": "Geschäftseinblicke",
+      "meta": {
+        "title": "Indonesien Kokosnuss-Brikett-Holzkohle-Export | Indo Charcoal Supply",
+        "description": "Erfahren Sie, warum Indonesiens Kokosnuss-Brikett-Holzkohle zu einem globalen Exportführer wird. Informieren Sie sich über Marktnachfrage, umweltfreundliche Vorteile, Herausforderungen und Zukunftschancen.",
+        "keywords": "kokosnuss brikett holzkohle export, indonesien holzkohle lieferant, shisha briketts, grillkohle, nachhaltiger brennstoff export"
+      },
+      "content": [
+        {
+          "type": "h2",
+          "text": "Einführung"
+        },
+        {
+          "type": "p",
+          "text": "In den letzten Jahren hat sich Kokosnuss-Brikett-Holzkohle von einem Nischenexport zu einem der vielversprechendsten globalen Güter Indonesiens entwickelt. Einst zugunsten von Palmöl oder Kaffee übersehen, gewinnen Produkte auf Kokosnussbasis jetzt im Nahen Osten, in Europa und den USA an Aufmerksamkeit."
+        },
+        {
+          "type": "h2",
+          "text": "Was ist Kokosnuss-Brikett-Holzkohle?"
+        },
+        {
+          "type": "p",
+          "text": "Kokosnuss-Brikett-Holzkohle wird aus Kokosnussschalen hergestellt, die karbonisiert, komprimiert und in Würfel, Sechsecke oder benutzerdefinierte Designs geformt werden. Sie wird häufig zum Shisha-Rauchen, Grillen und für industrielle Zwecke verwendet. Im Gegensatz zu traditioneller Holzkohle brennt sie länger, erzeugt weniger Asche und gilt als klimaneutral."
+        },
+        {
+          "type": "h2",
+          "text": "Globale Nachfragetrends"
+        },
+        {
+          "type": "p",
+          "text": "Der Exportwert der indonesischen Kokosnuss-Brikett-Holzkohle wuchs 2023 um mehr als 20 %. Die Nachfrage ist besonders stark im Nahen Osten (Saudi-Arabien, VAE, Katar), in Europa (Deutschland, Niederlande, Großbritannien) und Nordamerika (USA & Kanada). Allein der Shisha-Markt soll bis 2030 ein Volumen von 5,6 Mrd. USD erreichen, was die Nachfrage nach Holzkohle antreibt."
+        },
+        {
+          "type": "h2",
+          "text": "Warum Indonesien im Vorteil ist"
+        },
+        {
+          "type": "h3",
+          "text": "1. Reichlich Rohstoffe"
+        },
+        {
+          "type": "p",
+          "text": "Indonesien ist der weltweit größte Kokosnussproduzent und gewährleistet eine stetige Versorgung mit Schalen das ganze Jahr über. Dies macht die Brikettproduktion im Vergleich zu Holzkohle auf Holzbasis nachhaltig."
+        },
+        {
+          "type": "h3",
+          "text": "2. Umweltfreundliche Produktion"
+        },
+        {
+          "type": "p",
+          "text": "Kokosnussbriketts sind erneuerbar und biologisch abbaubar und entsprechen internationalen Umweltstandards wie REACH (EU) und EPA (USA)."
+        },
+        {
+          "type": "h3",
+          "text": "3. Qualifizierte Arbeitskräfte & reife Industrie"
+        },
+        {
+          "type": "p",
+          "text": "Mit jahrzehntelanger Erfahrung verwenden indonesische Fabriken heute fortschrittliche Karbonisierungs- und Kompressionstechnologie, um strenge Exportanforderungen an Asche- und Feuchtigkeitsgehalt zu erfüllen."
+        },
+        {
+          "type": "h3",
+          "text": "4. Strategische Schifffahrtsrouten"
+        },
+        {
+          "type": "p",
+          "text": "Die Lage Indonesiens in Südostasien ermöglicht eine effiziente Lieferung sowohl nach Osten als auch nach Westen, was die Versandkosten und Lieferzeiten reduziert."
+        },
+        {
+          "type": "h2",
+          "text": "Herausforderungen für die Branche"
+        },
+        {
+          "type": "p",
+          "text": "Die Branche steht vor mehreren Herausforderungen: unterschiedliche Produktqualität bei den Produzenten, komplexe Exportvorschriften und zunehmender Wettbewerb aus anderen kokosnussproduzierenden Ländern wie den Philippinen, Sri Lanka und Vietnam."
+        },
+        {
+          "type": "h2",
+          "text": "Zukünftige Chancen"
+        },
+        {
+          "type": "p",
+          "text": "Die Zukunft ist vielversprechend: Kokosnussbriketts werden als klimaneutrale Energiequelle positioniert, die Nachfrage nach Eigenmarkenverpackungen ist hoch, technologische Verbesserungen steigern die Leistung und neue Anwendungen in der Bioenergie und industriellen Beheizung entstehen."
+        },
+        {
+          "type": "h2",
+          "text": "Fazit"
+        },
+        {
+          "type": "p",
+          "text": "Indonesiens Kokosnuss-Brikett-Holzkohle ist mehr als nur eine Ware – sie ist ein Symbol für nachhaltigen Handel. Mit reichlich Rohstoffen, qualifizierten Arbeitskräften und steigender globaler Nachfrage wird Indonesien der zuverlässigste Lieferant der Welt bleiben. Für Importeure und Händler ist jetzt die Zeit, Partnerschaften zu sichern und sich diesem wachsenden Markt anzuschließen."
         }
       ]
     }
   },
   "footer": {
-    "about": "Gegründet 2021 mit dem festen Vorsatz, die besten, schnellsten und zuverlässigsten Dienstleistungen in der Holzkohlebrikett-Branche zu bieten.",
-    "quickLinks": "Schnelllinks",
+    "about": "Gegründet 2021 mit dem festen Ziel, die besten, schnellsten und zuverlässigsten Dienstleistungen in der Holzkohlebrikettindustrie anzubieten.",
+    "quickLinks": "Schnellinks",
     "contactUs": "Kontaktieren Sie uns",
     "followUs": "Folgen Sie uns",
-    "address": "Magelang Street 71, Sleman, Yogyakarta, Indonesien",
+    "address": "71 Magelang Street, Sleman, Yogyakarta, Indonesien",
     "rights": "Alle Rechte vorbehalten.",
     "links": {
       "home": "Startseite",
@@ -528,6 +711,6 @@
     "iframeTitle": "Vorschau der Standortkarte"
   },
   "team": {
-    "title": "Unser Team"
+    "title": "Lernen Sie unser Team kennen"
   }
 }

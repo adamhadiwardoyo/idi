@@ -1,20 +1,24 @@
 {
   "metadata": {
-    "title": "Indo Charcoal | Kokoskoolbriketten voor Shisha & BBQ",
-    "description": "Hoogwaardige kokoskoolbriketten uit Indonesië. Duurzaam, milieuvriendelijk en perfect voor shisha & BBQ. Neem contact met ons op voor wereldwijde export.",
-    "keywords": "kokoskool voor shisha, shisha kool leverancier, BBQ briketten, Indonesië houtskool exporteur, kokosschaal houtskool, houtskool leverancier, export van kokosbriketten uit Indonesië",
+    "title": "Indo Charcoal | Kokosnoot Houtskoolbriketten voor Shisha & BBQ",
+    "description": "Hoogwaardige kokosnoot houtskoolbriketten uit Indonesië. Duurzaam, milieuvriendelijk en perfect voor shisha & BBQ. Neem contact met ons op voor wereldwijde export.",
+    "keywords": "kokosnoot houtskool voor shisha, shisha houtskool leverancier, BBQ briketten, Indonesië houtskool exporteur, kokosnoot houtskool, houtskoolleverancier, kokosnoot houtskoolbriket export uit Indonesië",
     "alternates": {
       "canonical": "https://www.indocharcoalsupply.com/nl",
       "languages": {
         "x-default": "https://www.indocharcoalsupply.com",
-        "en": "https://www.indocharcoalsupply.com",
+         "en": "https://www.indocharcoalsupply.com",
         "ar": "https://www.indocharcoalsupply.com/ar",
-        "nl": "https://www.indocharcoalsupply.com/nl"
+        "de": "https://www.indocharcoalsupply.com/de",
+        "fr": "https://www.indocharcoalsupply.com/fr",
+        "ja": "https://www.indocharcoalsupply.com/ja",
+        "nl": "https://www.indocharcoalsupply.com/nl",
+        "zh": "https://www.indocharcoalsupply.com/zh"
       }
     },
     "openGraph": {
       "title": "Indo Charcoal Supply | Premium Briketten",
-      "description": "Ontdek hoogwaardige, duurzame kokoskoolbriketten voor shisha en BBQ. Wereldwijd geëxporteerd vanuit Indonesië.",
+      "description": "Ontdek hoogwaardige, duurzame kokosnoot houtskoolbriketten voor shisha en BBQ. Wereldwijd exporterend vanuit Indonesië.",
       "siteTitle": "Indo Charcoal Supply",
       "type": "website",
       "url": "https://www.indocharcoalsupply.com/nl",
@@ -30,7 +34,7 @@
     "twitter": {
       "card": "summary_large_image",
       "title": "Indo Charcoal Supply | Premium Briketten",
-      "description": "Ontdek hoogwaardige, duurzame kokoskoolbriketten voor shisha en BBQ. Wereldwijd geëxporteerd vanuit Indonesië.",
+      "description": "Ontdek hoogwaardige, duurzame kokosnoot houtskoolbriketten voor shisha en BBQ. Wereldwijd exporterend vanuit Indonesië.",
       "images": [
         "https://www.indocharcoalsupply.com/opengraph-image.png"
       ]
@@ -51,38 +55,64 @@
     "blog": "Blog"
   },
   "hero": {
-    "catalog": "Catalogus Downloaden",
-    "contact": "Neem Contact Op",
-    "paragraph": "Het bedrijf Indo Charcoal Supply is opgericht in 2021 met een sterke toewijding om klanten de beste, snelste en meest betrouwbare diensten te bieden. Sinds de oprichting heeft het bedrijf zich gericht op de productie en export van hoogwaardige briketten.",
-    "company-profile": "Bedrijfsprofiel Downloaden",
+    "catalog": "Download Catalogus",
+    "contact": "Neem contact op",
+    "paragraph": "Het bedrijf Indo Charcoal Supply werd in 2021 opgericht met een sterke toewijding om klanten de beste, snelste en meest betrouwbare diensten te bieden. Sinds de oprichting heeft het bedrijf zich gericht op de productie en export van hoogwaardige briketten.",
+    "company-profile": "Download Bedrijfsprofiel",
     "download-options": "Downloadopties"
   },
   "stat": {
     "country": "Land",
     "client": "Klant",
-    "testimonie": "Recensie"
+    "testimonie": "Getuigenissen"
   },
   "values": {
-    "ourValue": "Onze waarden",
-    "integrityDescription": "Wij zetten ons in om in elk aspect van onze bedrijfsvoering eerlijk, ethisch en transparant te handelen.",
+    "ourValue": "Onze Waarde",
+    "integrityDescription": "We zijn toegewijd aan het zakendoen met eerlijkheid, ethiek en transparantie in elk aspect van onze activiteiten.",
     "integrityTitle": "Integriteit",
     "qualityTitle": "Kwaliteit",
-    "qualityDescription": "Wij geven altijd prioriteit aan kwaliteit in elk product en elke dienst die we aanbieden om de verwachtingen van de klant te overtreffen.",
+    "qualityDescription": "We geven altijd prioriteit aan kwaliteit in elk product en elke dienst die we aanbieden om de verwachtingen van de klant te overtreffen.",
     "innovationTitle": "Innovatie",
-    "innovationDescription": "We zoeken voortdurend naar nieuwe en betere manieren om onze producten, processen en diensten te verbeteren.",
+    "innovationDescription": "We geven altijd prioriteit aan kwaliteit in elk product en elke dienst die we aanbieden om de verwachtingen van de klant te overtreffen.",
     "satisfactionTitle": "Klanttevredenheid",
-    "satisfactionDescription": "Wij zetten ons volledig in om ervoor te zorgen dat elke klant volledig tevreden is met onze producten en diensten.",
+    "satisfactionDescription": "We voeren onze zaken met eerlijkheid, transparantie en ethische principes.",
     "serviceTitle": "Klantenservice",
-    "serviceDescription": "Wij stellen klanttevredenheid voorop door middel van een responsieve, attente en professionele service.",
+    "serviceDescription": "We geven prioriteit aan klanttevredenheid door middel van een responsieve, attente en professionele service.",
     "cooperationTitle": "Samenwerking",
     "cooperationDescription": "Wij geloven dat samenwerking met klanten, zakenpartners en gemeenschappen de sleutel is tot het behalen van wederzijds succes."
+  },
+  "certifications": {
+    "title": "Kwaliteit & Veiligheid Verzekerd: Onze Certificeringen",
+    "description": "Wij zijn toegewijd aan de hoogste normen van kwaliteit, veiligheid en transparantie. Onze producten worden rigoureus getest en gecertificeerd door onafhankelijke laboratoria om te voldoen aan internationale exportnormen, zodat u bij elke zending volledig vertrouwen heeft.",
+    "labTestTitle": "Laboratoriumtestrapport / Analysecertificaat (CoA)",
+    "labTestDescription": "Elke productiebatch wordt vergezeld door een Analysecertificaat van een vertrouwd onafhankelijk laboratorium. Dit rapport verifieert belangrijke kwaliteitsspecificaties zoals Asgehalte, Vocht, Vluchtige Stoffen en Calorische Waarde, zodat het product dat u ontvangt overeenkomt met de kwaliteit die u heeft besteld.",
+    "msdsTitle": "Materiaalenveiligheidsinformatieblad (MSDS)",
+    "msdsDescription": "Wij verstrekken een uitgebreid MSDS voor onze kokosnoot houtskoolbriketten. Dit cruciale document beschrijft de eigenschappen van het product, de hanteringsprocedures en veiligheidsmaatregelen, en is vereist door internationale rederijen om een veilig en conform transport te garanderen.",
+    "legalDocsTitle": "Officiële Juridische Documenten",
+    "legalDocsDescription": "Ons bedrijf is volledig geregistreerd en voldoet aan alle Indonesische exportregelgeving. Wij verstrekken alle nodige juridische documenten, inclusief het Certificaat van Oorsprong (COO), om een soepel en transparant inklaringsproces in uw land van bestemming te garanderen."
+  },
+  "whyChooseUs": {
+    "title": "Waarom kiezen voor Indo Charcoal Supply?",
+    "description": "Wij zijn meer dan alleen een fabrikant; wij zijn uw strategische partner in de houtskoolindustrie. We zijn toegewijd om uw bedrijf te helpen bloeien door niet alleen een premium product te leveren, maar ook uitgebreide ondersteuning en onwrikbare betrouwbaarheid.",
+    "point1Title": "Premium & Consistente Kwaliteit",
+    "point1Description": "We implementeren strenge kwaliteitscontrole in elke fase, van de selectie van de schillen tot de uiteindelijke verpakking, om ervoor te zorgen dat elke briket voldoet aan de hoogste internationale normen.",
+    "point2Title": "Directe Fabriek & Concurrerende Prijzen",
+    "point2Description": "Als directe fabrikant elimineren we tussenpersonen, waardoor we u de meest concurrerende prijzen kunnen bieden zonder concessies te doen aan de kwaliteit.",
+    "point3Title": "Maatwerk & White Label Expertise",
+    "point3Description": "Wij zijn gespecialiseerd in het creëren van op maat gemaakte briketvormen en private label verpakkingen, zodat u uw eigen unieke merk kunt opbouwen en laten groeien.",
+    "point4Title": "Betrouwbare & Wereldwijde Verzending",
+    "point4Description": "Ons ervaren logistieke team zorgt ervoor dat uw bestellingen veilig en op tijd worden geleverd, en regelt alle exportdocumentatie voor een soepel proces.",
+    "point5Title": "Duurzaam & Milieuvriendelijk",
+    "point5Description": "Onze briketten zijn gemaakt van 100% hernieuwbare kokosnootschillen, wat een duurzaam bedrijfsmodel ondersteunt dat u met trots aan uw klanten kunt presenteren.",
+    "point6Title": "Professionele & Responsieve Service",
+    "point6Description": "Ons toegewijde exportteam staat klaar om u bij elke stap te helpen, met duidelijke communicatie en professionele service van aanvraag tot levering."
   },
   "vision": {
     "title": "Onze Visie en Missie",
     "visionTitle": "Visie",
     "vision": "Een toonaangevend exportbedrijf zijn dat hoogwaardige en duurzame producten levert en een positieve bijdrage levert aan de wereldeconomie.",
     "missionTitle": "Missie",
-    "mission1": "Lange-termijnrelaties opbouwen met klanten en zakenpartners, gebaseerd op vertrouwen en wederzijdse tevredenheid.",
+    "mission1": "Lange termijn relaties opbouwen met klanten en zakenpartners op basis van vertrouwen en wederzijdse tevredenheid.",
     "mission2": "Een efficiënt en betrouwbaar internationaal distributienetwerk ontwikkelen om aan de behoeften van de wereldmarkt te voldoen.",
     "mission3": "De vaardigheden en het welzijn van medewerkers verbeteren door continue training en professionele ontwikkeling."
   },
@@ -90,23 +120,23 @@
     "productTitle": "Onze Producten",
     "specAsh": "Asgehalte",
     "specBurning": "Brandtijd",
-    "specCaloric": "Verbrandingswaarde",
-    "specMoisture": "Vochtgehalte",
+    "specCaloric": "Calorische Waarde",
+    "specMoisture": "Vocht",
     "specFixedCarbon": "Vaste Koolstof",
     "shishaType": "Briketten voor Shisha",
     "shishaCube": "Kubus",
     "shishaHighTemperature": "Hoge Temperatuur",
-    "shishaCloud": "Cloud",
+    "shishaCloud": "Wolk",
     "shishaFlat": "Plat",
-    "shishaHighFlow": "High Flow",
+    "shishaHighFlow": "Hoge Doorstroming",
     "bbqType": "Briketten voor BBQ",
     "bbqOcta": "Achthoekig",
     "bbqDome": "Koepel",
     "bbqHexa": "Zeshoekig",
-    "bbqFinger": "Staaftype",
-    "customTitle": "Aangepaste Vorm Nodig?",
-    "customDescription": "Werk met ons samen om aangepaste briketvormen en -maten te ontwerpen die uw merkidentiteit weerspiegelen.",
-    "customButton": "Neem Contact Op"
+    "bbqFinger": "Vinger",
+    "customTitle": "Heeft u een aangepaste vorm nodig?",
+    "customDescription": "Werk met ons samen om op maat gemaakte briketvormen en -maten te ontwerpen die uw merkidentiteit weerspiegelen, van binnen en van buiten.",
+    "customButton": "Neem contact op"
   },
   "prodProcess": {
     "title": "PRODUCTIEPROCES",
@@ -118,7 +148,7 @@
     "carbonizationTitle": "Carbonisatie",
     "carbonizationDescription": "De schillen worden gecarboniseerd in ovens onder gecontroleerde temperatuur en zuurstofomstandigheden, waardoor koolstofrijke houtskool ontstaat.",
     "crushingTitle": "Verpletteren en Zeven",
-    "crushingDescription": "De houtskool wordt verpletterd en gezeefd om een uniforme deeltjesgrootte te bereiken, wat de brandeigenschappen optimaliseert.",
+    "crushingDescription": "Houtskool wordt verpletterd en gezeefd om een uniforme deeltjesgrootte te bereiken, wat de brandeigenschappen optimaliseert.",
     "mixingTitle": "Mengen en Binden",
     "mixingDescription": "De houtskool wordt gemengd met natuurlijke bindmiddelen zoals zetmeel of klei om de briketten bij elkaar te houden.",
     "moldingTitle": "Vormen en Persen",
@@ -126,27 +156,27 @@
     "finalDryingTitle": "Einddrogen",
     "finalDryingDescription": "De gevormde briketten worden opnieuw gedroogd om restvocht te verwijderen, klaar voor verpakking.",
     "qualityControlTitle": "Kwaliteitscontrole",
-    "qualityControlDescription": "Elke partij ondergaat strenge kwaliteitscontroles: dichtheid, asgehalte, vocht en brandduur.",
+    "qualityControlDescription": "Elke batch ondergaat strenge kwaliteitscontroles: dichtheid, as, vocht en brandduur.",
     "packagingTitle": "Verpakking",
-    "packagingDescription": "De afgewerkte briketten worden zorgvuldig verpakt om ze te beschermen tijdens transport en opslag.",
+    "packagingDescription": "Afgewerkte briketten worden zorgvuldig verpakt om ze te beschermen tijdens transport en opslag.",
     "storageTitle": "Opslag",
     "storageDescription": "Briketten moeten worden opgeslagen op een droge, geventileerde plaats, uit de buurt van direct zonlicht en hitte."
   },
   "shipping": {
-    "containerAlt": "Verzendcontainer van Indo Charcoal Supply",
+    "containerAlt": "Indo Charcoal Supply Verzendcontainer",
     "aboutTitle": "OVER VERZENDING",
-    "aboutParagraph1": "Ons team kan u ondersteunen bij uw verzendbehoeften. Neem contact met ons op voor meer informatie.",
-    "aboutParagraph2": "Onze minimale bestelhoeveelheid (MOQ) is 1 container van 18 ton (20 ft). Neem contact met ons op om uw behoeften te bespreken met ons team en de optimale MOQ voor uw bedrijf te bepalen.",
-    "guideTitle": "KOOPGIDS: BELEID & PROCEDURES",
-    "guideParagraph": "Wij zorgen voor veilige transacties met T/T- en L/C-betaalmethoden. Een aanbetaling van 50% bevestigt uw bestelling en start de productie. De resterende 50% wordt verwerkt na voltooiing van de productie."
+    "aboutParagraph1": "Ons team kan u ondersteunen met uw verzendbehoeften. Neem contact met ons op voor meer informatie.",
+    "aboutParagraph2": "Onze minimale bestelhoeveelheid (MOQ) is 1 container van 18 ton (20ft). Neem contact met ons op om uw behoeften met ons team te bespreken en de optimale MOQ voor uw bedrijf te bepalen.",
+    "guideTitle": "AANKOOPGIDS: BELEID & PROCEDURES",
+    "guideParagraph": "Wij garanderen transacties met T/T en L/C betaalmethoden. Een aanbetaling van 50% voor uw bestelling start de productie. De laatste 50% wordt verwerkt na voltooiing van de productie of bij het sluiten van de container in onze verschepingshaven."
   },
   "packaging": {
     "title": "Verpakkingsopties",
-    "yourBrandourPackaging": "Uw merk, onze verpakking",
-    "masterAlt": "Omdoos",
-    "masterTitle": "OMDOOS",
-    "masterDescription": "Deze grote omdoos is ontworpen om uw houtskoolbriketten te bevatten en te beschermen tijdens verzending en opslag.",
-    "masterAvailable": "Verkrijgbaar in de maten:",
+    "yourBrandourPackaging": "Uw Merk, Onze Verpakking",
+    "masterAlt": "Master Doos",
+    "masterTitle": "MASTER DOOS",
+    "masterDescription": "Deze grote master doos is ontworpen om uw houtskoolbriketten te bewaren en te beschermen tijdens verzending en opslag.",
+    "masterAvailable": "Beschikbaar in maten:",
     "masterSize10": "10 kg",
     "masterSize12": "12 kg",
     "masterSize15": "15 kg",
@@ -154,32 +184,32 @@
     "innerAlt": "Binnendoos",
     "innerTitle": "BINNENDOOS",
     "innerDescription": "Deze doos is ontworpen om uw briketten te beschermen tegen vocht en schade, waardoor ze gemakkelijk te dragen en op te bergen zijn.",
-    "innerAvailable": "Verkrijgbare maten:",
+    "innerAvailable": "Beschikbare maten:",
     "innerSize1to2": "1 - 2 kg",
-    "innerSize250to500": "250 - 500 g",
-    "customPackagingTitle": "Heeft u aangepaste verpakkingen nodig?",
-    "customizationText": "Onze omdozen kunnen worden aangepast met uw logo en huisstijl.",
+    "innerSize250to500": "250 - 500 gr",
+    "customPackagingTitle": "Heeft u een aangepaste verpakking nodig?",
+    "customizationText": "Onze master dozen kunnen worden aangepast met uw logo en merk.",
     "customizationContact": "Neem contact met ons op",
-    "customizationSuffix": "om uw wensen voor een aangepast ontwerp te bespreken."
+    "customizationSuffix": "om uw aangepaste ontwerpbehoeften te bespreken."
   },
   "testimonialsSection": {
     "sectionId": "testimonialsSection",
     "title": "Wat onze klanten zeggen",
     "testimonialList": [
       {
-        "quote": "The quality of the charcoal is outstanding. Consistent heat and long burning time. Our customers are very satisfied.",
+        "quote": "De kwaliteit van de houtskool is uitstekend. Consistente hitte en lange brandtijd. Onze klanten zijn zeer tevreden.",
         "author": "Ahmed R.",
-        "location": "Dubai, UAE"
+        "location": "Dubai, VAE"
       },
       {
-        "quote": "Excellent communication and reliable shipping. Indo Charcoal Supply is a trustworthy partner for our business.",
+        "quote": "Uitstekende communicatie en betrouwbare verzending. Indo Charcoal Supply is een betrouwbare partner voor ons bedrijf.",
         "author": "Michael B.",
-        "location": "Berlin, Germany"
+        "location": "Berlijn, Duitsland"
       },
       {
-        "quote": "We were impressed with the custom packaging options. It really helped our brand stand out in a competitive market.",
+        "quote": "We waren onder de indruk van de op maat gemaakte verpakkingsopties. Het heeft ons merk echt geholpen om op te vallen in een competitieve markt.",
         "author": "Fatima K.",
-        "location": "Jeddah, Saudi Arabia"
+        "location": "Jeddah, Saoedi-Arabië"
       }
     ]
   },
@@ -189,48 +219,48 @@
   "faq": {
     "supertitle": "Uw vragen, beantwoord",
     "title": "Veelgestelde vragen",
-    "subtitle": "Vind antwoorden op veelgestelde vragen over onze kokosnoot houtskoolbriketten, kwaliteitsnormen en exportproces.",
+    "subtitle": "Vind antwoorden op veelgestelde vragen over onze kokosnoot houtskoolbriketten, kwaliteitsnormen en het exportproces.",
     "q1_question": "Wat zijn de kwaliteitsspecificaties voor uw kokosnoot houtskoolbriketten?",
-    "q1_answer": "Wij garanderen premium kwaliteit kokosnoot houtskoolbriketten voor de export. Onze specificaties omvatten een vochtgehalte van minder dan 5%, een asgehalte van minder dan 2,5% en een calorische waarde van meer dan 7400 Kcal/kg, wat zorgt voor een lange brandtijd en constante hitte.",
+    "q1_answer": "Wij garanderen premium kwaliteit kokosnoot houtskoolbriketten voor export. Onze specificaties omvatten een vochtgehalte onder 5%, een asgehalte onder 2,5%, en een calorische waarde van meer dan 7400 Kcal/kg, wat zorgt voor een lange brandtijd en constante hitte.",
     "q2_question": "Welke soorten briketten produceert u?",
-    "q2_answer": "Als houtskoolbrikettenfabriek in Indonesië produceren wij verschillende soorten, waaronder briketten voor shisha (waterpijp) in kubus- en zeshoekige vormen, evenals BBQ-briketten van hardhoutzaagsel.",
+    "q2_answer": "Als een houtskoolbrikettenfabriek in Indonesië produceren wij verschillende soorten, waaronder briketten voor shisha (waterpijp) in kubus- en zeshoekige vormen, evenals BBQ-briketten van hardhoutzaagsel.",
     "q3_question": "Zijn uw producten milieuvriendelijk?",
     "q3_answer": "Ja, onze briketten zijn gemaakt van 100% kokosnootschillen of zaagsel, wat hernieuwbare bronnen zijn. Onze producten produceren zeer weinig rook en zijn een groener alternatief voor gewone houtskool.",
     "q4_question": "Wat is de minimale bestelhoeveelheid (MOQ) voor export?",
-    "q4_answer": "Onze MOQ is één 20-voets container, met een capaciteit van ongeveer 18 ton. Wij staan klaar om de exportbehoeften van houtskoolbriketten naar verschillende landen te bedienen.",
+    "q4_answer": "Onze MOQ is één 20-voets container, met een capaciteit van ongeveer 18 ton. We zijn klaar om de exportbehoeften van houtskoolbriketten naar verschillende landen te bedienen.",
     "q5_question": "Hoe plaats ik een bestelling?",
-    "q5_answer": "U kunt contact opnemen met ons marketingteam via e-mail of WhatsApp. Wij begeleiden u door het proces, van productselectie, prijsopgave (FOB/CIF) tot orderbevestiging.",
+    "q5_answer": "U kunt contact opnemen met ons marketingteam via e-mail of WhatsApp. Wij begeleiden u door het proces, van productselectie, prijsopgave (FOB/CIF), tot orderbevestiging.",
     "q6_question": "Is Indo Charcoal Supply een directe fabriek of een tussenpersoon?",
-    "q6_answer": "Wij zijn een vertrouwde houtskoolbrikettenfabriek en exporteur in Indonesië. Wij beheren het gehele productieproces, van de selectie van grondstoffen tot de verpakking in onze fabriek in Yogyakarta, Indonesië."
+    "q6_answer": "Wij zijn een betrouwbare houtskoolbrikettenfabriek en exporteur in Indonesië. Wij beheren het volledige productieproces, van de selectie van grondstoffen tot de verpakking in onze fabriek in Yogyakarta, Indonesië."
   },
   "blog": {
-    "title": "Onze blog en inzichten",
+    "title": "Onze Blog & Inzichten",
     "readMore": "Lees meer",
     "viewAllPosts": "Bekijk alle berichten",
-    "backToBlog": "Terug naar blog",
-    "backToHome": "Terug naar home",
+    "backToBlog": "Terug naar Blog",
+    "backToHome": "Terug naar Home",
     "global-market-trends-2025": {
-      "title": "Wereldwijde markttrends voor kokosnoot houtskoolbriketten (analyse voor Q3 2025)",
-      "excerpt": "Een definitieve analyse van de 5 belangrijkste trends die de internationale markt voor kokosnoothoutskool in 2025 vormgeven, van de vraag naar een laag asgehalte tot de opkomst van white labeling.",
+      "title": "Wereldwijde Markttrends voor Kokosnoot Houtskoolbriketten (Analyse voor Q3 2025)",
+      "excerpt": "Een definitieve analyse van de 5 belangrijkste trends die de internationale kokosnoot houtskoolmarkt in 2025 vormgeven, van de vraag naar een laag asgehalte tot de opkomst van white labeling.",
       "image": "/tren.webp",
       "date": "25 september 2025",
       "category": "Marktanalyse",
       "meta": {
         "title": "Wereldwijde Houtskool Markttrends 2025 | Indo Charcoal Supply",
-        "description": "Blijf voorop met onze deskundige analyse van de wereldwijde markttrends voor kokosnoot houtskoolbriketten voor 2025. Begrijp de verschuiving naar een laag asgehalte, duurzaamheid en white labeling."
+        "description": "Blijf voorop met onze deskundige analyse van de wereldwijde markttrends voor kokosnoot houtskoolbriketten in 2025. Begrijp de verschuiving naar een laag asgehalte, duurzaamheid en white labeling."
       },
       "content": [
         {
           "type": "h2",
-          "text": "Een waardegedreven transformatie"
+          "text": "Een Waardegedreven Transformatie"
         },
         {
           "type": "p",
-          "text": "De wereldwijde markt voor kokosnoot houtskoolbriketten ondergaat in 2025 een aanzienlijke transformatie. Het is verschoven van een prijsgedreven grondstoffenmarkt naar een <strong>waardegedreven industrie</strong> waar kwaliteit, duurzaamheid en merkidentiteit voorop staan. Voor importeurs, distributeurs en merken is het begrijpen van deze belangrijke trends essentieel om door het landschap te navigeren en een concurrentievoordeel te behalen."
+          "text": "De wereldwijde markt voor kokosnoot houtskoolbriketten ondergaat in 2025 een aanzienlijke transformatie. Het is verschoven van een prijsgedreven goederenmarkt naar een <strong>waardegedreven industrie</strong> waar kwaliteit, duurzaamheid en merkidentiteit van het grootste belang zijn. Voor importeurs, distributeurs en merken is het begrijpen van deze belangrijke trends essentieel om het landschap te navigeren en een concurrentievoordeel te behalen."
         },
         {
           "type": "p",
-          "text": "Dit zijn de definitieve markttrends die de industrie vandaag de dag vormgeven:"
+          "text": "Hier zijn de definitieve markttrends die de industrie vandaag de dag vormgeven:"
         },
         {
           "type": "h3",
@@ -238,13 +268,13 @@
         },
         {
           "type": "p",
-          "text": "Dit is de belangrijkste technische trend. De premiummarkten - met name voor shisha/hookah in het Midden-Oosten, Europa en Noord-Amerika - hebben een nieuwe kwaliteitsbenchmark gezet."
+          "text": "Dit is de belangrijkste technische trend. De premiummarkten - met name voor shisha/waterpijp in het Midden-Oosten, Europa en Noord-Amerika - hebben een nieuwe kwaliteitsbenchmark gezet."
         },
         {
           "type": "ul",
           "items": [
-            "<strong>De nieuwe standaard:</strong> een asgehalte van <strong>minder dan 2,5%</strong> is nu de verwachte standaard voor elk premiumproduct. Briketten met 3-4% as worden steeds vaker gezien als standaard of van lage kwaliteit.",
-            "<strong>Drijvende factoren:</strong> dit wordt gedreven door een beter opgeleide consumentenbasis die een schonere ervaring eist zonder smaakverandering, beter warmtebeheer en minder onderhoud. Voor importeurs leiden producten met een laag asgehalte tot een hogere klanttevredenheid en merkloyaliteit."
+            "<strong>De nieuwe norm:</strong> Een asgehalte van <strong>minder dan 2,5%</strong> is nu de verwachte standaard voor elk premium product. Briketten met 3-4% as worden steeds meer gezien als standaard of van lage kwaliteit.",
+            "<strong>Drijvende factoren:</strong> Dit wordt gedreven door een beter opgeleide consumentenbasis die een schonere ervaring eist zonder smaakverandering, beter warmtebeheer en minder onderhoud. Voor importeurs resulteren producten met een laag asgehalte in een hogere klanttevredenheid en merkentrouw."
           ]
         },
         {
@@ -253,28 +283,28 @@
         },
         {
           "type": "p",
-          "text": "Milieuvriendelijke en ethische inkoop is niet langer een 'leuk om te hebben'-functie; het is een <strong>kritieke vereiste</strong> voor markttoegang, met name in westerse markten."
+          "text": "Milieuvriendelijke en ethische inkoop is niet langer een 'leuk extraatje'; het is een <strong>kritische vereiste</strong> voor markttoegang, met name op westerse markten."
         },
         {
           "type": "ul",
           "items": [
-            "<strong>Transparantie van de toeleveringsketen:</strong> importeurs zijn nu verplicht om een milieuvriendelijke toeleveringsketen aan te tonen. Dit betekent dat er bewijs moet worden geleverd dat briketten worden gemaakt van <strong>geüpcycled afval van kokosnootschillen</strong> (niet van ontbossing) en dat de productie een circulaire economie ondersteunt.",
-            "<strong>Een concurrentievoordeel:</strong> een verifieerbaar duurzaamheidsverhaal is een krachtig marketinginstrument dat resoneert met bewuste consumenten en deuren opent naar grote retailers die strikte mandaten voor maatschappelijk verantwoord ondernemen (MVO) hebben."
+            "<strong>Transparantie van de toeleveringsketen:</strong> Importeurs moeten nu een milieuvriendelijke toeleveringsketen aantonen. Dit betekent bewijs leveren dat briketten gemaakt zijn van <strong>ge-upcyclede kokosnootschilafval</strong> (niet van ontbossing) en dat de productie een circulaire economie ondersteunt.",
+            "<strong>Een concurrentievoordeel:</strong> Een verifieerbaar duurzaamheidsverhaal is een krachtig marketinginstrument dat resoneert met bewuste consumenten en deuren opent naar grote retailers die strikte mandaten voor maatschappelijk verantwoord ondernemen (MVO) hebben."
           ]
         },
         {
           "type": "h3",
-          "text": "3. Een golf van 'white label'-diensten en de ontwikkeling van aangepaste merken"
+          "text": "3. Een golf van 'White Label'-diensten en ontwikkeling van aangepaste merken"
         },
         {
           "type": "p",
-          "text": "De markt ziet een grote verschuiving van het doorverkopen van generieke goederen naar het opbouwen van unieke merken. Importeurs functioneren steeds vaker als <strong>merkeigenaren</strong>, niet alleen als handelaren."
+          "text": "De markt ziet een grote verschuiving van het doorverkopen van generieke goederen naar het opbouwen van unieke merken. Importeurs functioneren steeds meer als <strong>merkeigenaren</strong>, niet alleen als handelaren."
         },
         {
           "type": "ul",
           "items": [
-            "<strong>Merken bouwen in plaats van doorverkopen:</strong> kopers zijn actief op zoek naar productiepartners die uitgebreide <strong>'white label'-diensten</strong> kunnen bieden. Dit omvat het afdrukken van aangepaste ontwerpen op binnendozen en omdozen om hun eigen merkidentiteit op te bouwen.",
-            "<strong>Strategische doelen:</strong> het doel is om hogere winstmarges te behalen, merkloyaliteit op lokale markten te creëren en hun producten te onderscheiden van de concurrentie. Fabrieken die flexibele, hoogwaardige verpakkingsdiensten op maat aanbieden, zijn zeer gewild."
+            "<strong>Merken bouwen boven doorverkopen:</strong> Kopers zoeken actief naar productiepartners die uitgebreide <strong>'white label'-diensten</strong> kunnen aanbieden. Dit omvat het bedrukken van aangepaste ontwerpen op binnendozen en omdozen om hun eigen merkidentiteit op te bouwen.",
+            "<strong>Strategische doelen:</strong> Het doel is om hogere winstmarges te behalen, merkentrouw te creëren op lokale markten en hun producten te onderscheiden van de concurrentie. Fabrieken die flexibele, hoogwaardige aangepaste verpakkingsdiensten aanbieden, zijn zeer in trek."
           ]
         },
         {
@@ -283,86 +313,86 @@
         },
         {
           "type": "p",
-          "text": "Ervaren importeurs consolideren hun bedrijf en stappen af van kleine, onbetrouwbare handelaren naar <strong>gevestigde en transparante fabrikanten</strong>."
+          "text": "Ervaren importeurs consolideren hun zaken en stappen af van kleine, onbetrouwbare handelaren naar <strong>gevestigde en transparante fabrikanten</strong>."
         },
         {
           "type": "ul",
           "items": [
-            "<strong>Risicobeperking:</strong> deze trend wordt gedreven door de wens om veelvoorkomende problemen zoals inconsistente kwaliteit tussen zendingen, productievertragingen en slechte communicatie te vermijden. Kopers geven nu evenveel prioriteit aan <strong>betrouwbaarheid en professionaliteit</strong> als aan productkwaliteit.",
-            "<strong>Vraag naar transparantie:</strong> importeurs verwachten nu directe fabrieksrelaties, duidelijke en gedetailleerde technische gegevensbladen (TDS) en responsieve, professionele communicatie van het exportteam van een leverancier."
+            "<strong>Risicobeperking:</strong> Deze trend wordt gedreven door de wens om veelvoorkomende problemen te vermijden, zoals inconsistente kwaliteit tussen zendingen, productievertragingen en slechte communicatie. Kopers geven nu evenveel prioriteit aan <strong>betrouwbaarheid en professionaliteit</strong> als aan productkwaliteit.",
+            "<strong>Vraag naar transparantie:</strong> Importeurs verwachten nu directe fabrieksrelaties, duidelijke en gedetailleerde technische gegevensbladen (TDS), en responsieve, professionele communicatie van het exportteam van een leverancier."
           ]
         },
         {
           "type": "h3",
-          "text": "5. Productdiversificatie voor nichemarkten"
+          "text": "5. Productdiversificatie voor nichemarkttoepassingen"
         },
         {
           "type": "p",
-          "text": "Hoewel de klassieke kubusvorm de standaard blijft voor shisha, is er een groeiende belangstelling voor verschillende vormen om tegemoet te komen aan specifieke niches en voor merkdifferentiatie."
+          "text": "Hoewel de klassieke kubusvorm de standaard blijft voor shisha, is er een groeiende interesse in verschillende vormen om specifieke niches te bedienen en voor merkdifferentiatie."
         },
         {
           "type": "ul",
           "items": [
-            "<strong>Aangepaste vormen:</strong> vormen zoals <strong>zeshoekige, vinger- en platte briketten</strong> worden steeds populairder voor specifieke soorten BBQ-grills, unieke shisha-kommen of gewoon als een manier voor een merk om visueel op te vallen.",
-            "<strong>Aangetoonde capaciteit:</strong> het vermogen van een fabrikant om een verscheidenheid aan vormen te produceren, wordt gezien als een indicator van geavanceerde productiecapaciteiten en flexibiliteit, waardoor ze een aantrekkelijkere partner voor de lange termijn zijn."
+            "<strong>Aangepaste vormen:</strong> Vormen zoals <strong>zeshoekige, vinger- en platte briketten</strong> worden populairder voor specifieke soorten BBQ-grills, unieke shisha-kommen, of simpelweg als een manier voor een merk om visueel op te vallen.",
+            "<strong>Aangetoonde capaciteit:</strong> Het vermogen van een fabrikant om een verscheidenheid aan vormen te produceren, wordt gezien als een indicator van geavanceerde productiecapaciteiten en flexibiliteit, waardoor ze een aantrekkelijkere langetermijnpartner worden."
           ]
         },
         {
           "type": "blockquote",
-          "text": "Samenvattend geeft de wereldwijde brikettenmarkt van 2025 prioriteit aan <strong>bewijsbare kwaliteit (laag asgehalte), een authentiek verhaal (duurzaamheid) en professionele, waardetoevoegende partnerschappen (white labeling & transparantie)</strong>. De prijs is niet langer de primaire drijfveer als dit ten koste gaat van deze drie kernpijlers."
+          "text": "Samenvattend geeft de wereldwijde brikettenmarkt van 2025 prioriteit aan <strong>bewijsbare kwaliteit (laag asgehalte), een authentiek verhaal (duurzaamheid), en professionele partnerschappen met toegevoegde waarde (white labeling & transparantie)</strong>. Prijs is niet langer de primaire drijfveer als dit ten koste gaat van deze drie kernpilaren."
         }
       ]
     },
     "guide-international-shipping-indonesian-charcoal": {
-      "title": "Van fabrieksvloer tot uw magazijn: een gids voor internationale verzending en logistiek voor Indonesische houtskool",
-      "excerpt": "Een product van hoge kwaliteit is alleen waardevol als het veilig en op tijd aankomt. Deze gids ontrafelt het logistieke proces, van professionele verpakking en het laden van containers tot exportdocumentatie.",
+      "title": "Van Fabrieksvloer tot Uw Magazijn: Een Gids voor Internationale Verzending & Logistiek voor Indonesische Houtskool",
+      "excerpt": "Een hoogwaardig product is alleen waardevol als het veilig en op tijd aankomt. Deze gids demystificeert het logistieke proces, van professionele verpakking en het laden van containers tot exportdocumentatie.",
       "image": "/shiping.webp",
       "date": "25 september 2025",
-      "category": "Logistiek & verzending",
+      "category": "Logistiek & Verzending",
       "meta": {
-        "title": "Verzend- & logistiekgids voor Indonesische houtskool | Indo Charcoal Supply",
+        "title": "Verzend- & Logistiekgids voor Indonesische Houtskool | Indo Charcoal Supply",
         "description": "Een essentiële gids voor importeurs over het internationale verzendproces voor kokosnoot houtskoolbriketten uit Indonesië, inclusief verpakking, laden, documentatie en Incoterms."
       },
       "content": [
         {
           "type": "h2",
-          "text": "Een geweldig product is slechts de helft van de reis"
+          "text": "Een Geweldig Product is Slechts de Helft van de Reis"
         },
         {
           "type": "p",
-          "text": "U heeft een premium kokosnoot houtskoolbriket met uitstekende specificaties geselecteerd. Maar de reis van de fabriek in Indonesië naar uw magazijn is complex en vol potentiële uitdagingen. Een echt professionele leverancier beheerst niet alleen de productie; <strong>zij beheersen de logistiek</strong>. Deze gids biedt volledige transparantie in het internationale verzendproces, zodat uw investering bij elke stap wordt beschermd."
+          "text": "U heeft een premium kokosnoot houtskoolbriket met uitstekende specificaties geselecteerd. Maar de reis van de fabriek in Indonesië naar uw magazijn is complex en vol potentiële uitdagingen. Een echt professionele leverancier beheerst niet alleen de productie; <strong>ze beheersen de logistiek</strong>. Deze gids biedt volledige transparantie in het internationale verzendproces, zodat uw investering bij elke stap wordt beschermd."
         },
         {
           "type": "h3",
-          "text": "Stap 1: De eerste verdedigingslinie - Professionele verpakking en palletiseren"
+          "text": "Stap 1: De Eerste Verdedigingslinie - Professionele Verpakking & Palletiseren"
         },
         {
           "type": "p",
-          "text": "Voordat uw bestelling de ontberingen van het zeetransport ondergaat, moet deze onberispelijk worden verpakt. Dit omvat meer dan alleen een doos. De omdozen worden veilig gestapeld op houten pallets die voldoen aan de <strong>internationale ISPM 15-normen</strong> voor houtbehandeling. De hele pallet wordt vervolgens strak omwikkeld met meerdere lagen rekfolie. Dit proces, bekend als <strong>palletiseren</strong>, creëert een stabiel, uniform blok dat voorkomt dat dozen tijdens het transport verschuiven en worden geplet."
+          "text": "Voordat uw bestelling de ontberingen van de zeetransport het hoofd biedt, moet deze onberispelijk verpakt zijn. Dit omvat meer dan alleen een doos. De omdozen worden veilig gestapeld op houten pallets, conform de <strong>ISPM 15 internationale normen</strong> voor houtbehandeling. De hele pallet wordt vervolgens strak omwikkeld met meerdere lagen rekfolie. Dit proces, bekend als <strong>palletiseren</strong>, creëert een stabiel, verenigd blok dat voorkomt dat dozen tijdens het transport verschuiven en worden geplet."
         },
         {
           "type": "h3",
-          "text": "Stap 2: De kunst van het laden van containers"
+          "text": "Stap 2: De Kunst van het Laden van Containers"
         },
         {
           "type": "p",
-          "text": "Het maximaliseren van de containerruimte en tegelijkertijd de veiligheid garanderen is een vaardigheid. We gebruiken doorgaans <strong>20-voets of 40-voets containers</strong>, met een capaciteit van respectievelijk ongeveer 18-19 ton en 26-27 ton. Met behulp van een 'vloerbelading' of 'handgestapelde' methode, regelt ons ervaren team elke omdoos zorgvuldig om de ruimte te optimaliseren en het gewicht gelijkmatig te verdelen. Dit voorkomt beweging tijdens de zeereis en zorgt ervoor dat de container stabiel en veilig is voor transport."
+          "text": "Het maximaliseren van de containerruimte en tegelijkertijd de veiligheid garanderen is een vaardigheid. We gebruiken doorgaans <strong>20-voets of 40-voets containers</strong>, met een capaciteit van respectievelijk ongeveer 18-19 ton en 26-27 ton. Met een 'vloerlaad'- of 'handgestapelde' methode rangschikt ons ervaren team elke omdoos zorgvuldig om de ruimte te optimaliseren en het gewicht gelijkmatig te verdelen. Dit voorkomt beweging tijdens de zeereis en zorgt ervoor dat de container stabiel en veilig is voor transport."
         },
         {
           "type": "h3",
-          "text": "Stap 3: Navigeren door het papierwerk - Essentiële exportdocumenten"
+          "text": "Stap 3: Navigeren door het Papierwerk - Essentiële Exportdocumenten"
         },
         {
           "type": "p",
-          "text": "Een naadloze internationale handel draait op nauwkeurige documentatie. Een professionele leverancier beheert dit complexe proces voor u. De belangrijkste documenten zijn onder meer:"
+          "text": "Naadloze internationale handel draait op nauwkeurige documentatie. Een professionele leverancier beheert dit complexe proces voor u. Belangrijke documenten zijn onder meer:"
         },
         {
           "type": "ul",
           "items": [
-            "<strong>Cognossement (B/L):</strong> het primaire contract tussen de verlader en de vervoerder, dat fungeert als ontvangstbewijs en eigendomstitel voor de goederen.",
-            "<strong>Handelsfactuur en paklijst:</strong> details over de transactie, de waarde van de goederen en een volledige lijst van wat er wordt verzonden.",
-            "<strong>Certificaat van oorsprong (COO):</strong> verifieert dat de goederen in Indonesië zijn vervaardigd, wat cruciaal kan zijn voor de douane-inklaring en tarieven.",
-            "<strong>Veiligheidsinformatieblad (MSDS):</strong> geeft informatie over de eigenschappen en de hantering van het product, en wordt vaak vereist door rederijen."
+            "<strong>Cognossement (B/L):</strong> Het primaire contract tussen de verlader en de vervoerder, dat fungeert als een ontvangstbewijs en eigendomstitel voor de goederen.",
+            "<strong>Handelsfactuur & Paklijst:</strong> Geeft details over de transactie, de waarde van de goederen en een volledige lijst van wat er wordt verzonden.",
+            "<strong>Certificaat van Oorsprong (COO):</strong> Verifieert dat de goederen in Indonesië zijn vervaardigd, wat cruciaal kan zijn voor inklaring en tarieven.",
+            "<strong>Materiaalenveiligheidsinformatieblad (MSDS):</strong> Biedt informatie over de eigenschappen en de behandeling van het product, vaak vereist door rederijen."
           ]
         },
         {
@@ -372,90 +402,171 @@
       ]
     },
     "indonesian-advantage-worlds-best-coconut-charcoal": {
-      "title": "Het Indonesische voordeel: waarom 's werelds beste kokosnoothoutskool uit de archipel komt",
-      "excerpt": "Het is geen toeval dat Indonesië de wereldleider is in premium kokosnoothoutskool. Ontdek de unieke combinatie van geografische, agrarische en industriële factoren die dit voordeel creëren.",
+      "title": "Het Indonesische Voordeel: Waarom 's Werelds Beste Kokosnoot Houtskool uit de Archipel Komt",
+      "excerpt": "Het is geen toeval dat Indonesië de wereldleider is in premium kokosnoot houtskool. Ontdek de unieke combinatie van geografische, landbouwkundige en industriële factoren die dit voordeel creëren.",
       "image": "/charcoal.webp",
       "date": "24 september 2025",
       "category": "Industrie-inzichten",
       "meta": {
-        "title": "Het Indonesische voordeel in de productie van kokosnoothoutskool | Indo Charcoal Supply",
-        "description": "Ontdek de 4 belangrijkste redenen - overvloed aan grondstoffen, ideaal klimaat, een volwassen productie-ecosysteem en strategische ligging - waarom Indonesië 's werelds beste kokosnoothoutskool produceert."
+        "title": "Het Indonesische Voordeel in Kokosnoot Houtskoolproductie | Indo Charcoal Supply",
+        "description": "Ontdek de 4 belangrijkste redenen - overvloed aan grondstoffen, ideaal klimaat, een volwassen productie-ecosysteem en strategische locatie - waarom Indonesië 's werelds beste kokosnoot houtskool produceert."
       },
       "content": [
         {
           "type": "h2",
-          "text": "Waarom Indonesië? De bron van wereldwijde houtskoolexcellentie"
+          "text": "Waarom Indonesië? De Bron van Wereldwijde Houtskool Uitmuntendheid"
         },
         {
           "type": "p",
-          "text": "Op de wereldmarkt voor premium kokosnoothoutskool staat één land als de onbetwiste leider: <strong>Indonesië</strong>. Maar waarom? Deze dominantie is niet toevallig. Het is het resultaat van een krachtige combinatie van unieke geografische zegeningen, een volwassen landbouwsector en een diepgeworteld industrieel ecosysteem. Voor veeleisende kopers betekent het kiezen van een Indonesische leverancier het aanboren van dit hele raamwerk van excellentie."
+          "text": "Op de wereldmarkt voor premium kokosnoot houtskool staat één land als de onbetwiste leider: <strong>Indonesië</strong>. Maar waarom? Deze dominantie is niet toevallig. Het is het resultaat van een krachtige combinatie van unieke geografische zegeningen, een volwassen landbouwsector en een diepgeworteld industrieel ecosysteem. Voor veeleisende kopers betekent het kiezen van een Indonesische leverancier dat ze profiteren van dit hele raamwerk van uitmuntendheid."
         },
         {
           "type": "h3",
-          "text": "1. Ongeëvenaarde overvloed aan superieure grondstoffen"
+          "text": "1. Ongeëvenaarde Overvloed aan Superieure Grondstof"
         },
         {
           "type": "p",
-          "text": "De basis van elke geweldige houtskool is de grondstof. Indonesië is de <strong>kokosnoothoofdstad van de wereld</strong>, met uitgestrekte plantages op eilanden als Sumatra, Java en Sulawesi. Deze enorme schaal zorgt voor een consistente, jaarrond aanvoer van volwassen kokosnootschillen - de dichtste en zuiverste bron voor de productie van houtskool. In tegenstelling tot kleinere landen hebben Indonesische producenten een ongeëvenaarde toegang tot de beste grondstoffen, waardoor een stabiele toeleveringsketen wordt gegarandeerd die kan voldoen aan de grootschalige internationale vraag zonder concessies te doen aan de kwaliteit."
+          "text": "De basis van elke geweldige houtskool is de grondstof. Indonesië is de <strong>kokosnoothoofdstad van de wereld</strong>, met uitgestrekte plantages op eilanden als Sumatra, Java en Sulawesi. Deze enorme schaal zorgt voor een consistente, jaarrond aanvoer van rijpe kokosnootschillen - de dichtste en zuiverste bron voor houtskoolproductie. In tegenstelling tot kleinere landen hebben Indonesische producenten ongeëvenaarde toegang tot de beste grondstoffen, wat een stabiele toeleveringsketen garandeert die kan voldoen aan de grootschalige internationale vraag zonder concessies te doen aan de kwaliteit."
         },
         {
           "type": "h3",
-          "text": "2. Een ideaal klimaat voor hoogwaardige houtskool"
+          "text": "2. Een Ideaal Klimaat voor Hoogwaardige Houtskool"
         },
         {
           "type": "p",
-          "text": "Het equatoriale klimaat van Indonesië, met zijn constante zonlicht en regenval, creëert de perfecte omstandigheden voor het kweken van kokosnoten met <strong>uitzonderlijk dikke en dichte schillen</strong>. Dit is een cruciale, vaak over het hoofd geziene factor. Een dikkere, dichtere schil bevat meer koolstof en minder onzuiverheden. Dit vertaalt zich direct in de belangrijkste prestatiecijfers van het eindproduct: een hoger vast koolstofgehalte, wat een hogere calorische waarde (meer warmte) en een aanzienlijk langere brandtijd oplevert."
+          "text": "Het equatoriale klimaat van Indonesië, met zijn constante zonlicht en regenval, creëert de perfecte omstandigheden voor het kweken van kokosnoten met <strong>uitzonderlijk dikke en dichte schillen</strong>. Dit is een cruciale, vaak vergeten factor. Een dikkere, dichtere schil bevat meer koolstof en minder onzuiverheden. Dit vertaalt zich direct in de belangrijkste prestatiecijfers van het eindproduct: een hoger vast koolstofgehalte, wat een hogere calorische waarde (meer hitte) en een aanzienlijk langere brandtijd oplevert."
         },
         {
           "type": "h3",
-          "text": "3. Een volwassen en geëvolueerd productie-ecosysteem"
+          "text": "3. Een Volwassen en Geëvolueerd Productie-ecosysteem"
         },
         {
           "type": "p",
-          "text": "De kokosnoothoutskoolindustrie in Indonesië is niet nieuw; het is een <strong>volwassen, hoogontwikkeld ecosysteem</strong>. Tientallen jaren ervaring hebben een diepe pool van geschoolde arbeidskrachten, ervaren productietechnici en gespecialiseerde fabrikanten van apparatuur bevorderd. Deze industriële volwassenheid betekent dat toonaangevende producenten verder zijn gegaan dan de basismethoden en moderne, wetenschappelijke benaderingen hebben toegepast op carbonisatie, menging en kwaliteitscontrole. Dit ecosysteem van gedeelde kennis en continue verbetering is wat fabrieken in staat stelt om consequent briketten te produceren die voldoen aan de strenge <strong>asgehaltenormen van minder dan 2,5%</strong> die door de internationale premiummarkten worden vereist."
+          "text": "De kokosnoot houtskoolindustrie in Indonesië is niet nieuw; het is een <strong>volwassen, hoogontwikkeld ecosysteem</strong>. Decennia aan ervaring hebben een diepe pool van geschoolde arbeidskrachten, ervaren productietechnici en gespecialiseerde machinefabrikanten bevorderd. Deze industriële volwassenheid betekent dat toonaangevende producenten verder zijn gegaan dan de basismethoden en moderne, wetenschappelijke benaderingen van carbonisatie, mengen en kwaliteitscontrole hebben overgenomen. Dit ecosysteem van gedeelde kennis en continue verbetering stelt fabrieken in staat om consequent briketten te produceren die voldoen aan de strenge <strong>asgehaltes van minder dan 2,5%</strong> die vereist zijn door de internationale premiummarkten."
+        }
+      ]
+    },
+    "indonesian-briquette-charcoal-export-2025": {
+      "title": "Wereldwijde Marktdynamiek van Indonesische Brikettenhoutskool Export in 2025",
+      "excerpt": "Indonesië verstevigt zijn rol als wereldleider in de export van brikettenhoutskool, gedreven door duurzame kokosnootschilbronnen, een stijgende vraag naar milieuvriendelijke brandstoffen en overheidssteun voor internationale handel.",
+      "image": "/globalMarket.webp",
+      "date": "30 september 2025",
+      "category": "Bedrijfsinzichten",
+      "meta": {
+        "title": "Exporttrends van Indonesische Brikettenhoutskool 2025 | Indo Charcoal Supply",
+        "description": "Ontdek hoe Indonesië in 2025 de wereldwijde brikettenhoutskoolmarkt leidt. Leer over vraagstimulansen, top exportbestemmingen, duurzaamheidstrends en waarom Indonesische houtskool wereldwijd zo gewild is."
+      },
+      "content": [
+        {
+          "type": "h2",
+          "text": "De groeiende dominantie van Indonesië in de export van brikettenhoutskool"
+        },
+        {
+          "type": "p",
+          "text": "Indonesië is uitgegroeid tot de <strong>'s werelds grootste leverancier van brikettenhoutskool</strong>, met name die gemaakt van kokosnootschillen. Deze prestatie weerspiegelt niet alleen de overvloed aan natuurlijke hulpbronnen, maar ook het vermogen van het land om te voldoen aan de wereldwijde vraag naar schone, duurzame en hoogwaardige brandstofalternatieven."
+        },
+        {
+          "type": "h2",
+          "text": "Belangrijkste drijfveren achter de marktgroei"
+        },
+        {
+          "type": "h3",
+          "text": "1. Stijgende wereldwijde vraag naar milieuvriendelijke brandstof"
+        },
+        {
+          "type": "p",
+          "text": "Consumenten en bedrijven wereldwijd stappen af van op hout gebaseerde houtskool vanwege zorgen over ontbossing. <strong>Kokosnootschilbriketten</strong> worden gezien als een duurzaam alternatief. Ze branden langer, produceren minder rook en zijn gemaakt van landbouwafval, waardoor ze een milieuvriendelijke keuze zijn."
+        },
+        {
+          "type": "h3",
+          "text": "2. Overheidssteun en handelskansen"
+        },
+        {
+          "type": "p",
+          "text": "De Indonesische regering heeft brikettenhoutskool geprioriteerd als onderdeel van haar niet-olie- en gasexportstrategie. Handelsovereenkomsten met landen in het Midden-Oosten, Europa en Azië openen nieuwe markten. Exporteurs profiteren van vereenvoudigde regelgeving en een groeiende wereldwijde erkenning van de productkwaliteit van Indonesië."
+        },
+        {
+          "type": "h3",
+          "text": "3. Concurrentievoordelen in de productie"
+        },
+        {
+          "type": "p",
+          "text": "Met overvloedige grondstoffen, geschoolde arbeidskrachten en gevestigde productiefaciliteiten biedt Indonesië <strong>concurrerende prijzen</strong> met behoud van kwaliteit. Het productie-ecosysteem ondersteunt zowel kleine producenten als grootschalige exporteurs, waardoor een stabiele aanvoer wordt gegarandeerd, zelfs tijdens piekseizoenen."
+        },
+        {
+          "type": "h2",
+          "text": "Top exportbestemmingen"
+        },
+        {
+          "type": "p",
+          "text": "In 2025 zijn de belangrijkste markten voor Indonesische brikettenhoutskool het <strong>Midden-Oosten (Saoedi-Arabië, VAE)</strong> voor shisha-consumptie, <strong>Europa (Duitsland, VK, Nederland)</strong> voor milieuvriendelijk grillen en <strong>Oost-Azië (Zuid-Korea, Japan)</strong> voor premium barbecueproducten. Deze regio's hechten waarde aan consistente kwaliteit en duurzame inkoop."
+        },
+        {
+          "type": "h2",
+          "text": "Duurzaamheid en milieu-impact"
+        },
+        {
+          "type": "p",
+          "text": "Kokosnootschilbriketten worden geproduceerd uit afvalmaterialen, wat de milieu-impact vermindert. Producenten passen steeds vaker <strong>ISO-gecertificeerde productiemethoden</strong> toe en investeren in hernieuwbare energie voor hun activiteiten. Dit verbetert zowel de duurzaamheid als het vertrouwen van internationale kopers."
+        },
+        {
+          "type": "h2",
+          "text": "Uitdagingen en kansen voor de toekomst"
+        },
+        {
+          "type": "p",
+          "text": "Ondanks de sterke groei worden exporteurs geconfronteerd met uitdagingen zoals <strong>stijgende logistieke kosten, strengere importregelgeving</strong> en toenemende concurrentie van andere producerende landen. Indonesië blijft echter vooroplopen dankzij schaal, kwaliteit en het opgebouwde vertrouwen bij internationale kopers."
+        },
+        {
+          "type": "h2",
+          "text": "Conclusie"
+        },
+        {
+          "type": "p",
+          "text": "De positie van Indonesië als wereldleider in de export van brikettenhoutskool is in 2025 sterker dan ooit. Met overvloedige hulpbronnen, steun van de overheid en een stijgende wereldwijde vraag naar duurzame producten, zijn Indonesische exporteurs goed gepositioneerd om hun marktaandeel uit te breiden. Voor bedrijven en distributeurs wereldwijd zorgt een partnerschap met Indonesische producenten voor toegang tot een betrouwbaar, milieuvriendelijk en winstgevend product."
         }
       ]
     },
     "complete-guide-to-high-quality-shisha-charcoal": {
-      "title": "De complete gids voor hoogwaardige shisha-houtskoolbriketten",
+      "title": "De complete gids voor hoogwaardige shisha houtskoolbriketten",
       "excerpt": "Een premium shisha-sessie hangt af van twee dingen: de kwaliteit van de tabak en de kwaliteit van de houtskool. Deze gids geeft een diepgaand inzicht in wat een echt hoogwaardige houtskoolbriket maakt.",
-      "image": "/shisha-charcoal-guide.webp",
+      "image": "/shisha2.webp",
       "date": "25 september 2025",
       "category": "Industrie-inzichten",
       "meta": {
-        "title": "Gids voor hoogwaardige shisha-houtskool | Indo Charcoal Supply",
-        "description": "Leer wat een premium shisha-houtskool maakt, van een laag asgehalte en lange brandtijden tot het gedetailleerde productieproces. Een gids voor importeurs en merken."
+        "title": "Gids voor hoogwaardige shisha houtskool | Indo Charcoal Supply",
+        "description": "Leer wat een premium shisha houtskool maakt, van een laag asgehalte en lange brandtijden tot het gedetailleerde productieproces. Een gids voor importeurs en merken."
       },
       "content": [
         {
           "type": "h2",
-          "text": "Belangrijkste kenmerken van premium shisha-houtskool"
+          "text": "Belangrijkste kenmerken van premium shisha houtskool"
         },
         {
           "type": "p",
-          "text": "Het kiezen van de juiste houtskool is cruciaal voor zowel de consumentenervaring als de reputatie van uw merk. Dit zijn de kernspecificaties die een superieur product definiëren:"
+          "text": "Het kiezen van de juiste houtskool is cruciaal voor zowel de consumentenervaring als de reputatie van uw merk. Hier zijn de kernspecificaties die een superieur product definiëren:"
         },
         {
           "type": "ul",
           "items": [
-            "<strong>Laag asgehalte:</strong> dit is de meest kritieke factor. Premium briketten, zoals die van Indo Charcoal Supply, hebben een asgehalte van <strong>minder dan 2,5%</strong>. Een laag asgehalte betekent een schonere verbranding, minder residu in de bak en geen verandering van de shisha-smaak.",
-            "<strong>Lange brandtijd:</strong> een hoogwaardige briket moet minstens <strong>1,5 uur</strong> branden op een standaard shisha-kom. Dit zorgt voor een langere, aangenamere sessie zonder dat de kolen vaak moeten worden vervangen.",
-            "<strong>Hoge calorische waarde:</strong> gemeten in Kcal/kg, een hoge calorische waarde (meer dan <strong>7400 Kcal/kg</strong>) duidt op intense, constante hitte. Dit is essentieel voor het goed verwarmen van de shisha-tabak en het produceren van dikke, smaakvolle rook.",
-            "<strong>Geurloos en smaakloos:</strong> briketten moeten gemaakt zijn van 100% natuurlijke kokosnootschillen en mogen geen chemische toevoegingen bevatten. Dit zorgt ervoor dat de houtskool geen onaangename geuren of smaken produceert die de shisha-ervaring kunnen bederven.",
-            "<strong>Geen vonken:</strong> briketten van professionele kwaliteit mogen niet vonken of barsten wanneer ze worden aangestoken, wat een veilige en probleemloze ervaring voor de gebruiker garandeert."
+            "<strong>Laag asgehalte:</strong> Dit is de meest kritische factor. Premium briketten, zoals die van Indo Charcoal Supply, hebben een asgehalte van <strong>minder dan 2,5%</strong>. Een laag asgehalte betekent een schonere verbranding, minder residu in de bak en geen verandering van de shisha-smaak.",
+            "<strong>Lange brandtijd:</strong> Een hoogwaardige briket moet minstens <strong>1,5 uur</strong> branden op een standaard shisha-kom. Dit zorgt voor een langere, aangenamere sessie zonder dat de kooltjes vaak vervangen hoeven te worden.",
+            "<strong>Hoge calorische waarde:</strong> Gemeten in Kcal/kg, duidt een hoge calorische waarde (meer dan <strong>7400 Kcal/kg</strong>) op intense, consistente hitte. Dit is essentieel voor het goed verwarmen van de shisha-tabak en het produceren van dikke, smaakvolle rook.",
+            "<strong>Geur- en smaakloos:</strong> Briketten moeten gemaakt zijn van 100% natuurlijke kokosnootschillen en geen chemische toevoegingen bevatten. Dit zorgt ervoor dat de houtskool geen onaangename geuren of smaken produceert die de shisha-ervaring kunnen bederven.",
+            "<strong>Geen vonken:</strong> Professionele briketten mogen niet vonken of barsten wanneer ze worden aangestoken, wat een veilige en probleemloze ervaring voor de gebruiker garandeert."
           ]
         },
         {
           "type": "h2",
-          "text": "Het productieproces: van kokosnootschil tot premium briket"
+          "text": "Het productieproces: Van kokosnootschil tot premium briket"
         },
         {
           "type": "p",
-          "text": "Het bereiken van deze premium kenmerken vereist een nauwgezet productieproces. Het begint allemaal met de <strong>grondstof</strong>: volwassen, dichte kokosnootschillen. Deze schillen worden vervolgens verkoold bij hoge temperaturen in gespecialiseerde ovens om hoogwaardige houtskool te produceren met een hoog vast koolstofgehalte."
+          "text": "Het bereiken van deze premium eigenschappen vereist een zorgvuldig productieproces. Het begint allemaal met de <strong>grondstof</strong>: rijpe, dichte kokosnootschillen. Deze schillen worden vervolgens gecarboniseerd bij hoge temperaturen in gespecialiseerde ovens om hoogwaardige houtskool met een hoog vast koolstofgehalte te produceren."
         },
         {
           "type": "p",
-          "text": "Na de carbonisatie wordt de houtskool vermalen en gemengd met een <strong>natuurlijk bindmiddel</strong> (meestal tapiocazetmeel van voedingskwaliteit) voordat het in uniforme vormen zoals kubussen of zeshoeken wordt geperst. Dit proces, bekend als briketteren, is de sleutel tot het bereiken van een consistente dichtheid en brandtijden. De briketten worden vervolgens gedroogd om al het vocht te verwijderen, zodat ze klaar zijn voor verpakking en verzending."
+          "text": "Na de carbonisatie wordt de houtskool vermalen en gemengd met een <strong>natuurlijk bindmiddel</strong> (meestal voedselveilige tapiocazetmeel) voordat het wordt gevormd tot uniforme vormen zoals kubussen of zeshoeken. Dit proces, bekend als briketteren, is de sleutel tot het bereiken van een consistente dichtheid en brandtijd. De briketten worden vervolgens gedroogd om al het vocht te verwijderen, zodat ze klaar zijn voor verpakking en verzending."
         },
         {
           "type": "h2",
@@ -468,24 +579,122 @@
         {
           "type": "ul",
           "items": [
-            "<strong>In het laboratorium geteste kwaliteit</strong> met een analysecertificaat voor elke partij.",
+            "<strong>Laboratoriumgeteste kwaliteit</strong> met een Analysecertificaat voor elke batch.",
             "<strong>Een consistente toeleveringsketen</strong> dankzij de overvloedige kokosnootbronnen van Indonesië.",
-            "<strong>Aanpasbare verpakkingen</strong> om u te helpen uw eigen merkidentiteit op te bouwen."
+            "<strong>Aanpasbare verpakking</strong> om u te helpen uw eigen merkidentiteit op te bouwen."
           ]
         },
         {
           "type": "p",
-          "text": "Door voor ons te kiezen, krijgt u niet alleen een product; u krijgt een strategisch voordeel op de wereldwijde shisha-markt. We zijn toegewijd om u te helpen een ongeëvenaarde shisha-ervaring aan uw klanten te bieden."
+          "text": "Door voor ons te kiezen, krijgt u niet alleen een product; u krijgt een strategisch voordeel op de wereldwijde shisha-markt. Wij zijn toegewijd om u te helpen een ongeëvenaarde shisha-ervaring aan uw klanten te leveren."
+        }
+      ]
+    },
+    "indonesia-coconut-briquette-export": {
+      "title": "Indonesische kokosnootbrikettenhoutskool: de rijzende ster in de wereldwijde export",
+      "excerpt": "Indonesië transformeert kokosnootbrikettenhoutskool tot een van zijn meest veelbelovende exportproducten. Ontdek waarom de vraag wereldwijd explodeert, de unieke voordelen die Indonesië heeft, en waar de toekomstige kansen liggen.",
+      "image": "/artikel1.webp",
+      "date": "30 september 2025",
+      "category": "Bedrijfsinzichten",
+      "meta": {
+        "title": "Export van Indonesische kokosnootbrikettenhoutskool | Indo Charcoal Supply",
+        "description": "Ontdek waarom de Indonesische kokosnootbrikettenhoutskool een wereldwijde exportleider wordt. Leer over de marktvraag, milieuvriendelijke voordelen, uitdagingen en toekomstige kansen.",
+        "keywords": "export kokosnootbrikettenhoutskool, Indonesische houtskoolleverancier, shisha briketten, BBQ houtskool, duurzame brandstofexport"
+      },
+      "content": [
+        {
+          "type": "h2",
+          "text": "Introductie"
+        },
+        {
+          "type": "p",
+          "text": "In de afgelopen jaren is kokosnootbrikettenhoutskool van een niche-exportproduct uitgegroeid tot een van de meest veelbelovende wereldwijde goederen van Indonesië. Ooit over het hoofd gezien ten gunste van palmolie of koffie, krijgen op kokosnoot gebaseerde producten nu aandacht in het Midden-Oosten, Europa en de VS."
+        },
+        {
+          "type": "h2",
+          "text": "Wat is kokosnootbrikettenhoutskool?"
+        },
+        {
+          "type": "p",
+          "text": "Kokosnootbrikettenhoutskool wordt gemaakt van kokosnootschillen die worden gecarboniseerd, samengeperst en gevormd tot kubussen, zeshoeken of op maat gemaakte ontwerpen. Het wordt veel gebruikt voor het roken van shisha, BBQ-grillen en industriële doeleinden. In tegenstelling tot traditionele houtskool brandt het langer, produceert het minder as en wordt het als koolstofneutraal beschouwd."
+        },
+        {
+          "type": "h2",
+          "text": "Wereldwijde vraagtrends"
+        },
+        {
+          "type": "p",
+          "text": "De exportwaarde van Indonesische kokosnootbrikettenhoutskool groeide met meer dan 20% in 2023. De vraag is vooral sterk in het Midden-Oosten (Saoedi-Arabië, VAE, Qatar), Europa (Duitsland, Nederland, VK) en Noord-Amerika (VS & Canada). Alleen al de shisha-markt zal naar verwachting 5,6 miljard dollar bereiken in 2030, wat de vraag naar houtskool aanwakkert."
+        },
+        {
+          "type": "h2",
+          "text": "Waarom Indonesië het voordeel heeft"
+        },
+        {
+          "type": "h3",
+          "text": "1. Overvloedige grondstoffen"
+        },
+        {
+          "type": "p",
+          "text": "Indonesië is 's werelds grootste kokosnootproducent, wat zorgt voor een constante aanvoer van schillen het hele jaar door. Dit maakt de productie van briketten duurzaam in vergelijking met op hout gebaseerde houtskool."
+        },
+        {
+          "type": "h3",
+          "text": "2. Milieuvriendelijke productie"
+        },
+        {
+          "type": "p",
+          "text": "Kokosnootbriketten zijn hernieuwbaar en biologisch afbreekbaar en voldoen aan internationale milieunormen zoals REACH (EU) en EPA (VS)."
+        },
+        {
+          "type": "h3",
+          "text": "3. Geschoolde arbeidskrachten en volwassen industrie"
+        },
+        {
+          "type": "p",
+          "text": "Met tientallen jaren ervaring gebruiken Indonesische fabrieken nu geavanceerde carbonisatie- en compressietechnologie om te voldoen aan strikte exportvereisten met betrekking tot as- en vochtgehalte."
+        },
+        {
+          "type": "h3",
+          "text": "4. Strategische verzendroutes"
+        },
+        {
+          "type": "p",
+          "text": "De ligging van Indonesië in Zuidoost-Azië maakt een efficiënte levering naar zowel het Oosten als het Westen mogelijk, waardoor de verzendkosten en levertijden worden verlaagd."
+        },
+        {
+          "type": "h2",
+          "text": "Uitdagingen voor de industrie"
+        },
+        {
+          "type": "p",
+          "text": "De industrie wordt geconfronteerd met verschillende uitdagingen: variabiliteit in productkwaliteit tussen producenten, complexe exportregelgeving en toenemende concurrentie van andere kokosnootproducerende landen zoals de Filippijnen, Sri Lanka en Vietnam."
+        },
+        {
+          "type": "h2",
+          "text": "Toekomstige kansen"
+        },
+        {
+          "type": "p",
+          "text": "De toekomst is veelbelovend: kokosnootbriketten worden gepositioneerd als een koolstofneutrale energiebron, er is veel vraag naar private label verpakkingen, technologische verbeteringen stimuleren de prestaties, en er ontstaan nieuwe toepassingen in bio-energie en industriële verwarming."
+        },
+        {
+          "type": "h2",
+          "text": "Conclusie"
+        },
+        {
+          "type": "p",
+          "text": "De Indonesische kokosnootbrikettenhoutskool is meer dan alleen een handelswaar - het is een symbool van duurzame handel. Met een overvloed aan grondstoffen, geschoolde arbeidskrachten en een stijgende wereldwijde vraag, zal Indonesië 's werelds meest betrouwbare leverancier blijven. Voor importeurs en distributeurs is dit het moment om partnerschappen aan te gaan en deel te nemen aan deze groeiende markt."
         }
       ]
     }
   },
   "footer": {
-    "about": "Opgericht in 2021 met een sterke toewijding om de beste, snelste en meest betrouwbare diensten in de houtskoolbrikettenindustrie te bieden.",
-    "quickLinks": "Snelle Links",
-    "contactUs": "Neem Contact Op",
-    "followUs": "Volg Ons",
-    "address": "Magelang Street 71, Sleman, Yogyakarta, Indonesië",
+    "about": "Opgericht in 2021 met een sterke toewijding om de beste, snelste en meest betrouwbare diensten in de houtskoolbrikettenindustrie te leveren.",
+    "quickLinks": "Snelle links",
+    "contactUs": "Neem contact op",
+    "followUs": "Volg ons",
+    "address": "Magelangstraat 71, Sleman, Yogyakarta, Indonesië",
     "rights": "Alle rechten voorbehouden.",
     "links": {
       "home": "Home",

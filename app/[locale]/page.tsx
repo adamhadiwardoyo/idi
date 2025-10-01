@@ -21,6 +21,7 @@ const OurTeam = dynamic(() => import('@/components/OurTeam'));
 const Footer = dynamic(() => import('@/components/Footer'));
 const BlogSection = dynamic(() => import('@/components/BlogSection'));
 const LocationMap = dynamic(() => import('@/components/LocationMap'));
+const VideoSection = dynamic(() => import('@/components/VideoSection'));
 
 export default function HomePage() {
   // Initialize AOS when the component mounts on the client side
@@ -53,6 +54,12 @@ export default function HomePage() {
       <Shipping />
       <Testimonials />
       <GallerySlider />
+      <VideoSection 
+        title="Our Production in Action" // Ganti dengan t('videoSection.title') jika sudah diterjemahkan
+        subtitle="See how we turn high-quality coconut shells into premium charcoal briquettes, ready for global export." // Ganti dengan t('videoSection.subtitle')
+        thumbnailSrc="/thumbnail.webp" 
+        youtubeId="meBd1GHC2yg" // <-- Ganti dengan ID video YouTube Anda
+      />
       <OurTeam />
       <div id="blog">
         <BlogSection />

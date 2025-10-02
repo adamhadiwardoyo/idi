@@ -22,7 +22,6 @@ const OurTeam = dynamic(() => import('@/components/OurTeam'));
 const Footer = dynamic(() => import('@/components/Footer'));
 const BlogSection = dynamic(() => import('@/components/BlogSection'));
 const LocationMap = dynamic(() => import('@/components/LocationMap'));
-const VideoSection = dynamic(() => import('@/components/VideoSection'));
 
 export default function HomePage() {
   // Initialize AOS when the component mounts on the client side

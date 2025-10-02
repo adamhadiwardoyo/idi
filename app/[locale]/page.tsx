@@ -22,16 +22,16 @@ const OurTeam = dynamic(() => import('@/components/OurTeam'));
 const Footer = dynamic(() => import('@/components/Footer'));
 const BlogSection = dynamic(() => import('@/components/BlogSection'));
 const LocationMap = dynamic(() => import('@/components/LocationMap'));
+const VideoSection = dynamic(() => import('@/components/VideoSection')); // <-- PERBAIKAN 1: Impor VideoSection
 
 export default function HomePage() {
-  // Initialize AOS when the component mounts on the client side
   const t = useTranslations('videoSection'); 
   
   useEffect(() => {
     Aos.init({
       duration: 1000,
       once: true,
-      offset: 100, // Start animation 100px before the element is visible
+      offset: 100,
     });
   }, []);
 
@@ -57,8 +57,8 @@ export default function HomePage() {
       <Testimonials />
       <GallerySlider />
       <VideoSection 
-        title={('videoSection.title')}
-        subtitle={('videoSection.subtitle')}
+        title={t('title')} // <-- PERBAIKAN 2: Gunakan fungsi t
+        subtitle={t('subtitle')} // <-- PERBAIKAN 2: Gunakan fungsi t
         thumbnailSrc="/thumbnail.webp" 
         youtubeId="meBd1GHC2yg"
       />

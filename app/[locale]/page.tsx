@@ -3,6 +3,7 @@
 import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { useTranslations } from 'next-intl';
 
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
@@ -25,6 +26,8 @@ const VideoSection = dynamic(() => import('@/components/VideoSection'));
 
 export default function HomePage() {
   // Initialize AOS when the component mounts on the client side
+  const t = useTranslations('videoSection'); 
+  
   useEffect(() => {
     Aos.init({
       duration: 1000,
@@ -55,10 +58,10 @@ export default function HomePage() {
       <Testimonials />
       <GallerySlider />
       <VideoSection 
-        title="Our Production in Action" // Ganti dengan t('videoSection.title') jika sudah diterjemahkan
-        subtitle="See how we turn high-quality coconut shells into premium charcoal briquettes, ready for global export." // Ganti dengan t('videoSection.subtitle')
+        title={('videoSection.title')}
+        subtitle={('videoSection.subtitle')}
         thumbnailSrc="/thumbnail.webp" 
-        youtubeId="meBd1GHC2yg" // <-- Ganti dengan ID video YouTube Anda
+        youtubeId="meBd1GHC2yg"
       />
       <OurTeam />
       <div id="blog">

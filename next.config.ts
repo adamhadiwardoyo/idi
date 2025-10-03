@@ -12,7 +12,7 @@ const securityHeaders = [
       style-src 'self' 'unsafe-inline' *.google.com *.googleapis.com;
       img-src 'self' data: blob: https://cdn.jsdelivr.net *.google.com *.gstatic.com images.unsplash.com *.googleapis.com *.ggpht.com *.googleusercontent.com maps.gstatic.com maps.googleapis.com;
       font-src 'self' data: *.gstatic.com;
-      connect-src 'self' *.google.com *.googleapis.com *.google-analytics.com maps.googleapis.com maps.gstatic.com;
+      connect-src 'self' api.indocharcoalsupply.com *.google.com *.googleapis.com *.google-analytics.com maps.googleapis.com maps.gstatic.com;
       frame-src 'self' *.google.com *.googleapis.com google.com *.youtube.com;
       frame-ancestors 'self';
       form-action 'self';
@@ -44,13 +44,16 @@ const securityHeaders = [
   }
 ];
 
-
 const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
         protocol: 'https',
         hostname: 'images.unsplash.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'api.indocharcoalsupply.com',
       },
     ],
   },

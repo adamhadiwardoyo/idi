@@ -1,21 +1,45 @@
 // components/Hero.tsx
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+import axios from 'axios'; // Import axios
 import StatsBar from './StatsBar';
 import { useTranslations } from 'next-intl';
 import { DocumentArrowDownIcon, PhoneIcon, DocumentTextIcon, BookOpenIcon } from '@heroicons/react/24/outline';
+import { API_BASE_URL } from '@/lib/api'; // Import your reusable API base URL
+
+// 1. Define an interface for the settings data
+interface Settings {
+  company_profile_url: string;
+  catalog_url: string;
+}
 
 const Hero: React.FC = () => {
   const t = useTranslations('hero');
   const [showOptions, setShowOptions] = useState(false);
+  // 2. Add state to store the fetched settings
+  const [settings, setSettings] = useState<Settings | null>(null);
 
   const handleMenuClick = (event: React.MouseEvent) => {
     event.stopPropagation();
   };
 
-  React.useEffect(() => {
+  // 3. Fetch settings data when the component mounts
+  useEffect(() => {
+    const fetchSettings = async () => {
+      try {
+        const response = await axios.get(`${API_BASE_URL}/settings`);
+        setSettings(response.data);
+      } catch (error) {
+        console.error("Failed to fetch settings:", error);
+      }
+    };
+
+    fetchSettings();
+  }, []);
+
+  useEffect(() => {
     const handleOutsideClick = () => {
       setShowOptions(false);
     };
@@ -55,7 +79,7 @@ const Hero: React.FC = () => {
           <p className="mt-6 max-w-2xl mx-auto text-white/80">
             {t('paragraph')}
           </p>
-          
+
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
             <div className="relative inline-block text-left" onClick={handleMenuClick}>
               <button
@@ -68,18 +92,18 @@ const Hero: React.FC = () => {
                 <DocumentArrowDownIcon className="h-5 w-5" aria-hidden="true" />
                 {t('download-options')}
               </button>
-              
+
               {showOptions && (
                 <div
-                  // --- PERUBAHAN DI SINI ---
                   className="origin-bottom-center absolute bottom-full left-1/2 mb-2 w-60 -translate-x-1/2 rounded-lg shadow-xl bg-black/80 ring-1 ring-white/20 focus:outline-none z-10 animate-fade-in"
                   role="menu"
                   aria-orientation="vertical"
                   tabIndex={-1}
                 >
                   <div className="py-1" role="none">
+                    {/* 4. Use the dynamic URLs from state */}
                     <a
-                      href="https://drive.google.com/file/d/15cJ4JVYefAieuppOQSQXwfE0XKk05U8o/view?usp=sharing"
+                      href={settings?.company_profile_url || '#'}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-white flex items-center px-4 py-2 text-sm hover:bg-white/10 transition-colors duration-200"
@@ -90,7 +114,7 @@ const Hero: React.FC = () => {
                       {t('company-profile')}
                     </a>
                     <a
-                      href="https://drive.google.com/file/d/14N-Yzy3S-mlXNmzGgq9b67ZCsbWGCbSa/view"
+                      href={settings?.catalog_url || '#'}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-white flex items-center px-4 py-2 text-sm hover:bg-white/10 transition-colors duration-200"

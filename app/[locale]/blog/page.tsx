@@ -1,35 +1,75 @@
-
-
-import { getTranslations, getMessages, getLocale } from 'next-intl/server'; 
+import { getTranslations, getLocale } from 'next-intl/server';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Link } from '@/i18n/navigation';
 import Image from 'next/image';
 import type { Metadata } from 'next';
 import { routing } from '@/i18n/routing';
+import { API_BASE_URL } from '@/lib/api';
+import { format } from 'date-fns';
 
-// Komponen Kartu Blog (tidak ada perubahan)
-interface BlogCardProps {
+// --- Interfaces ---
+interface Post {
+  id: number;
   slug: string;
   title: string;
   excerpt: string;
-  image: string;
+  image_url: string;
   date: string;
   category: string;
+  language: string;
+  is_active: boolean;
+}
+
+interface BlogCardProps extends Omit<Post, 'id' | 'language' | 'is_active'> {
   readMoreText: string;
 }
 
-const BlogCard = ({ slug, title, excerpt, image, date, category, readMoreText }: BlogCardProps) => (
-  // ... Implementasi komponen ini tidak perlu diubah
+// --- API Fetching Function with Debugging ---
+async function getPosts(locale: string): Promise<Post[]> {
+  console.log(`\n[getPosts] Fetching all posts for locale: "${locale}"`);
+  try {
+    // Disable cache to ensure we get fresh data every time during debugging
+    const response = await fetch(`${API_BASE_URL}/posts`, { cache: 'no-store' });
+
+    if (!response.ok) {
+      console.error(`[getPosts] API fetch failed with status: ${response.status}`);
+      return [];
+    }
+
+    const posts: Post[] = await response.json();
+    console.log(`[getPosts] Successfully fetched ${posts.length} total posts.`);
+
+    const filteredPosts = posts
+      .filter(post => post.language === locale && post.is_active)
+      .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+    console.log(`[getPosts] Found ${filteredPosts.length} active posts for locale "${locale}".`);
+    return filteredPosts;
+
+  } catch (error) {
+    console.error("[getPosts] 💥 CRASH: An error occurred during fetch.", error);
+    return [];
+  }
+}
+
+// --- Components ---
+const BlogCard = ({ slug, title, excerpt, image_url, date, category, readMoreText }: BlogCardProps) => (
   <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col group h-full">
     <div className="relative w-full h-48 overflow-hidden">
-      <Image src={image} alt={title} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-cover w-full h-full transform transition-transform duration-500 group-hover:scale-110" />
+      <Image
+        src={image_url}
+        alt={title}
+        fill
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        className="object-cover w-full h-full transform transition-transform duration-500 group-hover:scale-110"
+      />
     </div>
     <div className="p-6 flex flex-col flex-grow">
       <div className="mb-2">
         <span className="text-brand-orange font-semibold text-sm uppercase tracking-wider">{category}</span>
         <span className="text-gray-500 text-sm mx-2">•</span>
-        <span className="text-gray-500 text-sm">{date}</span>
+        <span className="text-gray-500 text-sm">{format(new Date(date), 'MMMM d, yyyy')}</span>
       </div>
       <h3 className="text-xl font-bold text-gray-900 mb-3 flex-grow group-hover:text-brand-orange transition-colors">
         <Link href={`/blog/${slug}`}>{title}</Link>
@@ -44,11 +84,9 @@ const BlogCard = ({ slug, title, excerpt, image, date, category, readMoreText }:
   </div>
 );
 
-
+// --- Metadata Generation ---
 export async function generateMetadata(): Promise<Metadata> {
-  // Gunakan `getLocale` untuk mendapatkan locale
-  const locale = await getLocale(); 
-  
+  const locale = await getLocale();
   const t = await getTranslations({ locale, namespace: 'blog' });
   const baseUrl = 'https://www.indocharcoalsupply.com';
   const pageUrl = `${baseUrl}/${locale}/blog`;
@@ -68,27 +106,11 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-
+// --- Page Component ---
 export default async function BlogIndexPage() {
-  // Gunakan `getLocale` untuk mendapatkan locale
   const locale = await getLocale();
-  
   const t = await getTranslations({ locale, namespace: 'blog' });
-  const messages = await getMessages();
-  const blogMessages = messages.blog;
-
-  const slugs = Object.keys(blogMessages).filter(key => 
-    !['title', 'readMore', 'viewAllPosts', 'backToBlog', 'backToHome'].includes(key)
-  );
-
-  const posts = slugs.map(slug => ({
-    slug,
-    title: t(`${slug}.title`),
-    excerpt: t(`${slug}.excerpt`),
-    image: t(`${slug}.image`),
-    date: t(`${slug}.date`),
-    category: t(`${slug}.category`),
-  }));
+  const posts = await getPosts(locale);
 
   return (
     <>
@@ -104,15 +126,26 @@ export default async function BlogIndexPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-            {posts.map((post) => (
-              <BlogCard
-                key={post.slug}
-                {...post}
-                readMoreText={t('readMore')}
-              />
-            ))}
-          </div>
+          {posts.length > 0 ? (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+              {posts.map((post) => (
+                <BlogCard
+                  key={post.id}
+                  slug={post.slug}
+                  title={post.title}
+                  excerpt={post.excerpt}
+                  image_url={post.image_url}
+                  date={post.date}
+                  category={post.category}
+                  readMoreText={t('readMore')}
+                />
+              ))}
+            </div>
+          ) : (
+            <div className="text-center text-gray-600">
+              <p>No articles found for this language yet. Please check back later.</p>
+            </div>
+          )}
 
           <div className="text-center mt-20">
             <Link

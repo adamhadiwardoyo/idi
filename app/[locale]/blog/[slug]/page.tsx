@@ -6,107 +6,73 @@ import Footer from '@/components/Footer';
 import type { Metadata } from 'next';
 import { routing } from '@/i18n/routing';
 import Image from 'next/image';
-import { getMessages } from 'next-intl/server';
+import { API_BASE_URL } from '@/lib/api';
+import { format } from 'date-fns';
 
-// Define the structure of a content item
-interface ContentItem {
-  type: 'h2' | 'h3' | 'p' | 'ul' | 'blockquote';
-  text?: string;
-  items?: string[];
+// --- Interface for the Post data ---
+interface Post {
+  id: number;
+  slug: string;
+  title: string;
+  content: string;
+  image_url: string;
+  date: string;
+  category: string;
+  language: string;
+  is_active: boolean;
+  meta_title: string;
+  meta_description: string;
 }
-const StructuredContent = ({ content }: { content: ContentItem[] }) => {
-  return (
-    <div className="prose prose-lg prose-gray lg:prose-xl max-w-none text-gray-800 leading-relaxed">
-      {content.map((item, index) => {
-        switch (item.type) {
-          case 'h2':
-            return (
-              <h2
-                key={index}
-                className="text-3xl font-bold text-brand-orange mt-12 mb-6 border-b border-gray-200 pb-2"
-                dangerouslySetInnerHTML={{ __html: item.text || '' }}
-              />
-            );
-          case 'h3':
-            return (
-              <h3
-                key={index}
-                className="text-2xl font-semibold text-gray-900 mt-8 mb-4"
-                dangerouslySetInnerHTML={{ __html: item.text || '' }}
-              />
-            );
-          case 'p':
-            return (
-              <p
-                key={index}
-                className="mb-6 text-justify"
-                dangerouslySetInnerHTML={{ __html: item.text || '' }}
-              />
-            );
-          case 'ul':
-            return (
-              <ul key={index} className="list-disc list-inside space-y-2 mb-6">
-                {item.items?.map((li, i) => (
-                  <li
-                    key={i}
-                    className="text-gray-700"
-                    dangerouslySetInnerHTML={{ __html: li }}
-                  />
-                ))}
-              </ul>
-            );
-          case 'blockquote':
-            return (
-              <blockquote
-                key={index}
-                className="border-l-4 border-brand-orange pl-4 italic text-gray-600 bg-orange-50/40 p-4 rounded-md my-6"
-              >
-                <p dangerouslySetInnerHTML={{ __html: item.text || '' }} />
-              </blockquote>
-            );
-          default:
-            return null;
-        }
-      })}
-    </div>
-  );
-};
 
-// Perbarui tipe Props
+// --- Type definition for page props (compatible with Next.js 15) ---
 type Props = {
-  params: {
+  params: Promise<{
     slug: string;
     locale: string;
+  }>
+}
+
+// --- API Fetching Function ---
+async function getPost(slug: string, locale: string): Promise<Post | null> {
+  try {
+    // Force a fresh fetch every time to avoid any caching issues
+    const response = await fetch(`${API_BASE_URL}/posts`, { cache: 'no-store' });
+    if (!response.ok) {
+      return null;
+    }
+    const posts: Post[] = await response.json();
+    const post = posts.find(p => p.slug === slug && p.language === locale && p.is_active);
+    return post || null;
+  } catch (error) {
+    console.error(`Failed to fetch post with slug ${slug}:`, error);
+    return null;
   }
 }
-// Generate dynamic metadata for each blog post
+
+// --- Remove generateStaticParams to ensure the page is always dynamic ---
+// By removing this function, Next.js will render every blog post on-demand.
+// This solves the 404 issue if a post was added after the last build.
+
+// --- Metadata Generation ---
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
+  const post = await getPost(slug, locale);
 
-  const messages = await getMessages({ locale });
-  const postData = messages.blog[slug];
-
-  if (!postData) return { title: 'Not Found' };
+  if (!post) {
+    return { title: 'Post Not Found' };
+  }
 
   const baseUrl = 'https://www.indocharcoalsupply.com';
-
   return {
     metadataBase: new URL(baseUrl),
-    title: postData.meta.title,
-    description: postData.meta.description,
+    title: post.meta_title,
+    description: post.meta_description,
     openGraph: {
       type: 'article',
-      title: postData.meta.title,
-      description: postData.meta.description,
+      title: post.meta_title,
+      description: post.meta_description,
       url: `${baseUrl}/${locale}/blog/${slug}`,
-      images: [
-        {
-          url: `${baseUrl}${postData.image}`,
-          width: 1200,
-          height: 630,
-          alt: postData.meta.title,
-        }
-      ]
+      images: [{ url: post.image_url, width: 1200, height: 630, alt: post.title }]
     },
     alternates: {
       canonical: `${baseUrl}/${locale}/blog/${slug}`,
@@ -120,46 +86,33 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const VALID_SLUGS = [
-  'global-market-trends-2025',
-  'guide-international-shipping-indonesian-charcoal',
-  'indonesian-advantage-worlds-best-coconut-charcoal',
-  'complete-guide-to-high-quality-shisha-charcoal',
-  'indonesian-briquette-charcoal-export-2025',
-  "indonesia-coconut-briquette-export"// Slug baru
-];
-
+// --- Page Component ---
 export default async function BlogPostPage({ params }: Props) {
   const { locale, slug } = await params;
+  const post = await getPost(slug, locale);
 
-  if (!VALID_SLUGS.includes(slug)) {
+  if (!post) {
     notFound();
   }
 
-  const tPost = await getTranslations({ locale, namespace: `blog.${slug}` });
   const tBlog = await getTranslations({ locale, namespace: 'blog' });
-
-  // Get the structured content
-  const content = tPost.raw('content') as ContentItem[];
 
   return (
     <>
       <Navbar />
       <main className="pt-24 bg-white">
         <article className="container mx-auto px-6 py-16 max-w-4xl">
-          {/* Judul dan Metadata */}
-          <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl mb-2">{tPost('title')}</h1>
+          <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl mb-2">{post.title}</h1>
           <div className="flex items-center text-gray-500 mb-8">
-            <span className="font-medium text-brand-orange">{tPost('category')}</span>
+            <span className="font-medium text-brand-orange">{post.category}</span>
             <span className="mx-2">•</span>
-            <span>{tPost('date')}</span>
+            <span>{format(new Date(post.date), 'MMMM d, yyyy')}</span>
           </div>
 
-          {/* Gambar Utama */}
           <div className="relative w-full h-auto mb-8">
             <Image
-              src={tPost('image')}
-              alt={tPost('title')}
+              src={post.image_url}
+              alt={post.title}
               width={1200}
               height={630}
               className="rounded-lg shadow-lg object-cover w-full h-auto"
@@ -167,12 +120,13 @@ export default async function BlogPostPage({ params }: Props) {
             />
           </div>
 
-          {/* Konten Artikel */}
-          <StructuredContent content={content} />
+          <div
+            className="prose lg:prose-xl max-w-none"
+            dangerouslySetInnerHTML={{ __html: post.content }}
+          />
 
-          {/* Tombol Kembali */}
           <Link href="/blog" className="inline-block mt-12 bg-brand-orange text-white font-semibold px-8 py-3 rounded-full hover:bg-opacity-90 transition-opacity duration-300">
-            {tBlog('backToBlog') || 'Back to Blog'}
+            {tBlog('backToHome')}
           </Link>
         </article>
       </main>

@@ -61,9 +61,9 @@ const VideoSection: React.FC<VideoSectionProps> = ({ thumbnailSrc, youtubeId, lo
           >
             <XMarkIcon className="w-10 h-10" />
           </button>
-          
-          <div 
-            className="relative w-full max-w-4xl aspect-video bg-black rounded-lg shadow-2xl" 
+
+          <div
+            className="relative w-full max-w-4xl aspect-video bg-black rounded-lg shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
             {youtubeId ? (

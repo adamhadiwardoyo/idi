@@ -25,7 +25,6 @@ const LocationMap = dynamic(() => import('@/components/LocationMap'));
 
 
 export default function HomePage() {
-  const t = useTranslations('videoSection');
 
   useEffect(() => {
     Aos.init({

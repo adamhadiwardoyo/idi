@@ -1,58 +1,23 @@
 'use client';
-//fix the testimonial
-import React from 'react';
+
+import React, { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
+import axios from 'axios';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { API_BASE_URL } from '@/lib/api';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-// --- Data Testimoni ---
-const testimonialsData = [
-  {
-    quote: 'Our first shipment of briquettes from Indo Charcoal Supply was a massive success. The quality is consistently high, and the packaging held up perfectly during the long transit. Their team is extremely professional and made the entire export process feel effortless. We are very satisfied!',
-    author: 'Noah Thompson',
-    location: 'Australia',
-  },
-  {
-    quote: 'We were looking for a reliable charcoal supplier for our restaurants, and Indo Charcoal Supply exceeded our expectations. The briquettes burn hot and long, which is crucial for our business. The communication and logistics support they provided were top-notch. Highly recommended for international buyers.',
-    author: 'Sophie Bakker',
-    location: 'Netherland',
-  },
-  {
-    quote: 'Navigating international trade can be complex, but working with Indo Charcoal Supply was a breeze. They handled all the documentation and ensured our order arrived on time. The quality of their coconut charcoal is simply unmatched. Our clients are thrilled with the product. A fantastic business partner.',
-    author: 'David Rodriguez',
-    location: 'Spain',
-  },
-  {
-    quote: 'We have been in the charcoal business for decades, and we can confidently say that the quality of Indo Charcoal Supply’s briquettes is among the best we have ever sourced. Their production capacity and efficiency in fulfilling large orders is truly impressive. We look forward to a long-term partnership.',
-    author: 'Ahmed Al-Farsi',
-    location: 'United Arab Emirates',
-  },
-  {
-    quote: 'Finding sustainable and high-quality briquettes is a top priority for us. Indo Charcoal Supply meets both criteria perfectly. The product is environmentally friendly and the performance is excellent. Their commitment to customer service is what truly sets them apart. A reliable and trustworthy partner for our growing market.',
-    author: 'Sophie De Vries',
-    location: 'Belgium',
-  },
-  {
-    quote: 'Working with Indo Charcoal Supply has streamlined our supply chain significantly. Their attention to detail, from product quality to secure shipping, is exceptional. The briquettes have been a big hit with our wholesale clients. It is a pleasure doing business with such a professional and dedicated team.',
-    author: 'Omar Hassan',
-    location: 'Egypt',
-  },
-  {
-    quote: 'The quality of the charcoal briquettes we received from Indo Charcoal Supply is fantastic. They burn for a long time without much ash, which is exactly what our customers need. The team was very supportive throughout the entire export process. We are excited about our future orders.',
-    author: 'Isabella Rossi',
-    location: 'Italy',
-  },
-  {
-    quote: 'Reliability is key in our business, and Indo Charcoal Supply has proven to be a reliable partner. Their briquettes meet all our quality standards, and they have been very efficient with their shipments. The consistent product quality has helped us build trust with our customers.',
-    author: 'Oliver Thompson',
-    location: 'New Zealand',
-  },
-];
+interface Testimonial {
+  id: number;
+  quote: string;
+  author: string;
+  location: string;
+  is_active: number;
+}
 
 const StarIcon = () => (
   <svg className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
@@ -60,13 +25,7 @@ const StarIcon = () => (
   </svg>
 );
 
-type TestimonialCardProps = {
-  quote: string;
-  author: string;
-  location: string;
-};
-
-const TestimonialCard: React.FC<TestimonialCardProps> = ({ quote, author, location }) => (
+const TestimonialCard: React.FC<Omit<Testimonial, 'id' | 'is_active'>> = ({ quote, author, location }) => (
   <div className="bg-white/90 p-8 rounded-lg shadow-md flex flex-col h-full text-left border border-gray-200">
     <div className="flex mb-4">
       {[...Array(5)].map((_, index) => (
@@ -83,6 +42,24 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({ quote, author, locati
 
 const Testimonials: React.FC = () => {
   const t = useTranslations('testimonialsSection');
+  const [testimonials, setTestimonials] = useState<Testimonial[]>([]);
+  const [isLoading, setIsLoading] = useState(true); // 1. Add loading state
+
+  useEffect(() => {
+    const fetchTestimonials = async () => {
+      try {
+        const response = await axios.get<Testimonial[]>(`${API_BASE_URL}/testimonials`);
+        const activeTestimonials = response.data.filter(t => t.is_active === 1);
+        setTestimonials(activeTestimonials);
+      } catch (error) {
+        console.error("Failed to fetch testimonials:", error);
+      } finally {
+        setIsLoading(false); // Set loading to false after fetch
+      }
+    };
+
+    fetchTestimonials();
+  }, []);
 
   return (
     <section
@@ -90,45 +67,43 @@ const Testimonials: React.FC = () => {
       className="relative bg-cover bg-center bg-no-repeat py-24 sm:py-32"
       style={{ backgroundImage: "url('/prod-cover.webp')" }}
     >
-      {/* Overlay putih transparan */}
       <div className="absolute inset-0 bg-white/60"></div>
-
-      {/* Konten */}
       <div className="relative container mx-auto px-6 text-center">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl mb-12">
           {t('title')}
         </h2>
-        
-        {/* Swiper Carousel */}
-        <Swiper
-          modules={[Navigation, Pagination, Autoplay]}
-          spaceBetween={30}
-          slidesPerView={1}
-          centeredSlides={true}
-          loop={true}
-          autoplay={{
-            delay: 5000,
-            disableOnInteraction: false,
-          }}
-          navigation
-          pagination={{ clickable: true }}
-          breakpoints={{
-            768: {
-              slidesPerView: 2,
-              spaceBetween: 40,
-            },
-            1024: {
-              slidesPerView: 3,
-              spaceBetween: 50,
-            },
-          }}
-        >
-          {testimonialsData.map((testimonial, index) => (
-            <SwiperSlide key={index}>
-              <TestimonialCard {...testimonial} />
-            </SwiperSlide>
-          ))}
-        </Swiper>
+
+        {/* 2. Conditionally render Swiper */}
+        {!isLoading && testimonials.length > 0 && (
+          <Swiper
+            modules={[Navigation, Pagination, Autoplay]}
+            spaceBetween={30}
+            slidesPerView={1}
+            centeredSlides={true}
+            loop={true}
+            autoplay={{ delay: 5000, disableOnInteraction: false }}
+            navigation
+            pagination={{ clickable: true }}
+            breakpoints={{
+              768: { slidesPerView: 2, spaceBetween: 40 },
+              1024: { slidesPerView: 3, spaceBetween: 50 },
+            }}
+          >
+            {testimonials.map(({ id, quote, author, location }) => (
+              <SwiperSlide key={id}>
+                <TestimonialCard
+                  quote={quote}
+                  author={author}
+                  location={location}
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        )}
+
+        {/* Optional: Show a message if loading or no testimonials */}
+        {isLoading && <p className="text-gray-700">Loading testimonials...</p>}
+        {!isLoading && testimonials.length === 0 && <p className="text-gray-700">No testimonials to display.</p>}
       </div>
     </section>
   );

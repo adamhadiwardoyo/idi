@@ -22,11 +22,11 @@ const OurTeam = dynamic(() => import('@/components/OurTeam'));
 const Footer = dynamic(() => import('@/components/Footer'));
 const BlogSection = dynamic(() => import('@/components/BlogSection'));
 const LocationMap = dynamic(() => import('@/components/LocationMap'));
-const VideoSection = dynamic(() => import('@/components/VideoSection')); // <-- PERBAIKAN 1: Impor VideoSection
+
 
 export default function HomePage() {
-  const t = useTranslations('videoSection'); 
-  
+  const t = useTranslations('videoSection');
+
   useEffect(() => {
     Aos.init({
       duration: 1000,
@@ -56,12 +56,6 @@ export default function HomePage() {
       <Shipping />
       <Testimonials />
       <GallerySlider />
-      <VideoSection 
-        title={t('title')} // <-- PERBAIKAN 2: Gunakan fungsi t
-        subtitle={t('subtitle')} // <-- PERBAIKAN 2: Gunakan fungsi t
-        thumbnailSrc="/thumbnail.webp" 
-        youtubeId="meBd1GHC2yg"
-      />
       <OurTeam />
       <div id="blog">
         <BlogSection />

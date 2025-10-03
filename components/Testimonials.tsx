@@ -1,12 +1,10 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import { useData } from './context/DataContext'; // Import the custom hook
 import { useTranslations } from 'next-intl';
-import axios from 'axios';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
-import { API_BASE_URL } from '@/lib/api';
-
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -25,6 +23,7 @@ const StarIcon = () => (
   </svg>
 );
 
+
 const TestimonialCard: React.FC<Omit<Testimonial, 'id' | 'is_active'>> = ({ quote, author, location }) => (
   <div className="bg-white/90 p-8 rounded-lg shadow-md flex flex-col h-full text-left border border-gray-200">
     <div className="flex mb-4">
@@ -42,24 +41,8 @@ const TestimonialCard: React.FC<Omit<Testimonial, 'id' | 'is_active'>> = ({ quot
 
 const Testimonials: React.FC = () => {
   const t = useTranslations('testimonialsSection');
-  const [testimonials, setTestimonials] = useState<Testimonial[]>([]);
-  const [isLoading, setIsLoading] = useState(true); // 1. Add loading state
-
-  useEffect(() => {
-    const fetchTestimonials = async () => {
-      try {
-        const response = await axios.get<Testimonial[]>(`${API_BASE_URL}/testimonials`);
-        const activeTestimonials = response.data.filter(t => t.is_active === 1);
-        setTestimonials(activeTestimonials);
-      } catch (error) {
-        console.error("Failed to fetch testimonials:", error);
-      } finally {
-        setIsLoading(false); // Set loading to false after fetch
-      }
-    };
-
-    fetchTestimonials();
-  }, []);
+  // Use the useData hook to get data from the global context
+  const { testimonials, isLoading } = useData();
 
   return (
     <section
@@ -73,8 +56,10 @@ const Testimonials: React.FC = () => {
           {t('title')}
         </h2>
 
-        {/* 2. Conditionally render Swiper */}
-        {!isLoading && testimonials.length > 0 && (
+        {/* Conditional rendering based on loading and data availability */}
+        {isLoading ? (
+          <p className="text-gray-700">Loading testimonials...</p>
+        ) : testimonials.length > 0 ? (
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={30}
@@ -99,11 +84,9 @@ const Testimonials: React.FC = () => {
               </SwiperSlide>
             ))}
           </Swiper>
+        ) : (
+          <p className="text-gray-700">No testimonials to display.</p>
         )}
-
-        {/* Optional: Show a message if loading or no testimonials */}
-        {isLoading && <p className="text-gray-700">Loading testimonials...</p>}
-        {!isLoading && testimonials.length === 0 && <p className="text-gray-700">No testimonials to display.</p>}
       </div>
     </section>
   );

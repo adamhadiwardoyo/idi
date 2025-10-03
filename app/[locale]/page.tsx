@@ -3,13 +3,13 @@
 import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-
+import { DataProvider } from '@/components/context/DataContext'; // Import the provider
 
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import dynamic from 'next/dynamic';
 
-// Dynamically import components, disabling SSR for those with carousels
+// Dynamically import components
 const VisionMission = dynamic(() => import('@/components/VisionMission'));
 const OurValues = dynamic(() => import('@/components/OurValues'));
 const Products = dynamic(() => import('@/components/Product'), { ssr: false });
@@ -23,9 +23,8 @@ const Footer = dynamic(() => import('@/components/Footer'));
 const BlogSection = dynamic(() => import('@/components/BlogSection'));
 const LocationMap = dynamic(() => import('@/components/LocationMap'));
 
-
-export default function HomePage() {
-
+// Create a new component for the page content
+function PageContent() {
   useEffect(() => {
     Aos.init({
       duration: 1000,
@@ -42,10 +41,7 @@ export default function HomePage() {
       </div>
 
       <div id="product-profile">
-        <VisionMission 
-          youtubeId="meBd1GHC2yg" 
-          thumbnailSrc="/thumbnail.webp" 
-        />
+        <VisionMission />
       </div>
       <div id="our-values">
         <OurValues />
@@ -65,5 +61,14 @@ export default function HomePage() {
       <LocationMap />
       <Footer />
     </main>
+  );
+}
+
+// Wrap the content with the provider in the main export
+export default function HomePage() {
+  return (
+    <DataProvider>
+      <PageContent />
+    </DataProvider>
   );
 }

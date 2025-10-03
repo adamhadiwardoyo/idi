@@ -1,53 +1,29 @@
-// components/Hero.tsx
-"use client";
+'use client';
 
 import React, { useState, useEffect } from 'react';
+import { useData } from './context/DataContext'; // Import the hook
 import Image from 'next/image';
-import axios from 'axios'; // Import axios
 import StatsBar from './StatsBar';
 import { useTranslations } from 'next-intl';
 import { DocumentArrowDownIcon, PhoneIcon, DocumentTextIcon, BookOpenIcon } from '@heroicons/react/24/outline';
-import { API_BASE_URL } from '@/lib/api'; // Import your reusable API base URL
-
-// 1. Define an interface for the settings data
-interface Settings {
-  company_profile_url: string;
-  catalog_url: string;
-}
 
 const Hero: React.FC = () => {
   const t = useTranslations('hero');
   const [showOptions, setShowOptions] = useState(false);
-  // 2. Add state to store the fetched settings
-  const [settings, setSettings] = useState<Settings | null>(null);
+  const { settings } = useData(); // Use the context to get settings
 
+  // ... (keep the handleMenuClick and useEffect for outside click)
   const handleMenuClick = (event: React.MouseEvent) => {
     event.stopPropagation();
   };
-
-  // 3. Fetch settings data when the component mounts
-  useEffect(() => {
-    const fetchSettings = async () => {
-      try {
-        const response = await axios.get(`${API_BASE_URL}/settings`);
-        setSettings(response.data);
-      } catch (error) {
-        console.error("Failed to fetch settings:", error);
-      }
-    };
-
-    fetchSettings();
-  }, []);
 
   useEffect(() => {
     const handleOutsideClick = () => {
       setShowOptions(false);
     };
-
     if (showOptions) {
       document.addEventListener('click', handleOutsideClick);
     }
-
     return () => {
       document.removeEventListener('click', handleOutsideClick);
     };
@@ -55,6 +31,7 @@ const Hero: React.FC = () => {
 
   return (
     <div className="relative h-[90vh] w-full">
+      {/* ... (rest of the JSX is the same) ... */}
       <Image
         src="/charcoal-bg.webp"
         alt="Hot charcoal briquettes"
@@ -101,7 +78,6 @@ const Hero: React.FC = () => {
                   tabIndex={-1}
                 >
                   <div className="py-1" role="none">
-                    {/* 4. Use the dynamic URLs from state */}
                     <a
                       href={settings?.company_profile_url || '#'}
                       target="_blank"

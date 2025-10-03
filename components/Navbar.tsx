@@ -1,15 +1,13 @@
-// components/Navbar.tsx
-
 'use client';
 
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import Logo from './ui/Logo';
 import NavLink from './ui/Navlink';
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname, useRouter } from '@/i18n/navigation';
 import { routing } from '@/i18n/routing';
 import ReactCountryFlag from 'react-country-flag';
-import { useTranslations } from 'next-intl';
-import Link from 'next/link';
+import { useTranslations, useLocale } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,8 +18,8 @@ const Navbar: React.FC = () => {
   const pathname = usePathname();
   const router = useRouter();
   const t = useTranslations('navbar');
+  const currentLocale = useLocale();
 
-  // ... (navLinks, localeNames, localeFlags, currentLocale do not need to be changed)
   const navLinks = useMemo(
     () => [
       { href: '/#home', label: t('home'), id: 'home' },
@@ -45,20 +43,31 @@ const Navbar: React.FC = () => {
     en: 'US', de: 'DE', ar: 'SA', nl: 'NL', zh: 'CN', fr: 'FR', ja: 'JP',
   };
 
-  const currentLocale =
-    routing.locales.find((loc) => pathname.startsWith(`/${loc}`)) ||
-    routing.defaultLocale;
-
-
   const changeLocale = (locale: string) => {
-    const pathWithoutLocale = pathname.replace(
-      new RegExp(`^/(${routing.locales.join('|')})`),
-      ''
-    );
-    // Ensure path fallback to root if empty
-    router.push(`/${locale}${pathWithoutLocale || '/'}`);
+    const isBlogPostPage = pathname.startsWith('/blog/') && pathname !== '/blog';
+    if (isBlogPostPage) {
+      router.push('/', { locale });
+    } else {
+      router.push(pathname, { locale });
+    }
     setIsLangOpen(false);
   };
+
+  // This new effect handles the edge case for the contact section at the bottom
+  useEffect(() => {
+    const handleScroll = () => {
+      // Check if user is at the bottom of the page (with a 5px buffer)
+      const isAtBottom = window.innerHeight + window.scrollY >= document.body.offsetHeight - 5;
+      if (isAtBottom && pathname === '/') {
+        setActiveSection('contact');
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [pathname]);
 
   useEffect(() => {
     const onClickOutside = (e: MouseEvent) => {
@@ -70,14 +79,9 @@ const Navbar: React.FC = () => {
     return () => document.removeEventListener('click', onClickOutside);
   }, []);
 
-  // ... (useEffect for observer does not need to be changed)
+  // This Intersection Observer handles all other sections
   useEffect(() => {
-    if (
-      pathname === '/' ||
-      routing.locales.some(
-        (loc) => pathname === `/${loc}` || pathname === `/${loc}/`
-      )
-    ) {
+    if (pathname === '/') {
       const observer = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
@@ -90,21 +94,24 @@ const Navbar: React.FC = () => {
       );
       navLinks.forEach((link) => {
         const sectionId = link.href.split('#')[1];
-        const section = document.getElementById(sectionId);
-        if (section) observer.observe(section);
+        if (sectionId) {
+          const section = document.getElementById(sectionId);
+          if (section) observer.observe(section);
+        }
       });
       return () => {
         navLinks.forEach((link) => {
           const sectionId = link.href.split('#')[1];
-          const section = document.getElementById(sectionId);
-          if (section) observer.unobserve(section);
+          if (sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) observer.unobserve(section);
+          }
         });
       };
     } else {
       setActiveSection('');
     }
   }, [pathname, navLinks]);
-
 
   return (
     <header
@@ -114,7 +121,7 @@ const Navbar: React.FC = () => {
                  rounded-b-[28px] md:rounded-b-[40px] lg:rounded-b-[48px]"
     >
       <div className="container mx-auto flex h-full items-center justify-between px-4 sm:px-6">
-        <Link href={`/${currentLocale}`}>
+        <Link href="/">
           <Logo />
         </Link>
 
@@ -126,7 +133,7 @@ const Navbar: React.FC = () => {
                 key={link.href}
                 href={link.href}
                 isActive={link.id === activeSection}
-                onClick={() => { }}
+                onClick={() => setActiveSection(link.id)} // Set section on click
               >
                 {link.label}
               </NavLink>
@@ -149,10 +156,9 @@ const Navbar: React.FC = () => {
               <ReactCountryFlag
                 countryCode={localeFlags[currentLocale] || 'US'}
                 svg
-                style={{ width: '1.1em', height: '1.1em' }}
+                style={{ width: '1.1em', height: '1.em' }}
                 aria-label={localeNames[currentLocale]}
               />
-              {/* ✅ hide text on mobile, show on sm+ */}
               <span className="hidden sm:inline truncate max-w-[80px]">
                 {localeNames[currentLocale]}
               </span>
@@ -208,7 +214,7 @@ const Navbar: React.FC = () => {
         </div>
       </div>
 
-      {/* Mobile Menu (no changes needed) */}
+      {/* Mobile Menu */}
       {isMenuOpen && (
         <nav
           className="absolute top-16 left-0 w-full bg-zinc-900/95 backdrop-blur-md 
@@ -220,7 +226,10 @@ const Navbar: React.FC = () => {
                 key={link.href}
                 href={link.href}
                 isActive={link.id === activeSection}
-                onClick={() => setIsMenuOpen(false)}
+                onClick={() => {
+                  setActiveSection(link.id); // Set section on click
+                  setIsMenuOpen(false);
+                }}
               >
                 {link.label}
               </NavLink>

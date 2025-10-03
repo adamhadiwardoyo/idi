@@ -3,7 +3,7 @@
 import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import { useTranslations } from 'next-intl';
+
 
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";

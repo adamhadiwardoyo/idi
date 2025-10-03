@@ -43,7 +43,10 @@ export default function HomePage() {
       </div>
 
       <div id="product-profile">
-        <VisionMission />
+        <VisionMission 
+          youtubeId="meBd1GHC2yg" 
+          thumbnailSrc="/thumbnail.webp" 
+        />
       </div>
       <div id="our-values">
         <OurValues />

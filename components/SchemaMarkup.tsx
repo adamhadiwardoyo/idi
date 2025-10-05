@@ -38,24 +38,18 @@ const SchemaMarkup = () => {
     ],
     "description":
       "Indo Charcoal Supply is a leading manufacturer and exporter of high-quality coconut charcoal briquettes for shisha and BBQ.",
-    "makesOffer": [
+    "product": [
       {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Product",
-          "name": "Shisha Charcoal Briquettes",
-          "description":
-            "High-quality coconut charcoal briquettes for shisha, available in various shapes and sizes."
-        }
+        "@type": "Product",
+        "name": "Shisha Charcoal Briquettes",
+        "description":
+          "High-quality coconut charcoal briquettes for shisha, available in various shapes and sizes."
       },
       {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Product",
-          "name": "BBQ Charcoal Briquettes",
-          "description":
-            "Long-lasting and high-heat coconut charcoal briquettes for BBQ."
-        }
+        "@type": "Product",
+        "name": "BBQ Charcoal Briquettes",
+        "description":
+          "Long-lasting and high-heat coconut charcoal briquettes for BBQ."
       }
     ]
   };

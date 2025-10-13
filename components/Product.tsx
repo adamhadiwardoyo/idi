@@ -169,7 +169,7 @@ const Products: React.FC = () => {
   ];
 
   return (
-    <section id="product" className="bg-gray-50 py-24 sm:py-32">
+    <section id="product" className="bg-gray-50 pt-24 sm:pt-32 pb-12 sm:pb-16">
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-3xl font-extrabold text-brand-orange sm:text-4xl lg:text-5xl mb-12">
           {t('productTitle')}

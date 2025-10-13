@@ -2,12 +2,12 @@
   "metadata": {
     "title": "Indo Charcoal | シーシャ＆バーベキュー用ココナッツチャコールブリケット",
     "description": "インドネシア産の高品質ココナッツチャコールブリケット。耐久性があり、環境に優しく、シーシャ＆バーベキューに最適です。世界中への輸出についてはお問い合わせください。",
-    "keywords": "シーシャ用ココナッツ炭, シーシャ炭サプライヤー, BBQ用練炭, インドネシア炭輸出業者, ココナッツチャコール, 炭サプライヤー, インドネシアからのココナッツ炭練炭輸出",
+    "keywords": "ココナッツチャコールサプライヤー、チャコールブリケット輸出業者、シーシャチャコールサプライヤー、バーベキューチャコールメーカー、チャコールブリケット工場、インドネシアチャコール輸出業者",
     "alternates": {
       "canonical": "https://www.indocharcoalsupply.com/ja",
       "languages": {
         "x-default": "https://www.indocharcoalsupply.com",
-         "en": "https://www.indocharcoalsupply.com",
+        "en": "https://www.indocharcoalsupply.com",
         "ar": "https://www.indocharcoalsupply.com/ar",
         "de": "https://www.indocharcoalsupply.com/de",
         "fr": "https://www.indocharcoalsupply.com/fr",
@@ -82,14 +82,8 @@
     "cooperationDescription": "お客様、ビジネスパートナー、そして地域社会との協力と連携が、相互の成功を達成するための鍵であると信じています。"
   },
   "certifications": {
-    "title": "品質と安全を保証：私たちの認証",
-    "description": "私たちは品質、安全性、透明性の最高水準に取り組んでいます。当社の製品は、国際的な輸出基準を満たすために独立した研究所によって厳格にテストおよび認証されており、すべての出荷において完全な信頼を提供します。",
-    "labTestTitle": "ラボテストレポート / 分析証明書（CoA）",
-    "labTestDescription": "各生産バッチには、信頼できる独立した研究所からの分析証明書が添付されています。このレポートは、灰分、水分、揮発性物質、発熱量などの主要な品質仕様を検証し、受け取る製品が注文した品質と一致することを保証します。",
-    "msdsTitle": "製品安全データシート（MSDS）",
-    "msdsDescription": "私たちは、ココナッツチャコールブリケットの包括的なMSDSを提供します。この重要な文書は、製品の特性、取り扱い手順、安全対策を詳述しており、安全で準拠した輸送を確保するために国際的な船会社によって要求されます。",
-    "legalDocsTitle": "公式な法的書類",
-    "legalDocsDescription": "当社はインドネシアのすべての輸出規制に完全に登録され、準拠しています。お客様の仕向国でのスムーズで透明な通関手続きを保証するため、原産地証明書（COO）を含むすべての必要な法的書類を提供します。"
+    "title": "分析レポート",
+    "description": "当社のブリケットは、最高の品質基準を満たすようにテストおよび認定されています。これは、当社のブリケットの分析レポートです。"
   },
   "whyChooseUs": {
     "title": "Indo Charcoal Supplyを選ぶ理由",

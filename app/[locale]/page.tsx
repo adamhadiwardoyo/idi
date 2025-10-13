@@ -1,9 +1,10 @@
+// app/[locale]/page.tsx
 "use client";
 
 import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import { DataProvider } from '@/components/context/DataContext'; // Import the provider
+import { DataProvider } from '@/components/context/DataContext';
 
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
@@ -13,6 +14,7 @@ import dynamic from 'next/dynamic';
 const VisionMission = dynamic(() => import('@/components/VisionMission'));
 const OurValues = dynamic(() => import('@/components/OurValues'));
 const Products = dynamic(() => import('@/components/Product'), { ssr: false });
+const Certifications = dynamic(() => import('@/components/Certifications')); // Import the new component
 const ProductionProcess = dynamic(() => import('@/components/ProdProcess'));
 const Packaging = dynamic(() => import('@/components/Packaging'));
 const Shipping = dynamic(() => import('@/components/Shipping'));
@@ -49,6 +51,7 @@ function PageContent() {
       <div id="product">
         <Products />
       </div>
+      <Certifications /> {/* Add the new component here */}
       <ProductionProcess />
       <Packaging />
       <Shipping />

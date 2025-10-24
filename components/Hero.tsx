@@ -58,11 +58,14 @@ const Hero: React.FC = () => {
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <div className="relative inline-block text-left" onClick={handleMenuClick}>
+            <div className="relative inline-block text-left">
               <button
                 type="button"
                 className="bg-brand-orange text-white font-semibold px-8 py-3 rounded-full hover:bg-opacity-90 transition-opacity duration-300 flex items-center justify-center gap-2"
-                onClick={() => setShowOptions(!showOptions)}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setShowOptions((prev) => !prev);
+                }}
                 aria-expanded={showOptions}
                 aria-haspopup="true"
               >
@@ -76,6 +79,7 @@ const Hero: React.FC = () => {
                   role="menu"
                   aria-orientation="vertical"
                   tabIndex={-1}
+                  onClick={(e) => e.stopPropagation()} // Prevent outside click from closing immediately
                 >
                   <div className="py-1" role="none">
                     <a
@@ -83,8 +87,10 @@ const Hero: React.FC = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-white flex items-center px-4 py-2 text-sm hover:bg-white/10 transition-colors duration-200"
-                      role="menuitem"
-                      tabIndex={-1}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setShowOptions(false); // Close after clicking
+                      }}
                     >
                       <DocumentTextIcon className="mr-3 h-5 w-5" aria-hidden="true" />
                       {t('company-profile')}
@@ -94,8 +100,10 @@ const Hero: React.FC = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-white flex items-center px-4 py-2 text-sm hover:bg-white/10 transition-colors duration-200"
-                      role="menuitem"
-                      tabIndex={-1}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setShowOptions(false); // Close after clicking
+                      }}
                     >
                       <BookOpenIcon className="mr-3 h-5 w-5" aria-hidden="true" />
                       {t('catalog')}
@@ -104,6 +112,7 @@ const Hero: React.FC = () => {
                 </div>
               )}
             </div>
+
 
             <a
               href="#contact"
